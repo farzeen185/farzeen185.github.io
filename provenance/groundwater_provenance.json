@@ -1,0 +1,32 @@
+{
+  "source": "https://zenodo.org/records/15149480",
+  "original_source": "IGRAC GGMN; Thai Ministry of Natural Resources and Environment",
+  "package_license_notice": "CC BY-NC-SA 4.0 per Zenodo package and Readme",
+  "Thai_metadata_license": "CC BY 4.0",
+  "reference_point": "depth below ground surface, positive downward",
+  "units": "m",
+  "head_anomaly_definition": "negative depth plus per-well mean observed depth; full observed period, not GRACE baseline",
+  "aggregation": "GROW annual YS and monthly MS aggregates; not original daily measurements",
+  "interpolation": "No filled groundwater values retained",
+  "warning": "Groundwater head fluctuations are not storage changes without aquifer storage coefficients; correlation does not prove human attribution",
+  "observations": 5484,
+  "wells": 511,
+  "summary": [
+    {
+      "interval": "MS",
+      "wells": 5,
+      "observations": 225,
+      "start": "2018-03-01",
+      "end": "2023-06-01"
+    },
+    {
+      "interval": "YS",
+      "wells": 506,
+      "observations": 5259,
+      "start": "2004-01-01",
+      "end": "2024-01-01"
+    }
+  ],
+  "outliers_change_points_flagged": 61,
+  "quality_control": "Provider flags retained; compare sensitivity including/excluding flagged outliers/change points and plateaus."
+}

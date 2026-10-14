@@ -1,0 +1,15 @@
+{
+  "groundwater_balance_max_error_mm": 0.0,
+  "basin_groundwater_balance_max_error_mm": 1.2785005822024686e-05,
+  "climate_ensembles": 46,
+  "model_configurations": 1380,
+  "passed": true,
+  "basins": 22,
+  "national": true,
+  "actual_wells": 511,
+  "actual_observation_aggregates": 5484,
+  "missing_dates_preserved": true,
+  "ensemble_weights_normalized": true,
+  "groundwater_sign_correct": true,
+  "p_values_preserved": true
+}

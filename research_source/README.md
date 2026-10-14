@@ -1,0 +1,1 @@
+Analysis source snapshot. These scripts require the full local project layout documented in the main README; source NetCDF/raster inputs and fitted models are not distributed in this static-site repository. The website itself requires no Python environment or API keys. The authoritative local project root is P:/twsa.

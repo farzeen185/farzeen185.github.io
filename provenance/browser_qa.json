@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "basins": 22,
+  "options": 23,
+  "objectives": 3,
+  "csv_rows": 270,
+  "desktop": true,
+  "mobile": true,
+  "console_errors": []
+}

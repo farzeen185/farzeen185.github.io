@@ -1,0 +1,645 @@
+﻿{
+    "workspace":  "P:\\twsa",
+    "files":  [
+                  {
+                      "path":  "P:\\twsa\\shared_data\\surface_water\\sws_g3p_200204_202309_monthly_05_degree_250km_gauss_filtered_gravis.nc",
+                      "retained":  "P:\\twsa\\shared_data\\surface_water\\G3P_v1.12_SWS_Thailand_buffer_monthly_200204_202309.nc",
+                      "verification":  "All retained Thai data variables exactly match their global parent cells.",
+                      "bytes":  209435401,
+                      "sha256":  "0dff116906f9dfaa4a5b47f77510f5ee37499a8c15fcb91d4c7d9bb85e35dee9"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\surface_water\\rzsm_g3p_200204_202309_monthly_05_degree_250km_gauss_filtered_gravis.nc",
+                      "retained":  "P:\\twsa\\shared_data\\surface_water\\G3P_v1.12_RZSM_Thailand_buffer_monthly_200204_202309.nc",
+                      "verification":  "All retained Thai data variables exactly match their global parent cells.",
+                      "bytes":  234000120,
+                      "sha256":  "084095a1f2f1edd56a3da3308228b7cd3c0f1dbefd86f6f751d28a0d061cb9fc"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\surface_water\\gwsa_g3p_200204_202309_monthly_05_degree_250km_gauss_filtered_gravis.nc",
+                      "retained":  "P:\\twsa\\shared_data\\surface_water\\G3P_v1.12_GWSA_Thailand_buffer_monthly_200204_202309.nc",
+                      "verification":  "All retained Thai data variables exactly match their global parent cells.",
+                      "bytes":  205496584,
+                      "sha256":  "6aa5a7d4495a0f487838c666c7247815216e58653f4571e8711bd19c523c329b"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\surface_water\\tws_g3p_200204_202309_monthly_05_degree_costg_gravis.nc",
+                      "retained":  "P:\\twsa\\shared_data\\surface_water\\G3P_v1.12_TWS_Thailand_buffer_monthly_200204_202309.nc",
+                      "verification":  "All retained Thai data variables exactly match their global parent cells.",
+                      "bytes":  318847611,
+                      "sha256":  "dae1a28b5c45c644475452f9b979d9daec6d2d8ae85694035cfd5b7799bc7984"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\grow_timeseries_global.parquet",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Thai raw extraction retained (5490 rows, 511 wells); 5484 actual observed aggregates and documented complete download status verified.",
+                      "bytes":  1734022566,
+                      "sha256":  "a8861bfdb4be0fb514bd25ef16cb9c2501639a0ebae45cf0bf49db5ac63e9a18"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0000.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "fc71cdbac7c0a1d175dc11460812edcafa2ee284c2ebcd2eeb86f24f2d35fbb3"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0001.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "323de3c536592a218ea395da5f3a011b016331b8715e85f6b58a14ff5b650ce4"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0002.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "f93e6de42a449e049a07000f477d6101ea74b61dc6d57989e17924ebb69927cb"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0003.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "cfbe65b509b06fe59c875a8f8b922f7f02886682da687a5de7147ef139754d20"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0004.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "0d355a11022c5bc93bb00547b65d6a4230e4eeaf261ea386236afc258347ed64"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0005.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "043f89a36bf32424bae41bb1ca735b7f05be07a47818aafb1a4e76d36ab41a52"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0006.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "aabc696455994a9c67a02b8209131db1530b7501b3d0804a6c4d3ae868a3a5f8"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0007.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "4d2992acb533a3bafc7052927c08a1c1e2385ff6ec44a49e5ecadb3f3b4fa8bb"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0008.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "5b1a16fb32e8239fbead36423251d1d47344dbfc59d08c6c5e045ed9587b18eb"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0009.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "9883e8eaab5f375eed3f9f514d8d227e744f41f7ab8c3925bbbc211f89db8d99"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0010.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "168cc673eb2d01b49416827ceee8b3a87ae510b00f8dbb6e62bc00eefaa4ad99"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0011.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "8f2ee2a9dbfc030274f76025d3dd8e06e206032dddb626cc1f1751b42dab4cef"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0012.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "6299ee4def3b625121d496371b802f13667e158c0d4240bc3d5c0df1577a1829"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0013.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "01e9771f05e8fc1f5a59bc680ce657692dbdfb58c7c469b9da80eb2a92708030"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0014.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "f4f61b5f33371419c2f75986a1c8a8200bc7afa7e70e481d97a4185453246b30"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0015.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "a61a84bccd45b0617db57ca3d5c9c27ada9ecf40ae9bb2893499d6ab33321a94"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0016.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "9eee6b0730332c839c600cea37e47c8ad4d9dc2000c58636a9e9859835d89951"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0017.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "76acc04a0bfb6f49a4635454512bb918e00e41d5047e62625575af6b826c7b8e"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0018.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "ec54de87848be9e331e3b53ece95411821412af73eac3384848d18fbb652355b"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0019.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "a342562f089b3a8420c6e9a598cdc2cfd44b387c1cf920e187fd2f0d52086742"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0020.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "9aedd35f6d7f79d47c41a415650060f3a7cf1a6554ea9053760052ce3a839c9c"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0021.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "724d40db2d006f6f7ab6c5d4d59132c1aba8d53c82bca010b94d0eb211d81724"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0022.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "781198d1b1a377e3422ef16df8ed6dfcaa754bc5299aeb7bf26dafb53f523d8a"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0023.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "8bdfc874ba60f5939067caab3a0b7ce998b018203eb0dad405565c82e57d3f5e"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0024.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "079ddae5ef5b21ae2b556b23af5e269e3499c9803ed300c0b9f32552b9d28f52"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0025.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "653e8763d1146d7ebb8af19b411a165e3b0b741449661da18a05936adcad506d"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0026.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "b2f8e42055744fe7da4fa1f853b40ef759490b0d485e97131f20191b20ada503"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0027.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "9df7d4baa31b16eee235b7f3e0ff16c46d04961453cabf8d0894a283f574aca1"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0028.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "2f68127cc92422694cb7f4f4a816dfa572fe3c90b9b7c1f0686e0c1332f3ee05"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0029.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "0b329bdcfe9f54e99566f1dafad78974b079f65324a3220779f82a81971440ad"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0030.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "ed3ebcc563a99429690ce0245e58e2386d8c650a747c2b8b392c95a098075307"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0031.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "10cce911bc170e1bb533f688efe4b10c20ffabc41ee285f1fdb91a0f6f08330b"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0032.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "7fa9a72a403f3bd957f228d1bd66bba921a8bff6726d31ab745406a7796dba5a"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0033.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "a6c89f4a3c5ec6047f67e44f79beace67c4ba201c107cf99db39adf6d872c3d4"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0034.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "b72ab3c0bf533baf505e3c36306b1adb87da80600b6bf83044bbab43ac396942"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0035.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "ed051ed255363bdb49157addc454cc9e364ef42995868d9e6316afe53129fca7"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0036.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "e6c71a55f92ff3828004bc0c1e84a6aaeb8355982650880fdb07ae783e39340b"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0037.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "c20a45abc534abb359e7e5948486b5c3bf37b660f8497e678774e0532b9d497c"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0038.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "8cf6e27b31223352d997352e21b6b7d2359c77bfead2c1fd6019aacd609ec8e8"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0039.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "13fba60340a6cdcea86b5638465f8729385d1b604cd969d066b2e058800eb490"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0040.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "f7560e68ac07b94f8f98a4f36d561fe6d1ea1c3f4798cfca17c89860c12116d9"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0041.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "e889ce03ebc50a0afaaeb9a464c4008daea04e5baad8a97dfd2bfc25051a5d77"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0042.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "6dc77f76904ba60d7ca206ddec91d783c4f2b9fedeb6149f87cca4a8a2d1c7dd"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0043.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "416be5346a1658f30ec769d3b1890ad02314eb25fe8a42da21e0bc632874216f"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0044.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "286e958deb7179e015c5a87dec28ba6b960acf43c3bfce3f63685f6fc276c375"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0045.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "8b9f60183d50093c6bb58df516ba875bdb3d9bbf4ae4eb27d625fb51af72069e"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0046.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "fd4a595545a0a4deff25f355102609e7e106adb4ec6379463f3d3ae670836d6a"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0047.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "8c5f010fbf6793753259c79ecd47a25cc85105b0b5ac4a14fba80d77ecbe7cfd"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0048.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "15993a9685570812f7870cc4ca3c1f2bc96d691bd771bf7652ec19596951f0e0"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0049.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "3ec99cfb8d2c97e388697457390abb9f34f76e3140857078a09cde19a7f8bad8"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0050.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "72a70120a033a9d95cae3107cb5749e1d1b608c9155f2ca04f685adc25d1fe23"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0051.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "b91fecb682325bc6af76ecb61cad7251272d1eb0d8f66930ba675c616951b2c3"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0052.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "6ca8194fbc979e7ad8e59ddbeb791f8a483f4303a1b96bddfef10c5c14ac1043"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0053.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "08739d70b1c1ab5105be39d2f2dc70413c7373e4e218b2c083b2a160faf8be62"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0054.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "4f6d52d7c191c71543b7aa7b00f234bae0529bf6502c7d4a470deb059d93115d"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0055.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "20a54ea5c650a757cbe27193f6cd4da1e272990e28b72ca035e73dac9100e024"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0056.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "3c11deb1ae259c4e4abad57d2cc8035ee63aacf83782573fb08dc6561ab0935c"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0057.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "586c4d96a688b623501f90049fc1e03f5dd11bef9c888365f9e2eb766517af84"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0058.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "b597613f071e0685b30bb293e20004b7661c20c115e237a42423ed1894a5e402"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0059.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "d1da78def43f0cdd1055161d622fa5c2432601748670edca2f611a80de55ceb8"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0060.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "1c3558a823d17887fec67c8a1cc46085cd3e8fdaa322ad7e660d9716d1eef87a"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0061.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "3cace84620f04f0524d44900ee8af0d2efebb90c397cc0a31bf33c8a22618c92"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0062.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "eaac459b26856a252aae491408b9b95c29d659e379ca588b0f9e8b41a7e3ff8f"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0063.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "701a1efd10e19347cdbee4509f9e58bc42e609ca5bda98d423b8afc689a174a5"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0064.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "87a05a30e90dc1cc74397c4b132ae1c6da72f58100de728ff8182b2ce733a0aa"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0065.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "19a91d9d06d1a949a604c8d12a9a87158b0cb0b93d67e16aaa189d59661c5573"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0066.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "511b1febc1d41ee31d43bfcf56cc8ee967c6f8f7a7715b8deb30d16006f0c131"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0067.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "fae089725f0a6b0bff38b7f723f6000e419abc384ad5cae0d6c1a60f09523f6c"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0068.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "2e8494588d5d4faaad27b74c3e94e3b8a1d9681bba140bf21c3171b25c4c085b"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0069.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "9d52bfec7b1be9ebd9a1df9e6fa8881dcdebd19feb719dbd81acdaac571ebecb"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0070.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "d3e8aab713902ca05e8b66c28b79319a4bc5a0831ae2b704312af6d1f9af470b"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0071.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "19ccae771d32ed258e9643e0ea6f55f08f25cc75382ddf85117ef399b9b7208e"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0072.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "c03b2a583c88fbaa20fba86594555eb9ce0b7af94d62d2b997c8d4d91dd6c9bc"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0073.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "d46c08315bd6f3477f4ffdb82e8cb17733df6e33561afe2a55b311f44f45bcbf"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0074.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "a648bbe6bc5c7931ee641d2b6a3b59a75814058f91f95ee81d604309fd90cdd0"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0075.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "9839c973b229e4cf6f57b123bb2192fc984e5f443eaa17ec95dc3b005e03b1cf"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0076.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "bb60c54005ef47f30bed64b2b3fa2525976295ce85b38e95f4ef5a02c4659014"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0077.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "a18e0869a25982e2a0d576b2d2b9b45f3aa468cc5d5046ff21a0b9229293b29b"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0078.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "9dec175c506c5f2095c7bd2a4a39563af2f14f8521b7b30c63df2754a0f70eff"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0079.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "c3a1353bf42eb9140b36cb200ead780fc9cbf39f245addc4a95949dcc778602f"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0080.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "ee48444fe3d141fb13269ea7ab52eed84ff8b6c3c71948f7c36037e6b894142d"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0081.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "78d555187434eb08fcdab36f75db33a0ebb192bbe43f60fcd852003f9f4cd134"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0082.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "fad286fa3fe7e5e3dcf9407b8a5ebf348f4fd7d5061cdba6739c53c772a55538"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0083.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "66093b32240ced0cf92b4103c6795b77721d607ab5a259a0729d9d3049993c21"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0084.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16777216,
+                      "sha256":  "fe74b5cdadfca10e34f88ef2eaad202bf266f7a99eb7e54e3a6d9c3b3511d5c1"
+                  },
+                  {
+                      "path":  "P:\\twsa\\shared_data\\groundwater\\GROW\\download_parts\\0085.part",
+                      "retained":  "P:\\twsa\\shared_data\\groundwater\\GROW\\GROW_Thailand_timeseries_raw.csv",
+                      "verification":  "Redundant compressed archive range; completed decompression and Thai extraction are documented.",
+                      "bytes":  16018598,
+                      "sha256":  "dddefe947a41f96a0ff27d9c550874dea32ea10d82cbfeb4d7df67c820d669d0"
+                  }
+              ],
+    "reclaimed_bytes":  4143884240,
+    "policy":  "Only verified global extraction intermediates and completed compressed ranges; preserve original project inputs, Thai subsets, raw Thai observations, acquisition scripts and provenance.",
+    "removed_at":  "2026-10-14T19:48:11.1725317+07:00"
+}

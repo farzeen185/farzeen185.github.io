@@ -1,0 +1,1 @@
+{"name":"thailand-water-storage-dss","version":"3.0.0","private":true,"type":"module","scripts":{"check":"node --check app.js"}}

@@ -1,0 +1,48 @@
+{
+  "source_url": "https://isdc-data.gfz.de/grace/GravIS/G3P/v1.12/G3P_v1.12.zip",
+  "archive_member": "G3P_v1.12/RZSM/rzsm_g3p_200204_202309_monthly_05_degree_250km_gauss_filtered_gravis.nc",
+  "doi": "10.5880/G3P.2024.001",
+  "subset_bbox": [
+    94,
+    2,
+    109,
+    24
+  ],
+  "subset_file": "P:\\twsa\\shared_data\\surface_water\\G3P_v1.12_RZSM_Thailand_buffer_monthly_200204_202309.nc",
+  "attributes": {
+    "CDI": "Climate Data Interface version 2.1.1 (https://mpimet.mpg.de/cdi)",
+    "Conventions": "CF-1.8",
+    "basis_for_anomaly": "Anomaly has been calculated according to the mean value from 2002.04 to 2023.09",
+    "CDO": "Climate Data Operators version 2.1.1 (https://mpimet.mpg.de/cdo)",
+    "NCO": "netCDF Operators version 5.0.6 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)",
+    "history": "created 18/06/2024"
+  },
+  "variables": {
+    "rzsm": {
+      "units": "mm",
+      "filter_radius": "250-km",
+      "long_name": "root_zone_soil_moisture_anomaly_sum_of_all_4_soil_layers"
+    },
+    "std": {
+      "units": "mm",
+      "filter_radius": "250-km",
+      "long_name": "root_zone_soil_moisture_standard_deviation"
+    },
+    "time": {
+      "standard_name": "time",
+      "axis": "T"
+    },
+    "lon": {
+      "standard_name": "longitude",
+      "long_name": "longitude",
+      "units": "degrees_east",
+      "axis": "X"
+    },
+    "lat": {
+      "standard_name": "latitude",
+      "long_name": "latitude",
+      "units": "degrees_north",
+      "axis": "Y"
+    }
+  }
+}

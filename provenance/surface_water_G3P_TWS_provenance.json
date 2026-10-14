@@ -1,0 +1,58 @@
+{
+  "source_url": "https://isdc-data.gfz.de/grace/GravIS/G3P/v1.12/G3P_v1.12.zip",
+  "archive_member": "G3P_v1.12/TWS/tws_g3p_200204_202309_monthly_05_degree_costg_gravis.nc",
+  "doi": "10.5880/G3P.2024.001",
+  "subset_bbox": [
+    94,
+    2,
+    109,
+    24
+  ],
+  "subset_file": "P:\\twsa\\shared_data\\surface_water\\G3P_v1.12_TWS_Thailand_buffer_monthly_200204_202309.nc",
+  "attributes": {
+    "CDI": "Climate Data Interface version 2.1.1 (https://mpimet.mpg.de/cdi)",
+    "Conventions": "CF-1.6",
+    "NCO": "netCDF Operators version 5.0.6 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)",
+    "CDO": "Climate Data Operators version 2.1.1 (https://mpimet.mpg.de/cdo)",
+    "history": "created 18/06/2024"
+  },
+  "variables": {
+    "leakage": {
+      "standard_name": "spatial_leakage",
+      "long_name": "spatial leakage contained in tws",
+      "units": "mm"
+    },
+    "model_atmosphere": {
+      "standard_name": "backgroundmodel_atmospheric_mass",
+      "long_name": "background-model atmospheric mass",
+      "units": "mm"
+    },
+    "std_tws": {
+      "standard_name": "std_terrestrial_water_storage",
+      "long_name": "gravity-based terrestrial water storage standard deviations",
+      "units": "mm"
+    },
+    "std_tws_grid": {
+      "standard_name": "std_terrestrial_water_storage_grid",
+      "long_name": "gravity-based terrestrial water storage standard deviations of each grid point",
+      "units": "mm"
+    },
+    "tws": {
+      "standard_name": "terrestrial_water_storage",
+      "long_name": "gravity-based terrestrial water storage",
+      "units": "mm"
+    },
+    "lat": {
+      "long_name": "latitude",
+      "units": "degrees_north",
+      "axis": "Y"
+    },
+    "lon": {
+      "axis": "X"
+    },
+    "time": {
+      "standard_name": "time",
+      "axis": "T"
+    }
+  }
+}

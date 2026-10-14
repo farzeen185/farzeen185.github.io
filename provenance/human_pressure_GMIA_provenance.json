@@ -1,0 +1,56 @@
+[
+  {
+    "product": "GMIA v5",
+    "variable": "area_equipped_pct_total_area",
+    "reference_year": "around 2005",
+    "release": "2013-10-01",
+    "native_resolution": "5 arcminutes",
+    "source_page": "https://www.fao.org/aquastat/en/geospatial-information/global-maps-irrigated-areas/latest-version/",
+    "source_url": "https://firebasestorage.googleapis.com/v0/b/fao-aquastat.appspot.com/o/GIS%2Fgmia_v5_aei_pct_asc.zip?alt=media&token=e448ce53-296f-4756-90c1-75c87f74e569",
+    "archive_member": "gmia_v5_aei_pct.asc",
+    "archive_sha256": "18afb94e511a6f78accbf8ad39c929185990662e882cb071ee823faed936d866",
+    "subset_file": "P:\\twsa\\shared_data\\human_pressure\\GMIA_v5_area_equipped_pct_total_area_Thailand_buffer.tif",
+    "bbox": [
+      94,
+      2,
+      109,
+      24
+    ],
+    "license": "Check FAO source terms; specific dataset license not established in download page",
+    "limitations": [
+      "Static circa2005 irrigation infrastructure pressure proxy, not groundwater pumping observations or monthly abstraction.",
+      "Groundwater-source share based on subnational statistical surveys; limited pixel-level accuracy."
+    ],
+    "thailand_methodology_url": "https://www.fao.org/aquastat/en/geospatial-information/global-maps-irrigated-areas/irrigation-by-country/country/THA",
+    "thailand_area_equipped_reference_year": 2007,
+    "thailand_groundwater_estimation_years": "1994-2006 second-rice-crop change; selected provincial assumptions",
+    "thailand_groundwater_limit": "Direct groundwater irrigation statistics unavailable; FAO inferred groundwater equipped area using second rice crop and provincial assumptions."
+  },
+  {
+    "product": "GMIA v5",
+    "variable": "groundwater_irrigation_pct_equipped_area",
+    "reference_year": "around 2005",
+    "release": "2013-10-01",
+    "native_resolution": "5 arcminutes",
+    "source_page": "https://www.fao.org/aquastat/en/geospatial-information/global-maps-irrigated-areas/latest-version/",
+    "source_url": "https://firebasestorage.googleapis.com/v0/b/fao-aquastat.appspot.com/o/GIS%2Fgmia_v5_aeigw_pct_aei_asc.zip?alt=media&token=ee5bd6d1-c8e2-44fd-a4cf-58d7563abbf6",
+    "archive_member": "gmia_v5_aeigw_pct_aei.asc",
+    "archive_sha256": "79b5df6204bdccf609d362c6c28be26c8ab15c01866923fcca508baf1adf6f75",
+    "subset_file": "P:\\twsa\\shared_data\\human_pressure\\GMIA_v5_groundwater_irrigation_pct_equipped_area_Thailand_buffer.tif",
+    "bbox": [
+      94,
+      2,
+      109,
+      24
+    ],
+    "license": "Check FAO source terms; specific dataset license not established in download page",
+    "limitations": [
+      "Static circa2005 irrigation infrastructure pressure proxy, not groundwater pumping observations or monthly abstraction.",
+      "Groundwater-source share based on subnational statistical surveys; limited pixel-level accuracy."
+    ],
+    "thailand_methodology_url": "https://www.fao.org/aquastat/en/geospatial-information/global-maps-irrigated-areas/irrigation-by-country/country/THA",
+    "thailand_area_equipped_reference_year": 2007,
+    "thailand_groundwater_estimation_years": "1994-2006 second-rice-crop change; selected provincial assumptions",
+    "thailand_groundwater_limit": "Direct groundwater irrigation statistics unavailable; FAO inferred groundwater equipped area using second rice crop and provincial assumptions."
+  }
+]
