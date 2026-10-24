@@ -1,6 +1,8 @@
 """Exercise real inputs and statistical utilities without fitting all models."""
 import importlib.metadata as md,json,sys
 from pathlib import Path
+# Preload h5py before GDAL-backed libraries to avoid HDF5 DLL collisions on Windows.
+import h5py
 import numpy as np,pandas as pd,xarray as xr,geopandas as gpd
 from research_common import ROOT,region_weights,trend_statistics,weighted_series
 

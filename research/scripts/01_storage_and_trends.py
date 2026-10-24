@@ -2,6 +2,8 @@
 New products are isolated under analysis_v3; existing Objective 1 is preserved.
 """
 import json,warnings
+# Preload the NetCDF HDF5 backend before GDAL-backed raster/vector libraries.
+import h5py
 import numpy as np
 import pandas as pd
 import xarray as xr

@@ -18,7 +18,7 @@ python run.py --mode smoke
 python run.py --mode full
 ```
 
-The Python version used for verification was **3.11.15**. The environment selects Python 3.11 and installs the exact scientific package versions in `requirements.txt`. If using an existing Python 3.11 installation, a virtual environment with `python -m pip install -r requirements.txt` is an alternative. Run the environment creation command from the `research` directory so the requirements path resolves correctly.
+The Python version used for verification was **3.11.15**. The environment selects Python 3.11 and installs exact package versions from `requirements-lock.txt`, including transitive dependencies. `requirements.txt` lists the direct scientific dependencies. If using an existing Python 3.11 installation, a virtual environment with `python -m pip install -r requirements-lock.txt` is an alternative. Run the environment creation command from the `research` directory so the requirements path resolves correctly.
 
 `check` verifies every supplied input without importing scientific packages. `smoke` exercises the actual NetCDF files, basin geometry, weights, groundwater observations and a known-slope statistical check, and rebuilds the well indices. `full` recomputes the analysis, fits all 46 basin/storage ensembles, creates figures, refreshes the dashboard and compares computed tables against the frozen research release. The full run can take several minutes or longer depending on hardware; progress is printed and logged. Allow at least 2 GB of free disk space for the environment and generated files. These scripts use a single model-fitting worker to improve repeatability.
 

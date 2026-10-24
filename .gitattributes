@@ -1,0 +1,5 @@
+# Preserve the exact scientific-input bytes checked by input_manifest.json.
+# Git's Windows CRLF conversion must not alter scientific CSV/sidecar inputs.
+research/**/*.csv -text
+research/**/*.nc -text
+research/Thailand_Objective2/data/BASINS/* -text
