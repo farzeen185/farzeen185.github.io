@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": "Thailand_Objective2/data/GRACE_TWSA_Monthly_2002_2024.nc",
+      "bytes": 2421696,
+      "sha256": "1876b1d074f614db8b01d9448d999fc36edeb4b98f334c392bdf3efe1d52e1be"
+    },
+    {
+      "path": "Thailand_Objective1/outputs/tables/Thailand_22_Basins_GRACE_Fractional_Weights.csv",
+      "bytes": 99663,
+      "sha256": "62406701672bbd0d97375469a4421e49d9aa8537f8c1372154eed5385bc35e89"
+    },
+    {
+      "path": "Thailand_Objective1/outputs/tables/Thailand_National_GRACE_Fractional_Weights.csv",
+      "bytes": 60678,
+      "sha256": "8a2d25acadae2ae22c3c3e98072da91cec9d39b6423ab021d9b0b127b5557035"
+    },
+    {
+      "path": "shared_data/GLDAS/GLDAS_NOAH_monthly_storage_200204_202409_Thailand.nc",
+      "bytes": 7877344,
+      "sha256": "b2345664baf5426bbe14260fe08cc7de851037c412b94074b289d8ba62fab960"
+    },
+    {
+      "path": "shared_data/groundwater/GROW/GROW_Thailand_observations.csv",
+      "bytes": 1286156,
+      "sha256": "c60d8b19b976328952e7b17ff5c51ec025761280edee2cc65da4f27cb2fe481b"
+    },
+    {
+      "path": "shared_data/groundwater/GROW/GROW_Thailand_attributes.csv",
+      "bytes": 274958,
+      "sha256": "ba14deec2c77e27cc30314a63ba08a8feb810d418ba39ad7f2ff8a4cb2ee8f82"
+    },
+    {
+      "path": "Thailand_Objective2/data/BASINS/MainBasin_ONWR_Law_WGS84.CPG",
+      "bytes": 8,
+      "sha256": "d86bc3a2f4cbc7035ee5df06735014162016c3f31f48742569c68a58d19bf811"
+    },
+    {
+      "path": "Thailand_Objective2/data/BASINS/MainBasin_ONWR_Law_WGS84.dbf",
+      "bytes": 3074,
+      "sha256": "7c15e4a823be7ebb05a0b46b639875abd36d018967bd088f546c445868ead6b1"
+    },
+    {
+      "path": "Thailand_Objective2/data/BASINS/MainBasin_ONWR_Law_WGS84.prj",
+      "bytes": 401,
+      "sha256": "c77be1866509aabe2a1252f1985cf6edf712ac78fb01f3cc0a0c6a5a82e2f250"
+    },
+    {
+      "path": "Thailand_Objective2/data/BASINS/MainBasin_ONWR_Law_WGS84.sbn",
+      "bytes": 428,
+      "sha256": "3234cae58779ad8f56621652199f75cdac80b31fe19234893e811c5da3006b0b"
+    },
+    {
+      "path": "Thailand_Objective2/data/BASINS/MainBasin_ONWR_Law_WGS84.shp",
+      "bytes": 10718604,
+      "sha256": "ec053280e367a1f7a87be97531275d8762c6fe4ffc1a7a8197d65db182b4433b"
+    },
+    {
+      "path": "Thailand_Objective2/data/BASINS/MainBasin_ONWR_Law_WGS84.shx",
+      "bytes": 324,
+      "sha256": "1bef4020f693ed62eb734f5c9100efcfa119f40aaba11117c31891f087d29916"
+    },
+    {
+      "path": "shared_data/WaterGAP/WaterGAP22e_ERA5_human_anag_Thailand_1981_2023.nc",
+      "bytes": 1613937,
+      "sha256": "b0d53ca57fc1fc9d0e05e0e314080bfde8739a561f50133605e3f600307c16c9"
+    },
+    {
+      "path": "shared_data/WaterGAP/WaterGAP22e_ERA5_human_groundwstor_Thailand_1981_2023.nc",
+      "bytes": 1646753,
+      "sha256": "b01a9df15139bfddcd364ba891113c708fe83c24b12c2ac20e20954282a93cd6"
+    },
+    {
+      "path": "shared_data/WaterGAP/WaterGAP22e_ERA5_human_tws_Thailand_1981_2023.nc",
+      "bytes": 1651054,
+      "sha256": "d41377f510e73ce2acce47d0d5b8158cd63e8ca7205f113efef45b8bf2e08228"
+    },
+    {
+      "path": "shared_data/WaterGAP/WaterGAP22e_ERA5_natural_canopystor_Thailand_1981_2023.nc",
+      "bytes": 826632,
+      "sha256": "3541b91902b98c08030b6469ea9e1ad9ea25a830e704984cf363249f1259a6ce"
+    },
+    {
+      "path": "shared_data/WaterGAP/WaterGAP22e_ERA5_natural_groundwstor_Thailand_1981_2023.nc",
+      "bytes": 1651343,
+      "sha256": "e4eb7e02057e9379c5fcecfbe4e50256ea9c509f1177070e7f663ab227fec852"
+    },
+    {
+      "path": "shared_data/WaterGAP/WaterGAP22e_ERA5_natural_potevap_Thailand_1981_2023.nc",
+      "bytes": 1534289,
+      "sha256": "e5189126ba653237b8ac6264170e8f098a3659eda4717823883fcad5f808eb0f"
+    },
+    {
+      "path": "shared_data/WaterGAP/WaterGAP22e_ERA5_natural_precmon_Thailand_1981_2023.nc",
+      "bytes": 1655054,
+      "sha256": "bd0a35eae2952d06ffa739367ec3073a6b34f94443403061c20069a07aed636f"
+    },
+    {
+      "path": "shared_data/WaterGAP/WaterGAP22e_ERA5_natural_soilmoist_Thailand_1981_2023.nc",
+      "bytes": 1669378,
+      "sha256": "83608b67203717a57f3c192c0f0717a5d21d680f0cbd9609a7e9f1613cc0abad"
+    },
+    {
+      "path": "shared_data/WaterGAP/WaterGAP22e_ERA5_natural_swe_Thailand_1981_2023.nc",
+      "bytes": 73591,
+      "sha256": "fa581ce5571b322931b6182c7cc9517d999596e4a5b24993ad6686e61e5f4358"
+    },
+    {
+      "path": "shared_data/WaterGAP/WaterGAP22e_ERA5_natural_tws_Thailand_1981_2023.nc",
+      "bytes": 1652070,
+      "sha256": "497d42e6ce29951efbec968b92f319190362a3d6d5f0f77c23e5c5f1103f939e"
+    },
+    {
+      "path": "shared_data/surface_water/G3P_v1.12_SWS_Thailand_buffer_monthly_200204_202309.nc",
+      "bytes": 2671932,
+      "sha256": "6835f2955c81921e8215bc49e4cb1170b35b09bb3380c3ec341b3fa79aae0700"
+    },
+    {
+      "path": "shared_data/surface_water/G3P_v1.12_RZSM_Thailand_buffer_monthly_200204_202309.nc",
+      "bytes": 3010734,
+      "sha256": "4ea202441269f6ceb011ad0083bd595e13f091281a889df9be51cdd2d03d69f4"
+    },
+    {
+      "path": "shared_data/surface_water/G3P_v1.12_GWSA_Thailand_buffer_monthly_200204_202309.nc",
+      "bytes": 2645794,
+      "sha256": "eba0ccd3f0d954daaa0a253d38342cb62dff47bba5e4404fcd4c9fc6a46c33b2"
+    }
+  ],
+  "total_bytes": 45045895
+}

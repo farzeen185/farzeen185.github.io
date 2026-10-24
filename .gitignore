@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+research/work/
+research/work-*/
+research/shared_data/groundwater/GROW/download_parts/
+research/shared_data/groundwater/GROW/__pycache__/

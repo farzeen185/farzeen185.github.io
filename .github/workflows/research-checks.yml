@@ -1,0 +1,39 @@
+name: Research reproducibility checks
+on:
+  push:
+    paths: ['research/**', '.github/workflows/research-checks.yml']
+  pull_request:
+    paths: ['research/**', '.github/workflows/research-checks.yml']
+  workflow_dispatch:
+    inputs:
+      full_run:
+        description: 'Recompute all basin trends and climate models (slower)'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: research/requirements.txt
+      - run: python -m pip install -r research/requirements.txt
+      - run: python research/run.py --mode check
+      - run: python research/run.py --mode smoke
+      - name: Full scientific reproduction (manual)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.full_run }}
+        run: python research/run.py --mode full
+      - name: Save verification logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-verification-logs
+          path: |
+            research/work/run_logs/
+            research/work/reports/

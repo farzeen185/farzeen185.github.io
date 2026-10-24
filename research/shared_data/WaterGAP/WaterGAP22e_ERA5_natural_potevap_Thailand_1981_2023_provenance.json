@@ -1,0 +1,32 @@
+{
+  "scenario": "natural",
+  "variable": "potevap",
+  "source": {
+    "name": "watergap22e_gswp3-era5_potevap_nosoc_monthly_1901_2023.nc",
+    "id": "65485389-b17b-4843-bfb3-b00b786fece8",
+    "bytes": 347477521,
+    "checksum": {
+      "checkSumAlgorithm": "MD5",
+      "value": "a19deb7875c884a5a3ab1ca9a7de5fd6"
+    },
+    "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/65485389-b17b-4843-bfb3-b00b786fece8/content"
+  },
+  "subset_file": "P:\\twsa\\shared_data\\WaterGAP\\WaterGAP22e_ERA5_natural_potevap_Thailand_1981_2023.nc",
+  "subset_sha256": "e5189126ba653237b8ac6264170e8f098a3659eda4717823883fcad5f808eb0f",
+  "source_attrs": {
+    "title": "Standard model output for Water - Global Assessment and Prognosis WaterGAP ",
+    "institution": "Institute for Physical Geography (IPG), Goethe University of Frankfurt, Germany",
+    "project": "Model description paper WaterGAP v2.2e",
+    "model_version": "watergap22e",
+    "reference": "M??ller Schmied et al. (in review for the journal Geoscientific Model Description): The global water resources and use model WaterGAP v2.2e: description and evaluation of modifications and new features",
+    "forcing": "gswp3-era5",
+    "conventions": "partly ISIMIP3 protocol for naming and units",
+    "contact": "hydrology@em.uni-frankfurt.de",
+    "licence": "CC BY 4.0",
+    "history": "created 2024-03-25"
+  },
+  "source_calendar": "360_day",
+  "elapsed_seconds": 118.8,
+  "data_cells_per_month": 1320,
+  "months": 516
+}

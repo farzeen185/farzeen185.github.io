@@ -1,0 +1,35 @@
++------------------------------------------------+
+| G3P (Global Gravity-based Groundwater Product) |
++------------------------------------------------+
+
+DESCRIPTION:
+  This zip-archive contains the most recent version v1.12 of gridded products of the G3P prototype.
+
+  Directory and file structure:
+  G3P_v1.12/GWSA/gwsa_g3p_200204_202309_monthly_05_degree_250km_gauss_filtered_gravis.nc        => Groundwater storage anomalies in NetCDF format
+  G3P_v1.12/Glacier/glacier_g3p_200204_202309_monthly_05_degree_250km_gauss_filtered_gravis.nc  => Glacier mass-change anomalies in NetCDF format
+  G3P_v1.12/RZSM/rzsm_g3p_200204_202309_monthly_05_degree_250km_gauss_filtered_gravis.nc        => Root zone soil moisture anomalies in NetCDF format
+  G3P_v1.12/SWE/swe_g3p_200204_202309_monthly_05_degree_250km_gauss_filtered_gravis.nc          => Snow water equivalent anomalies in NetCDF format
+  G3P_v1.12/SWS/sws_g3p_200204_202309_monthly_05_degree_250km_gauss_filtered_gravis.nc          => Surface water storage anomalies in NetCDF format
+  G3P_v1.12/TWS/tws_g3p_200204_202309_monthly_05_degree_costg_gravis.nc                         => Terrestrial water storage anomalies in NetCDF format
+
+  The G3P gridded products of this data set are visualized at the GravIS portal: http://gravis.gfz.de/gws
+  At GravIS, also area-averaged products of this data set are provided for download.
+
+  More information about the G3P project: https://www.g3p.eu/
+  G3P has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement nÂº 87035.
+
+CITATION:
+  When using this version of G3P Products, please use the following citation:
+
+  Guentner, A., Sharifi, E., Haas, J., Boergens, E., Dahle, C., Dobslaw, H., Dorigo, W., Dussailant, I., Flechtner, F.,
+  Jaeggi, A., Kosmale, M., Luojus, K., Mayer-Guerr, T., Meyer, U., Preimesberger, W., Ruz Vargas, C., Zemp, M. (2024):
+  Global Gravity-based Groundwater Product (G3P).
+  V. 1.12. GFZ Data Services. https://doi.org/10.5880/G3P.2024.001
+
+CONTACT:
+  Andreas Guentner                                    Julian Haas
+  GFZ Helmholtz Centre for Geosciences                GFZ Helmholtz Centre for Geosciences
+  Department 4: Geosystems                            Department 4: Geosystems
+  Section 4.4: Hydrology                              Section 4.4: Hydrology
+  Email: andreas.guentner@gfz.de                      Email: julian.haas@gfz.de

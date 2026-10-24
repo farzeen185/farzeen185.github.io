@@ -1,0 +1,52 @@
+{
+  "source_url": "https://isdc-data.gfz.de/grace/GravIS/G3P/v1.12/G3P_v1.12.zip",
+  "archive_member": "G3P_v1.12/SWS/sws_g3p_200204_202309_monthly_05_degree_250km_gauss_filtered_gravis.nc",
+  "doi": "10.5880/G3P.2024.001",
+  "version": "1.12",
+  "subset_file": "P:\\twsa\\shared_data\\surface_water\\G3P_v1.12_SWS_Thailand_buffer_monthly_200204_202309.nc",
+  "subset_bbox": [
+    94,
+    2,
+    109,
+    24
+  ],
+  "global_file_sha256": "0dff116906f9dfaa4a5b47f77510f5ee37499a8c15fcb91d4c7d9bb85e35dee9",
+  "source_global_attributes": {
+    "CDI": "Climate Data Interface version 2.1.1 (https://mpimet.mpg.de/cdi)",
+    "Conventions": "CF-1.7",
+    "CDO": "Climate Data Operators version 2.1.1 (https://mpimet.mpg.de/cdo)",
+    "NCO": "netCDF Operators version 5.0.6 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)",
+    "history": "created 18/06/2024"
+  },
+  "variables": {
+    "sws": {
+      "units": "mm",
+      "filter_radius": "250-km",
+      "long_name": "surface_water_storage_anomaly"
+    },
+    "std": {
+      "units": "mm",
+      "description": "Uncertainty: Lisflood SWS deviation from the ensemble mean of SWS storage (Lisflood and WGHM).",
+      "filter_radius": "250-km",
+      "long_name": "surface_water_storage_uncertainty",
+      "standard_name": "surface_water_storage_uncertainty"
+    },
+    "time": {
+      "standard_name": "time",
+      "axis": "T"
+    },
+    "lon": {
+      "axis": "X"
+    },
+    "lat": {
+      "long_name": "latitude",
+      "units": "degrees_north",
+      "axis": "Y"
+    }
+  },
+  "limitations": [
+    "Model-derived GloFAS version 4.0 LISFLOOD surface water combines river, lake and artificial reservoir storage; not observation-based reservoir validation.",
+    "250 km Gaussian-filtered compartment must not be assumed spatially identical to another GRACE product.",
+    "Record ends September 2023; do not extrapolate subsequent surface water observations."
+  ]
+}

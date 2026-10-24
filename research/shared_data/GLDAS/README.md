@@ -1,0 +1,7 @@
+# GLDAS low-memory conversion
+
+`GLDAS_NOAH_monthly_storage_200204_202409_Thailand.nc` preserves the seven storage fields and 270 monthly dates from the original GLDAS Noah GeoTIFF. Four soil layers span 0–200 cm, plus snow (`SWE_inst`), canopy interception (`CanopInt_inst`), and their precomputed total (`NOAH_TWS`). Units kg/m² are numerically equivalent to mm of water. Native cell centres and no-resampling grid are preserved.
+
+The original pixel-interleaved TIFF stores all 1,890 bands in a single 256×256 padded LZW tile. Ordinary GDAL reads need an approximately 495 MB tile allocation. `convert_tiff_low_memory.py` implements TIFF LZW streaming decompression, discarding padded rows/columns and retaining only 16.9 MB of valid pixels. It does not modify the TIFF. Source checksum and original band descriptions are in `GLDAS_conversion_provenance.json`.
+
+Validation: converted `NOAH_TWS` is exactly equal to the pre-existing Objective2 Desktop `noah_tws_mm` for all 180,372 overlapping valid values (maximum difference and RMSE both zero). The sum of six compartments agrees with original `NOAH_TWS` within 0.0001221 mm, reflecting float32 arithmetic. The existing Desktop result applies an analysis mask, so its valid mask differs from the source rectangle. Full source validity is retained in the conversion. These are absolute modeled storage fields; rebase to a consistent anomaly period before GWSA subtraction or comparison.
