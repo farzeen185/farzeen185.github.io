@@ -6,10 +6,13 @@ new="""function downloadCSV(){const s=series();const keys=[state.storage,state.s
 """
 s=s[:start]+new+s[end:]
 s=s.replace("state.metric=state.objective===1?'trend':state.objective===2?'residual':'wells';", "state.metric=state.objective===1?'trend':state.objective===2?'residual':'wells';if(state.objective===2){const valid=(series()[state.storage+'_residual']||[]).map((v,i)=>Number.isFinite(v)?i:-1).filter(i=>i>=0);state.month=valid.at(-1)??state.month;el('monthSlider').value=state.month;}")
+s=s.replace("state.metric==='observed'?state.storage:","state.metric==='observed'?(state.objective===2?state.storage+'_attribution_observed':state.storage):")
 p.write_text(s,encoding='utf-8')
 p=W/'index.html';s=p.read_text(encoding='utf-8').replace('<th>Test NSE</th>','<th>Emulator NSE</th>')
 anchor='<p><a href="downloads/Thailand_Three_Objectives_Research.pptx">'
-s=s.replace(anchor,'<p><a href="downloads/Research_Manuscript_Farzeen_Khanal.docx">Research manuscript</a> · <a href="downloads/AIT_Research_Report_Farzeen_Khanal.docx">AIT research report</a></p>'+anchor);p.write_text(s,encoding='utf-8')
+links='<p><a href="downloads/Research_Manuscript_Farzeen_Khanal.docx">Research manuscript</a> · <a href="downloads/AIT_Research_Report_Farzeen_Khanal.docx">AIT research report</a></p>'
+s=re.sub(r'<p><a href="downloads/Research_Manuscript_Farzeen_Khanal.docx">.*?</p>', '', s)
+s=s.replace(anchor,links+anchor);p.write_text(s,encoding='utf-8')
 for p in (ROOT/'deliverables').glob('*'):
     if p.is_file():shutil.copy2(p,W/'downloads'/p.name)
 deck=ROOT/'deliverables/Thailand_Three_Objectives_Farzeen_Khanal.pptx'
