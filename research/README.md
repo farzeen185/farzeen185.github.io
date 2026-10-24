@@ -95,6 +95,12 @@ Expected national values include:
 
 Full TWSA ends September 2024. Derived GWSA ends September 2023. WaterGAP ends December 2023; no 2024 counterfactual is fabricated. Missing GRACE months remain missing. High emulator skill verifies reproduction of a hydrological model, **not** independent validation of real-world human depletion.
 
+## Recorded verification and GitHub execution
+
+The full Windows rerun completed in approximately **7.3 minutes** and matched all **15 reference tables**, including 46 ensembles and 276 groundwater-evidence rows. A separate clean Python environment and a fresh GitHub checkout passed the smoke checks. The locally regenerated dashboard passed desktop/mobile interaction and CSV-export checks. Verification records are retained in [`verification/`](verification/).
+
+The [Research reproducibility checks workflow](https://github.com/pratikkhanal16/thailand-water-storage-dss/actions/workflows/research-checks.yml) runs input and smoke checks on Linux after code/input changes. To run the full analysis on GitHub, a repository owner/collaborator can select **Actions → Research reproducibility checks → Run workflow**, enable **full_run**, and run it. Readers can fork the repository and run the same workflow in their fork. Logs and numerical QA are attached to each run as downloadable artifacts. This requires no local Python setup.
+
 The equations are `GWSA = TWSA − soil − surface water − canopy − snow` and `O − C = (A − C) + (O − A)`, where O is observed storage, C is naturalized model storage and A is the paired historical-human model. Well heads check groundwater consistency; they cannot validate all human TWSA. Specific yield/storage coefficients are unavailable, so heads are not converted into water volumes. The weak head agreement and substantial observation/model discrepancy are retained as results.
 
 ## Data provenance and limitations

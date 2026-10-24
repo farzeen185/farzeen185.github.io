@@ -1,0 +1,63 @@
+{
+  "mode": "full",
+  "python": "3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]",
+  "inputs_verified": 25,
+  "steps": [
+    {
+      "script": "smoke_check.py",
+      "sha256": "e2d7ff61c7dc69db6406caf4e4e206ed81667a49e59d2abf22d9be4cdaf72bf2",
+      "exit_code": 0,
+      "seconds": 9.55
+    },
+    {
+      "script": "01_storage_and_trends.py",
+      "sha256": "157cbb149edf54f75617270fc240e600df0d67c71d0966bf620b85434e320f81",
+      "exit_code": 0,
+      "seconds": 188.44
+    },
+    {
+      "script": "00_groundwater_indices.py",
+      "sha256": "9d8e8e91259c1b953593025bdf1461514ccbd0c2b4966877e2e6391fad24abcb",
+      "exit_code": 0,
+      "seconds": 6.53
+    },
+    {
+      "script": "06_naturalized_attribution.py",
+      "sha256": "b2cf2d84885319b4e7b036175b1eaf5516c581c7867a80c3c37b376b70cb8367",
+      "exit_code": 0,
+      "seconds": 138.2
+    },
+    {
+      "script": "07_climate_emulators.py",
+      "sha256": "71a8ce406ed5b05b83b98058d26d09a56fcecfb640b5f4f151d9aeab2edcfd2a",
+      "exit_code": 0,
+      "seconds": 50.78
+    },
+    {
+      "script": "08_attribution_evidence.py",
+      "sha256": "52883cce4ae3c39cf1cbdbf5b5cf676134c472fbd38d237b1cd9bc7e11aeb40f",
+      "exit_code": 0,
+      "seconds": 12.35
+    },
+    {
+      "script": "09_research_release.py",
+      "sha256": "5c9ffe44a055a06f19e9df46d660ac55dd5188bc929486334bb839709caaa1db",
+      "exit_code": 0,
+      "seconds": 23.97
+    },
+    {
+      "script": "export_dashboard.py",
+      "sha256": "0523357cef8649922c8c0fb1237559a8d2d84a36085c041a614349cf4acd9259",
+      "exit_code": 0,
+      "seconds": 4.31
+    },
+    {
+      "script": "validate_reproduction.py",
+      "sha256": "b4c9b81d0d1ca61720f3318f5d303b1ee0c51f7c204d7f6acc2988ac3388d511",
+      "exit_code": 0,
+      "seconds": 4.74
+    }
+  ],
+  "passed": true,
+  "seconds": 438.86
+}

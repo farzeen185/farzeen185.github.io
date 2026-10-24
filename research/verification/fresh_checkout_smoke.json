@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "python": "3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "xarray": "2026.7.0",
+    "netCDF4": "1.7.4",
+    "h5netcdf": "1.8.1",
+    "h5py": "3.16.0",
+    "cftime": "1.6.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "joblib": "1.5.3",
+    "geopandas": "1.1.4",
+    "rasterio": "1.4.4",
+    "pyproj": "3.7.2",
+    "shapely": "2.1.2",
+    "pymannkendall": "1.4.3",
+    "matplotlib": "3.11.1",
+    "requests": "2.34.2"
+  },
+  "inputs_exercised": [
+    "GRACE",
+    "GLDAS balance",
+    "ten WaterGAP monthly subsets",
+    "511 wells",
+    "22 basin geometries",
+    "fractional weights"
+  ],
+  "known_sen_slope_test": 2
+}
