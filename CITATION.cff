@@ -5,7 +5,7 @@ type: software
 version: "2026.10.24"
 date-released: "2026-10-24"
 authors:
-  - family-names: Khanal
+  - family-names: Khan
     given-names: Farzeen
     affiliation: "Asian Institute of Technology, Water Engineering and Management"
 repository-code: "https://github.com/pratikkhanal16/thailand-water-storage-dss"

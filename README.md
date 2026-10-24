@@ -1,6 +1,6 @@
 # Thailand three objective research release
 
-Author: Farzeen Khanal. Advisor: Dr. Natthachet Tangdamrongsub. MS in Water Engineering and Management, Asian Institute of Technology. Release: 24 October 2026.
+Author: Farzeen Khan. Advisor: Dr. Natthachet Tangdamrongsub. MS in Water Engineering and Management, Asian Institute of Technology. Release: 24 October 2026.
 
 ## Run the research
 

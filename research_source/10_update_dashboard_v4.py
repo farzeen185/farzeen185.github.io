@@ -21,7 +21,7 @@ for r in d['regions']:
         score=b[(b.region==code)&(b.variable==var)&b.comparison.str.startswith('Historical')].iloc[0];row.update(benchmark_NSE=score.NSE,benchmark_r=score.r)
         land=b[(b.region==code)&(b.variable=='land_storage')].iloc[0];row['noah_land_NSE']=land.NSE;r['models'][var]=row
     d['evidence'][code]['correlations']=e[(e.region==code)&(e.quality=='retained_flags')&(e.component=='residual_mm')].assign(component='unexplained_residual').to_dict('records')
-d['meta'].update(release_date='2026-10-24',author='Farzeen Khanal',method='Naturalized WaterGAP baseline and paired human experiment; emulator skill is not independent validation')
+d['meta'].update(release_date='2026-10-24',author='Farzeen Khan',method='Naturalized WaterGAP baseline and paired human experiment; emulator skill is not independent validation')
 d['meta']['sources']=[x for x in d['meta']['sources'] if 'WaterGAP naturalized' not in x['name']]+[{'name':'WaterGAP naturalized and historical-human simulations','url':'https://doi.org/10.25716/GUDE.1TWP-GNQP','note':'GSWP3–ERA5 through 2023. Paired human run DOI 10.25716/GUDE.14B4-KQ6R. CC BY 4.0.'}]
 (W/'data/analysis.json').write_text(json.dumps(safe(d),ensure_ascii=False,allow_nan=False,separators=(',',':')),encoding='utf-8')
 p=W/'app.js';s=p.read_text(encoding='utf-8')

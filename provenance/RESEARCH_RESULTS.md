@@ -1,6 +1,6 @@
 # Thailand three objective research release
 
-Author: Farzeen Khanal. Advisor: Dr. Natthachet Tangdamrongsub. MS in Water Engineering and Management, Asian Institute of Technology. Release: 24 October 2026.
+Author: Farzeen Khan. Advisor: Dr. Natthachet Tangdamrongsub. MS in Water Engineering and Management, Asian Institute of Technology. Release: 24 October 2026.
 
 Objective 1 is complete for 22 principal basins plus national context: TWSA/GWSA time series, seasonal Sen trends, original/seasonal Mann–Kendall tests, FDR, coverage and bootstrap uncertainty. Original national slopes: TWSA −7.46 mm/year (through September 2024); GWSA −6.82 mm/year (through September 2023).
 

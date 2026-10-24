@@ -12,7 +12,7 @@ ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'deliverables';OUT.mkdir(exist
 D=json.loads((ROOT/'reports/final_research_results_v4.json').read_text(encoding='utf-8'))
 TEMPLATE=ROOT/'reports/AIT_official_template.docx';V4=ROOT/'Thailand_Objective2/analysis_v4';FIG=V4/'figures'
 TITLE='Basin Scale Water Storage Trends and Climate Attribution in Thailand'
-AUTHOR='Farzeen Khanal';ADVISOR='Dr. Natthachet Tangdamrongsub'
+AUTHOR='Farzeen Khan';ADVISOR='Dr. Natthachet Tangdamrongsub'
 def fmt(x,n=2):return f'{x:.{n}f}' if x is not None else 'not estimated'
 def national(key,var,**criteria):return next(x for x in D[key] if x.get('variable')==var and all(x.get(k)==v for k,v in criteria.items()))
 EM=[national('national_emulator_test',v) for v in ['TWSA','GWSA']]
@@ -201,7 +201,7 @@ report.d.add_page_break();report.h('APPENDIX B\nREPRODUCIBILITY AND DATA PROVENA
 report.para('Authoritative revised outputs are in Thailand_Objective2/analysis_v4. Objective 1 remains in Thailand_Objective1/analysis_v3. Scripts 06 to 10 implement the naturalized decomposition, emulators, groundwater checks, release figures and application export. Earlier GRACE-trained experiments remain in analysis_v3 and must not be relabelled naturalized training. The source inventory and subset provenance are retained under shared_data/WaterGAP.')
 report.para('The supplied GRACE file identifies only units centimetres, CRS EPSG 4326 and 0.25-degree resolution. Processing centre, product release and leakage corrections cannot be established from that file. The published G3P groundwater product is a related sensitivity, not an independent observation. GROW derivatives retain package CC BY-NC-SA 4.0 terms; WaterGAP is CC BY 4.0. Source-specific provenance and licensing must accompany redistribution.')
 report.para('Scientific QA verifies R = H + E and O = C + R on the common footprint, additive OLS point slopes, 46 emulator ensembles and actual well observation counts. Missing GRACE months and post-2023 counterfactuals remain absent. The website and manuscript do not provide measured pumping volumes or a direct human TWSA validation by wells.')
-report.save(OUT/'AIT_Research_Report_Farzeen_Khanal.docx')
+report.save(OUT/'AIT_Research_Report_Farzeen_Khan.docx')
 paper=Writer(paper=True);paper.para(TITLE,'Title',WD_ALIGN_PARAGRAPH.CENTER,True);paper.para(AUTHOR,align=WD_ALIGN_PARAGRAPH.CENTER);paper.para('Water Engineering and Management Asian Institute of Technology Thailand',align=WD_ALIGN_PARAGRAPH.CENTER);paper.h('Abstract');paper.para(ABSTRACT);paper.para('Keywords GRACE groundwater storage naturalized hydrology climate attribution Thailand decision support')
 paper.h('1 Introduction',1);paper.body('background');paper.body('problem');paper.body('counterfactual_literature');paper.body('objectives')
 paper.h('2 Materials and Methods',1);methods(paper)
@@ -210,6 +210,6 @@ paper.h('4 Discussion',1);paper.body('discussion');paper.body('limits')
 paper.h('5 Conclusions',1);paper.body('conclusions')
 paper.h('Data and code availability');paper.para('Aggregated results and the interactive application are available at https://github.com/pratikkhanal16/thailand-water-storage-dss . The local reproducible project retains source subsets, acquisition records, fitted models and NetCDF outputs. WaterGAP and G3P dataset DOIs and the GROW observation DOI are provided in the references. Original GRACE product metadata require confirmation before definitive publication attribution.')
 paper.h('Acknowledgments');paper.para('Academic supervision is provided by '+ADVISOR+'. The analysis uses data made available by the cited hydrology and groundwater data providers.')
-references(paper);paper.save(OUT/'Research_Manuscript_Farzeen_Khanal.docx')
+references(paper);paper.save(OUT/'Research_Manuscript_Farzeen_Khan.docx')
 (ROOT/'reports/document_content_source.json').write_text(json.dumps({'title':TITLE,'author':AUTHOR,'abstract':ABSTRACT,'sections':TEXT,'references':REFS},ensure_ascii=False,indent=2),encoding='utf-8')
 print('Created AIT research report and research manuscript with verified numerical results.')

@@ -1,6 +1,6 @@
 # Reproduce the Thailand water-storage research
 
-Author: **Farzeen Khanal**, MS in Water Engineering and Management, Asian Institute of Technology. Advisor: **Dr. Natthachet Tangdamrongsub**.
+Author: **Farzeen Khan**, MS in Water Engineering and Management, Asian Institute of Technology. Advisor: **Dr. Natthachet Tangdamrongsub**.
 
 This package reruns the current Objective 1 and revised Objective 2 from the retained Thai input subsets, then refreshes a local copy of the Objective 3 decision-support app. It does not require the author's `P:` drive, Earth Engine credentials, a GitHub token, or access to the original workstation. The 25 scientific input files (approximately 45 MB) are included in this repository, with SHA-256 checksums. A normal Git clone is sufficient; Git LFS is not used.
 
@@ -99,7 +99,7 @@ Full TWSA ends September 2024. Derived GWSA ends September 2023. WaterGAP ends D
 
 The full Windows rerun completed in approximately **7.3 minutes** and matched all **15 reference tables**, including 46 ensembles and 276 groundwater-evidence rows. A separate clean Python environment and a fresh GitHub checkout passed the smoke checks. The locally regenerated dashboard passed desktop/mobile interaction and CSV-export checks. Verification records are retained in [`verification/`](verification/).
 
-The complete pipeline also [passed on a fresh Ubuntu GitHub runner](https://github.com/pratikkhanal16/thailand-water-storage-dss/actions/runs/40078861855), including the same 15-table comparison. Its numerical QA, environment versions and per-step receipt are saved in `verification/linux_*.json`. This verifies the scientific code at commit `2b1cc425fdf669d54ce3824016899de87067243e`; later documentation/verification-record commits do not change that analysis code.
+The complete pipeline also [passed on a fresh Ubuntu GitHub runner](https://github.com/pratikkhanal16/thailand-water-storage-dss/actions/runs/40078861855), including the same 15-table comparison. Its numerical QA, environment versions and per-step receipt are saved in `verification/linux_*.json`. This verifies the scientific code at commit `2b1cc425fdf669d54ce3824016899de87067243e`; later author-name corrections change metadata only and preserve the numerical methods and results.
 
 The [Research reproducibility checks workflow](https://github.com/pratikkhanal16/thailand-water-storage-dss/actions/workflows/research-checks.yml) runs input and smoke checks on Linux after code/input changes. To run the full analysis on GitHub, a repository owner/collaborator can select **Actions → Research reproducibility checks → Run workflow**, enable **full_run**, and run it. Readers can fork the repository and run the same workflow in their fork. Logs and numerical QA are attached to each run as downloadable artifacts. This requires no local Python setup.
 

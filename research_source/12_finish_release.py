@@ -10,12 +10,12 @@ s=s.replace("state.metric==='observed'?state.storage:","state.metric==='observed
 p.write_text(s,encoding='utf-8')
 p=W/'index.html';s=p.read_text(encoding='utf-8').replace('<th>Test NSE</th>','<th>Emulator NSE</th>')
 anchor='<p><a href="downloads/Thailand_Three_Objectives_Research.pptx">'
-links='<p><a href="downloads/Research_Manuscript_Farzeen_Khanal.docx">Research manuscript</a> · <a href="downloads/AIT_Research_Report_Farzeen_Khanal.docx">AIT research report</a></p>'
-s=re.sub(r'<p><a href="downloads/Research_Manuscript_Farzeen_Khanal.docx">.*?</p>', '', s)
+links='<p><a href="downloads/Research_Manuscript_Farzeen_Khan.docx">Research manuscript</a> · <a href="downloads/AIT_Research_Report_Farzeen_Khan.docx">AIT research report</a></p>'
+s=re.sub(r'<p><a href="downloads/Research_Manuscript_Farzeen_Khan.docx">.*?</p>', '', s)
 s=s.replace(anchor,links+anchor);p.write_text(s,encoding='utf-8')
 for p in (ROOT/'deliverables').glob('*'):
     if p.is_file():shutil.copy2(p,W/'downloads'/p.name)
-deck=ROOT/'deliverables/Thailand_Three_Objectives_Farzeen_Khanal.pptx'
+deck=ROOT/'deliverables/Thailand_Three_Objectives_Farzeen_Khan.pptx'
 if deck.exists():shutil.copy2(deck,W/'downloads/Thailand_Three_Objectives_Research.pptx')
 for p in (ROOT/'scripts').glob('*.py'):
     if p.name.startswith(('06_','07_','08_','09_','10_','11_','12_')) or p.name in ['discover_watergap.py','acquire_watergap_subsets.py']:shutil.copy2(p,W/'research_source'/p.name)
@@ -23,7 +23,7 @@ for p in (O/'logs').glob('*.json'):shutil.copy2(p,W/'provenance'/p.name)
 shutil.copy2(ROOT/'shared_data/WaterGAP/publisher_inventory.json',W/'provenance/WaterGAP_publisher_inventory.json')
 summary='''# Thailand three objective research release
 
-Author: Farzeen Khanal. Advisor: Dr. Natthachet Tangdamrongsub. MS in Water Engineering and Management, Asian Institute of Technology. Release: 24 October 2026.
+Author: Farzeen Khan. Advisor: Dr. Natthachet Tangdamrongsub. MS in Water Engineering and Management, Asian Institute of Technology. Release: 24 October 2026.
 
 Objective 1 is complete for 22 principal basins plus national context: TWSA/GWSA time series, seasonal Sen trends, original/seasonal Mann–Kendall tests, FDR, coverage and bootstrap uncertainty. Original national slopes: TWSA −7.46 mm/year (through September 2024); GWSA −6.82 mm/year (through September 2023).
 
@@ -41,5 +41,5 @@ The supplied GRACE file identifies units and grid but not processing centre, pro
 '''
 (ROOT/'reports/RESEARCH_RESULTS.md').write_text(summary,encoding='utf-8');(ROOT/'reports/FINAL_RELEASE.md').write_text(summary,encoding='utf-8');(W/'provenance/RESEARCH_RESULTS.md').write_text(summary,encoding='utf-8')
 readme=W/'README.md';readme.write_text(summary+'\n## Reproducibility and licenses\n\nThe full local project is rooted at P:/twsa. Run analysis scripts 06–09 with conda environment thailand-sm after acquiring the documented WaterGAP subsets. Scripts 10–12 package the app and documents. The research_source snapshot requires the full project input layout; this static website itself needs only a web server, with no API key or build step.\n\nWaterGAP outputs are CC BY 4.0; GROW observation derivatives retain CC BY-NC-SA 4.0 package terms and Thai source metadata CC BY 4.0. This is a noncommercial research release. Original G3P, NASA, FAO, CHIRPS, GLEAM, ESA CCI and ONWR source terms remain applicable; no universal license is asserted. Vendored Leaflet and ECharts retain their included licenses.\n',encoding='utf-8')
-p=ROOT/'README.md';s=p.read_text(encoding='utf-8').replace('Thailand_Objective2/analysis_v3','Thailand_Objective2/analysis_v4').replace('Thailand_Objective3/outputs/Thailand_Three_Objectives_Research.pptx','deliverables/Thailand_Three_Objectives_Farzeen_Khanal.pptx');p.write_text(s,encoding='utf-8')
+p=ROOT/'README.md';s=p.read_text(encoding='utf-8').replace('Thailand_Objective2/analysis_v3','Thailand_Objective2/analysis_v4').replace('Thailand_Objective3/outputs/Thailand_Three_Objectives_Research.pptx','deliverables/Thailand_Three_Objectives_Farzeen_Khan.pptx');p.write_text(s,encoding='utf-8')
 print('Final scientific source, documents and web release packaged.')
