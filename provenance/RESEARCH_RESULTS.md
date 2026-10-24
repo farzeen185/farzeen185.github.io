@@ -1,29 +1,17 @@
-# Thailand water-storage research: completed three-objective release
+# Thailand three objective research release
 
-All 22 principal basins plus Thailand national aggregate; 46 climate ensembles and 1,380 candidate model configurations.
+Author: Farzeen Khanal. Advisor: Dr. Natthachet Tangdamrongsub. MS in Water Engineering and Management, Asian Institute of Technology. Release: 24 October 2026.
 
-## Results
-- National TWSA: seasonal Sen -7.46 mm/year, block-bootstrap 95% interval -9.60 to -5.69; 235 observed months.
-- National GWSA: seasonal Sen -6.82 mm/year, block-bootstrap 95% interval -8.64 to -5.13; 223 observed months.
-- National TWSA test: NSE 0.626, r 0.936, RMSE 75.20 mm, deseasonalized NSE -1.106; n=57.
-- National GWSA test: NSE -0.401, r 0.800, RMSE 76.09 mm, deseasonalized NSE -2.483; n=45.
+Objective 1 is complete for 22 principal basins plus national context: TWSA/GWSA time series, seasonal Sen trends, original/seasonal Mann–Kendall tests, FDR, coverage and bootstrap uncertainty. Original national slopes: TWSA −7.46 mm/year (through September 2024); GWSA −6.82 mm/year (through September 2023).
 
-## Groundwater evidence
-Actual 5,484 observation aggregates from 511 Thai wells: 506 annual and five monthly. All assigned to a principal basin. Most annual values represent only two original readings. Aquifer storage coefficients and aquifer identities are unavailable.
-- TWSA observed_storage: annual n=18, r=0.2230376487687072 (exploratory; no causal attribution).
-- TWSA unexplained_residual: annual n=17, r=0.3183436124730047 (exploratory; no causal attribution).
-- GWSA observed_storage: annual n=17, r=0.0849979421889344 (exploratory; no causal attribution).
-- GWSA unexplained_residual: annual n=16, r=0.1374969623582344 (exploratory; no causal attribution).
+Objective 2 now uses matched naturalized and historical-human WaterGAP22e GSWP3–ERA5 simulations, not GRACE-trained predictions relabelled natural. Climate emulators use meteorological P/PET, causal memory and seasonal harmonics. Train 1991–2009, validation 2010–2015 and untouched test 2016–2023 follow ten warm-up years. National model-emulation test NSE: TWSA 0.981, GWSA 0.961; anomaly NSE 0.888 and 0.781. These are verification against a parent model, not independent groundwater validation. GLDAS Noah benchmarks matching land compartments only (national NSE 0.738).
 
-Observation-network composition changes affect agreement; fixed-panel and source-flag sensitivities are reported alongside primary results. Post-2015 GWS has fewer than six paired annual years, so correlation is not reported.
+The exact decomposition is residual = observed − naturalized = modeled human effect + observation–historical-model discrepancy. Most national residual decline is not reproduced by the paired modeled-human effect. Raw annual residual/head correlations are TWSA 0.142 (18 years) and GWSA 0.054 (17 years); controlling naturalized climate gives 0.131 and 0.029. Validation does not confirm interpreting the entire residual as human depletion.
 
-## Interpretation and limits
-Negative storage trends are observed signals. Climate reconstruction primarily captures seasonality. Residuals include candidate human influence and unresolved errors, and are not established anthropogenic pumping volumes. GLDAS Noah has no groundwater compartment. G3P is a related benchmark, not independent groundwater validation. Modelled surface water ends September 2023; missing GRACE dates remain missing. Compartment filtering differences and coarse GRACE resolution constrain spatial interpretation. Seasonal MK p-values remain subject to serial dependence; bootstrap slope intervals and FDR q-values do not remove that limitation.
+Groundwater heads can assess the groundwater component's consistency; they cannot directly validate human TWSA, which includes soil and surface water. Heads themselves contain climate and human effects. Storage volumes require aquifer yield/storativity, which are unavailable and have not been invented. Source-flag, fixed-eligibility, climate-controlled, detrended and consecutive-year checks are retained.
 
-## Deliverables
-- Objective 1: `Thailand_Objective1/analysis_v3/` (NetCDF, trends, time series, figures).
-- Objective 2: `Thailand_Objective2/analysis_v3/` (models, validation, residuals, real-well checks).
-- Objective 3: `Thailand_Objective3/web_app/`; https://pratikkhanal16.github.io/thailand-water-storage-dss/
-- Presentation: `Thailand_Objective3/outputs/Thailand_Three_Objectives_Research.pptx`.
+Objective 3 is the hosted decision-support app: https://pratikkhanal16.github.io/thailand-water-storage-dss/ . CSV exports distinguish full-footprint observations, common-footprint observations, naturalized storage, historical-human model, residual, modeled human effect and discrepancy.
 
-The earlier `outputs_advanced` analysis is retained as historical work; `analysis_v3` is the authoritative release. Large globally downloaded intermediates may be removed after verified Thai extraction, with an audit log. Original local inputs are retained.
+Authoritative outputs: Objective 1 `Thailand_Objective1/analysis_v3`; revised Objective 2 `Thailand_Objective2/analysis_v4`; app `Thailand_Objective3/web_app`; report/manuscript/slides `deliverables/`. Earlier Objective 2 `analysis_v3` is an empirical sensitivity, not the current attribution baseline.
+
+The supplied GRACE file identifies units and grid but not processing centre, product release or leakage correction. That provenance must be recovered before definitive publication. Magnitudes also depend on compartment choice and filtering. A completed research draft is not an externally approved thesis or causal pumping validation. Original inputs and downloaded Thai source subsets are retained; previous redundant intermediates were removed with an audit.

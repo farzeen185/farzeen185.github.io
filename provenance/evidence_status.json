@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "groundwater_checks": 276,
+  "minimum_annual_pairs": 6,
+  "partial_correlation_minimum_pairs": 8,
+  "annual_endpoint_policy": "At least eight storage months; incomplete calendar endpoint years excluded",
+  "human_TWS_validation": "Well heads assess only groundwater consistency and cannot directly validate full human TWSA",
+  "human_GWS_validation": "Climate-controlled, detrended and contiguous-change associations supplement raw agreement; no storage coefficient or causal pumping proof",
+  "reference_period": "Human-model difference represents change relative to 2004\u20132009, not cumulative pre-GRACE depletion"
+}

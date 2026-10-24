@@ -1,0 +1,9 @@
+{
+  "training": "1991\u20132009",
+  "warmup": "1981\u20131990",
+  "validation": "2010\u20132015",
+  "test": "2016\u20132023",
+  "target": "Naturalized WaterGAP; no GRACE/groundwater fitting",
+  "primary_attribution_baseline": "Published naturalized hydrological simulation; statistical emulators quantify ability to reproduce it, and do not replace it solely for high seasonal r",
+  "predictors": "Meteorological P/PET in mean mm/day; causal lags/memory and seasonal harmonics; no calendar-year trend or observed-storage lag"
+}

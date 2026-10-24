@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "target_region_combinations": 46,
+  "period": "1981\u20132023 model verification; observed attribution 2002\u20132023 where available",
+  "errors": {
+    "residual_identity_mm": 2.2737367544323206e-13,
+    "storage_identity_mm": 3.410605131648481e-13
+  }
+}

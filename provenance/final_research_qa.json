@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "target_region_combinations": 46,
+  "emulator_ensembles": 46,
+  "naturalized_data_sources": 10,
+  "decomposition_identity_verified": true,
+  "linear_trend_additivity_verified": true,
+  "groundwater_evidence_rows": 276,
+  "no_measured_pumping_claim": true,
+  "no_head_to_storage_conversion": true,
+  "author_confirmed": "Farzeen Khanal"
+}
