@@ -1,0 +1,86 @@
+{
+  "grid_groundwater_balance_max_error_mm": 0.0,
+  "passed": true,
+  "table_comparisons": [
+    {
+      "table": "Thailand_Objective1/analysis_v3/tables/basin_TWSA_GWSA_Sen_MannKendall.csv",
+      "rows": 92,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    },
+    {
+      "table": "Thailand_Objective1/analysis_v3/tables/basin_component_coverage.csv",
+      "rows": 230,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    },
+    {
+      "table": "Thailand_Objective1/analysis_v3/tables/basin_storage_timeseries.csv",
+      "rows": 6210,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    },
+    {
+      "table": "Thailand_Objective2/analysis_v3/tables/basin_groundwater_observation_indices.csv",
+      "rows": 1376,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    },
+    {
+      "table": "Thailand_Objective2/analysis_v3/tables/groundwater_signed_anomalies.csv",
+      "rows": 5484,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    },
+    {
+      "table": "Thailand_Objective2/analysis_v3/tables/groundwater_well_basin_assignment.csv",
+      "rows": 511,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    },
+    {
+      "table": "Thailand_Objective2/analysis_v4/tables/additive_linear_trend_partition.csv",
+      "rows": 46,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    },
+    {
+      "table": "Thailand_Objective2/analysis_v4/tables/climate_emulator_timeseries.csv",
+      "rows": 23736,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    },
+    {
+      "table": "Thailand_Objective2/analysis_v4/tables/climate_emulator_validation.csv",
+      "rows": 828,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    },
+    {
+      "table": "Thailand_Objective2/analysis_v4/tables/climate_emulator_weights.csv",
+      "rows": 138,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    },
+    {
+      "table": "Thailand_Objective2/analysis_v4/tables/groundwater_attribution_evidence.csv",
+      "rows": 276,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    },
+    {
+      "table": "Thailand_Objective2/analysis_v4/tables/hydrological_benchmarks.csv",
+      "rows": 115,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    },
+    {
+      "table": "Thailand_Objective2/analysis_v4/tables/naturalized_attribution_timeseries.csv",
+      "rows": 23736,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    },
+    {
+      "table": "Thailand_Objective2/analysis_v4/tables/naturalized_component_trends.csv",
+      "rows": 276,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    },
+    {
+      "table": "Thailand_Objective2/analysis_v4/tables/paired_model_evidence.csv",
+      "rows": 46,
+      "numeric_tolerance": "rtol=1e-5, atol=1e-5"
+    }
+  ],
+  "region_target_pairs": 46,
+  "well_evidence_rows": 276,
+  "package_inputs_only": true,
+  "reference_files_used_for": "Comparison only; never substituted for computed scientific outputs",
+  "scientific_caveat": "Reproduction does not establish causal human depletion or repair missing original GRACE metadata."
+}
