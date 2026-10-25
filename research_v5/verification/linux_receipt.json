@@ -6,44 +6,50 @@
       "script": "17_csr_storage_attribution_v5.py",
       "sha256": "864a008ddd0f0831a9375499195723cbe35f044f4d326d7db63ed8a6c3a8bc41",
       "exit_code": 0,
-      "seconds": 86.73
+      "seconds": 73.85
     },
     {
       "script": "18_attribution_robustness_v5.py",
       "sha256": "75b384dc4fb09780a7c8772eed2e6a313db20ef91e3c9b884b0f3e1653e97613",
       "exit_code": 0,
-      "seconds": 22.39
+      "seconds": 17.52
     },
     {
       "script": "19_climate_tests_v5.py",
       "sha256": "b04770af783ad3220b74c0c4539ce22fb9083ce5acc62d894f53243c27a3b164",
       "exit_code": 0,
-      "seconds": 17.31
+      "seconds": 15.6
     },
     {
       "script": "20_groundwater_network_v5.py",
       "sha256": "6f16a6f31da691a568edcf398d1140a00b3b38e3a0a5621566fbdcb2978b3f45",
       "exit_code": 0,
-      "seconds": 38.39
+      "seconds": 30.76
     },
     {
       "script": "21_figures_synthesis_v5.py",
       "sha256": "ffdc773249d737ee34b666ba5e0484596098e8ca826b1cba8ce6f6ce652a6402",
       "exit_code": 0,
-      "seconds": 23.86
+      "seconds": 22.36
     },
     {
       "script": "29_reservoir_validation_v5.py",
       "sha256": "cdfa4f5346ea0fb0220be70aff15b6777323bd7a5f0cf3bbdc9fb3d06d6ebb55",
       "exit_code": 0,
-      "seconds": 37.86
+      "seconds": 31.93
+    },
+    {
+      "script": "37_spatiotemporal_figure_revision.py",
+      "sha256": "7e2361e1db84ab75d3fbe267f105d2aa7446d43a9cb39abb16cd68e8743d3a95",
+      "exit_code": 0,
+      "seconds": 52.24
     },
     {
       "script": "validate_extended.py",
-      "sha256": "fb151dcd3942d1c9ef76725d8459772a154e648f6daa54f9980c770af5d0cac9",
+      "sha256": "558708102fbd6abe31e5616f9d97493163acec4336bd62fdb948c5a10d5af537",
       "exit_code": 0,
-      "seconds": 1.44
+      "seconds": 1.51
     }
   ],
-  "seconds": 227.98
+  "seconds": 245.77
 }

@@ -1,0 +1,140 @@
+{
+  "storage_balance_max_error_mm": 2.2737367544323206e-13,
+  "passed": true,
+  "reference_tables": [
+    {
+      "table": "ablation_test_predictions.csv",
+      "rows": 22080
+    },
+    {
+      "table": "attribution_wild_block_intervals.csv",
+      "rows": 828
+    },
+    {
+      "table": "basin_shared_support.csv",
+      "rows": 529
+    },
+    {
+      "table": "climate_feature_ablation.csv",
+      "rows": 460
+    },
+    {
+      "table": "common_support_product_audit.csv",
+      "rows": 138
+    },
+    {
+      "table": "CSR_basin_storage_timeseries.csv",
+      "rows": 6210
+    },
+    {
+      "table": "CSR_basin_trends.csv",
+      "rows": 69
+    },
+    {
+      "table": "CSR_groundwater_network_evidence.csv",
+      "rows": 460
+    },
+    {
+      "table": "CSR_model_observation_benchmarks.csv",
+      "rows": 92
+    },
+    {
+      "table": "CSR_naturalized_attribution.csv",
+      "rows": 12420
+    },
+    {
+      "table": "discrepancy_magnitude_diagnostic.csv",
+      "rows": 138
+    },
+    {
+      "table": "groundwater_station_coverage.csv",
+      "rows": 1247
+    },
+    {
+      "table": "groundwater_station_trend_summary.csv",
+      "rows": 19
+    },
+    {
+      "table": "heldout_precipitation_storage_response.csv",
+      "rows": 46
+    },
+    {
+      "table": "independent_reservoir_evidence.csv",
+      "rows": 368
+    },
+    {
+      "table": "independent_reservoir_timeseries.csv",
+      "rows": 12006
+    },
+    {
+      "table": "memory_gain_uncertainty.csv",
+      "rows": 46
+    },
+    {
+      "table": "multisource_hydroclimate_series.csv",
+      "rows": 6072
+    },
+    {
+      "table": "native_mascon_support.csv",
+      "rows": 23
+    },
+    {
+      "table": "native_mascon_weights.csv",
+      "rows": 233
+    },
+    {
+      "table": "precipitation_source_stress_test.csv",
+      "rows": 138
+    },
+    {
+      "table": "product_ranking_robustness.csv",
+      "rows": 4
+    },
+    {
+      "table": "trend_window_sensitivity.csv",
+      "rows": 460
+    },
+    {
+      "table": "well_level_trend_and_agreement.csv",
+      "rows": 382
+    }
+  ],
+  "basins": 22,
+  "region_targets": 46,
+  "reference_use": "Comparison only; never substituted for recomputed outputs",
+  "interpretation": "Numerical reproduction does not establish causal human depletion.",
+  "figure_revision_tables": [
+    {
+      "table": "annual_residual_groundwater_validation_series.csv",
+      "rows": 1012
+    },
+    {
+      "table": "climate_evaluation_by_test_year.csv",
+      "rows": 368
+    },
+    {
+      "table": "GLDAS_land_trend_comparison.csv",
+      "rows": 23
+    },
+    {
+      "table": "GLDAS_matched_land_metrics.csv",
+      "rows": 23
+    },
+    {
+      "table": "GLDAS_matched_land_timeseries.csv",
+      "rows": 6210
+    },
+    {
+      "table": "GLDAS_residual_comparison_metrics.csv",
+      "rows": 23
+    },
+    {
+      "table": "GLDAS_residual_standardized_timeseries.csv",
+      "rows": 6210
+    },
+    {
+      "table": "residual_head_rolling_correlations.csv",
+      "rows": 598
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "python": "3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]",
+  "steps": [
+    {
+      "script": "37_spatiotemporal_figure_revision.py",
+      "sha256": "7e2361e1db84ab75d3fbe267f105d2aa7446d43a9cb39abb16cd68e8743d3a95",
+      "exit_code": 0,
+      "seconds": 71.94
+    },
+    {
+      "script": "validate_extended.py",
+      "sha256": "558708102fbd6abe31e5616f9d97493163acec4336bd62fdb948c5a10d5af537",
+      "exit_code": 0,
+      "seconds": 3.09
+    }
+  ],
+  "seconds": 75.03
+}

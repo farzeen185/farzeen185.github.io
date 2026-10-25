@@ -2,7 +2,7 @@
 
 ## Extended study · 25 October 2026
 
-The **[extended CSR research dashboard](extended/)** provides the new primary gravity analysis and downloadable **60-page AIT thesis, separate manuscript, editable 30-slide PowerPoint and compilable LaTeX Beamer source**. The **[extended reproducible package](research_v5/README.md)** adds 9 compact inputs (33 MB) to the original tested package, including identified CSR RL06.3 and independent reservoir data. Both releases remain available; their different gravity sources and observation support must not be mixed.
+The **[extended CSR research dashboard](extended/)** provides the new primary gravity analysis and downloadable **60-page AIT thesis with 21 figures, separate 41-page manuscript with 22 figures, editable 42-slide PowerPoint and compilable LaTeX Beamer source**. The **[spatial and temporal figure gallery](extended/figures.html)** includes 18 new figure sets, with all 22 basins in each temporal atlas; the **[figure requirement crosswalk](extended/FIGURE_REQUIREMENTS.md)** identifies the corresponding figures in both documents. The **[extended reproducible package](research_v5/README.md)** adds 9 compact inputs (33 MB) to the original tested package, including identified CSR RL06.3 and independent reservoir data. Both releases remain available; their different gravity sources and observation support must not be mixed.
 
 The proposed contribution is an integrated assessment of attribution credibility: product-dependent basin rankings, climate-memory and forcing tests, paired human/discrepancy uncertainty, balanced groundwater panels and reservoir-component evidence. **[What can validate total minus climate?](research_v5/VALIDATION_EVIDENCE.md)** explains the distinct roles of groundwater heads, reservoirs, pumping, water budgets and other observations.
 
@@ -13,6 +13,8 @@ python research_v5/run.py --mode full --work-dir research_v5/work
 ```
 
 The extension recomputes the original study first, then its own tables, figures and physical checks. The Windows run and the [complete Linux GitHub run](https://github.com/pratikkhanal16/thailand-water-storage-dss/actions/runs/40166730919) passed all 24 extended reference-table comparisons. Receipts are retained in `research_v5/verification/`. References are never substituted for recomputed results.
+
+The requested spatial/temporal figure revision also passed the [complete revised Linux run](https://github.com/pratikkhanal16/thailand-water-storage-dss/actions/runs/40171034365): all 24 extended tables and eight additional figure tables matched. Updated figures and derived plot data are available in the figure gallery and source package.
 
 Author: Farzeen Khan. Advisor: Dr. Natthachet Tangdamrongsub. MS in Water Engineering and Management, Asian Institute of Technology. Release: 24 October 2026.
 

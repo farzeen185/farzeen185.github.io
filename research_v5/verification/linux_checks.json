@@ -102,5 +102,39 @@
   "basins": 22,
   "region_targets": 46,
   "reference_use": "Comparison only; never substituted for recomputed outputs",
-  "interpretation": "Numerical reproduction does not establish causal human depletion."
+  "interpretation": "Numerical reproduction does not establish causal human depletion.",
+  "figure_revision_tables": [
+    {
+      "table": "GLDAS_land_trend_comparison.csv",
+      "rows": 23
+    },
+    {
+      "table": "GLDAS_matched_land_metrics.csv",
+      "rows": 23
+    },
+    {
+      "table": "GLDAS_matched_land_timeseries.csv",
+      "rows": 6210
+    },
+    {
+      "table": "GLDAS_residual_comparison_metrics.csv",
+      "rows": 23
+    },
+    {
+      "table": "GLDAS_residual_standardized_timeseries.csv",
+      "rows": 6210
+    },
+    {
+      "table": "annual_residual_groundwater_validation_series.csv",
+      "rows": 1012
+    },
+    {
+      "table": "climate_evaluation_by_test_year.csv",
+      "rows": 368
+    },
+    {
+      "table": "residual_head_rolling_correlations.csv",
+      "rows": 598
+    }
+  ]
 }
