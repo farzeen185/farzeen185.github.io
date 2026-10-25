@@ -1,0 +1,70 @@
+region,basin,comparison,label,role,period,n_months,RMSE_mm
+TH,Thailand,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,13.449471994276195
+01,Salawin,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,22.075359892633006
+02,North Khong,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,17.32434217449065
+03,Northeast Khong,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,27.370357699842835
+04,Chi,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,15.614739881870396
+05,Mun,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,21.43249375332233
+06,Ping,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,15.89943452824508
+07,Wang,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,15.237180987227928
+08,Yom,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,15.380204442462661
+09,Nan,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,14.136317692199942
+10,Chao Phraya,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,42.23417186353926
+11,Sakae Krang,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,15.340216883319535
+12,Pasak,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,11.219884277314545
+13,Tha Chin,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,32.003941558422106
+14,Mae Klong,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,18.485999174134044
+15,Bang Pakong,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,28.646651819244564
+16,Tonle Sap,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,14.600675274273796
+17,East Coast Gulf,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,16.748300028021934
+18,Phetchaburi - Prachuap Khiri Khan,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,14.377783634522093
+19,Peninsula - Upper East Coast,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,17.377795768277416
+20,Thale Sap Songkhla,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,22.540769583707597
+21,Peninsula - Lower East Coast,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,25.435976330083836
+22,Peninsula - West Coast,emulator_parent,Climate emulator / naturalized TWSA,Parent-model reconstruction,2016–2023,96,17.362164392327845
+TH,Thailand,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,89.93738062980076
+01,Salawin,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,76.44676873056964
+02,North Khong,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,65.62212630837273
+03,Northeast Khong,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,83.41593919754403
+04,Chi,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,115.43286748650911
+05,Mun,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,102.21055340202544
+06,Ping,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,82.09449940696906
+07,Wang,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,93.02815671519856
+08,Yom,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,88.10553899161316
+09,Nan,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,81.63536491260498
+10,Chao Phraya,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,124.23326782615857
+11,Sakae Krang,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,80.37151066215151
+12,Pasak,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,134.4499993588632
+13,Tha Chin,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,107.67663768408524
+14,Mae Klong,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,64.8878153923013
+15,Bang Pakong,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,102.26220118613782
+16,Tonle Sap,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,145.24965341061673
+17,East Coast Gulf,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,129.13994036887325
+18,Phetchaburi - Prachuap Khiri Khan,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,101.90005950918577
+19,Peninsula - Upper East Coast,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,445.14237124232096
+20,Thale Sap Songkhla,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,136.25797496727085
+21,Peninsula - Lower East Coast,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,95.74029379449969
+22,Peninsula - West Coast,baseline_GRACE,Climate baseline / GRACE TWSA,Observed full-TWS benchmark,2016–2023,79,281.27981729788485
+TH,Thailand,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,49.05417511605234
+01,Salawin,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,55.327473394611275
+02,North Khong,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,42.897011441400615
+03,Northeast Khong,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,63.53812771205708
+04,Chi,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,54.60334720032334
+05,Mun,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,64.94328132099159
+06,Ping,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,38.061176382818395
+07,Wang,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,37.285648646351035
+08,Yom,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,60.13954181826086
+09,Nan,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,47.96064121908779
+10,Chao Phraya,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,76.0988544799369
+11,Sakae Krang,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,58.304163930776674
+12,Pasak,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,69.62557609265947
+13,Tha Chin,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,96.07644341363194
+14,Mae Klong,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,58.56466243027851
+15,Bang Pakong,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,56.167576224271905
+16,Tonle Sap,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,69.53940683160964
+17,East Coast Gulf,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,64.42787200238058
+18,Phetchaburi - Prachuap Khiri Khan,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,83.32640319283699
+19,Peninsula - Upper East Coast,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,46.3705978866754
+20,Thale Sap Songkhla,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,58.21923958860086
+21,Peninsula - Lower East Coast,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,60.12150883566375
+22,Peninsula - West Coast,land_GLDAS,WaterGAP land / GLDAS Noah,Matched soil + canopy + snow benchmark,2016–2023,96,49.6988194920926
