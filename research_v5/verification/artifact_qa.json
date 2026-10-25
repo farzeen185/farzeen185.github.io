@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "author": "Farzeen Khan",
+  "artifacts": [
+    {
+      "type": "thesis_pdf",
+      "file": "AIT_Extended_Thesis_Farzeen_Khan.pdf",
+      "pages": 60,
+      "bytes": 2794703,
+      "sha256": "a358c4f13b8f1200fe0d17ca60d25ba924dd9855807acc8e4febe17298ff9681"
+    },
+    {
+      "type": "manuscript_pdf",
+      "file": "Manuscript_Attribution_Credibility_Farzeen_Khan.pdf",
+      "pages": 21,
+      "bytes": 1061817,
+      "sha256": "dcdfb5cb0fde4df6027d1732cb829716755b28a455a0970c7308bbb79dfa811d"
+    },
+    {
+      "type": "beamer_pdf",
+      "file": "Thailand_Attribution_Credibility_Beamer.pdf",
+      "pages": 30,
+      "bytes": 16614722,
+      "sha256": "d0897e07c0531d81366fe3db72e92b00b88bec17684bfae6d9cd6e41c395b707"
+    },
+    {
+      "type": "editable_document",
+      "file": "AIT_Extended_Thesis_Farzeen_Khan.docx",
+      "figures": 21,
+      "native_tables": 6,
+      "sha256": "61233978c61063d7b7f8198dc8da804485e493e706af27d3138fad2bc3be35be"
+    },
+    {
+      "type": "editable_document",
+      "file": "Manuscript_Attribution_Credibility_Farzeen_Khan.docx",
+      "figures": 9,
+      "native_tables": 3,
+      "sha256": "e0d3ec3ee4882a6ef7485c3e3c13ca6e59e131937eaf4c00194c854144f921cd"
+    },
+    {
+      "type": "editable_powerpoint",
+      "file": "Thailand_Attribution_Credibility_Farzeen_Khan.pptx",
+      "slides": 30,
+      "native_tables": 9,
+      "sha256": "d903372f258838f9e9c15560e80534a4b15ef3833f0216e87820d71e73ff98ed"
+    },
+    {
+      "type": "latex_source_archive",
+      "file": "Thailand_Attribution_Credibility_LaTeX_Source.zip",
+      "frames": 30,
+      "sha256": "86b94713d0e4d3a0d6b7ff7292b2ddc5a596d448ee49bcfa8aa54948a5b8c5ba"
+    }
+  ],
+  "page_rendering": "Every PDF page rendered; contact sheets and selected full-size pages reviewed locally",
+  "powerpoint_rendering": "Final 30-slide deck opened and exported in Microsoft PowerPoint; slides visually reviewed",
+  "science": "24 extended tables matched in the Windows portable run; no reference CSV used as a scientific input",
+  "dashboard": {
+    "passed": true,
+    "selections": 46,
+    "download_links": 8,
+    "desktop_and_mobile": true,
+    "page_errors": []
+  }
+}

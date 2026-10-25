@@ -12,7 +12,7 @@ Run from the repository root after installing `research_v5/requirements-lock.txt
 python research_v5/run.py --mode full --work-dir research_v5/work
 ```
 
-The extension recomputes the original study first, then its own tables, figures and physical checks. The retained Windows run passed comparison against all 24 extended reference tables; cloud verification is recorded separately. References are never substituted for recomputed results.
+The extension recomputes the original study first, then its own tables, figures and physical checks. The Windows run and the [complete Linux GitHub run](https://github.com/pratikkhanal16/thailand-water-storage-dss/actions/runs/40166730919) passed all 24 extended reference-table comparisons. Receipts are retained in `research_v5/verification/`. References are never substituted for recomputed results.
 
 Author: Farzeen Khan. Advisor: Dr. Natthachet Tangdamrongsub. MS in Water Engineering and Management, Asian Institute of Technology. Release: 24 October 2026.
 
