@@ -19,4 +19,9 @@ for source in sorted((P/'reference').glob('*.csv')):
     a=pd.read_csv(O/'tables'/source.name,dtype={'region':str});b=pd.read_csv(source,dtype={'region':str})
     pd.testing.assert_frame_equal(a,b,check_dtype=False,check_exact=False,rtol=1e-5,atol=1e-5);tables.append({'table':source.name,'rows':len(a)})
 checks.update(passed=True,reference_tables=tables,basins=22,region_targets=46,reference_use='Comparison only; never substituted for recomputed outputs',interpretation='Numerical reproduction does not establish causal human depletion.')
+figure_tables=[]
+for source in sorted((P/'figure_revision_reference').glob('*.csv')):
+    a=pd.read_csv(O/'figure_revision/tables'/source.name,dtype={'region':str});b=pd.read_csv(source,dtype={'region':str})
+    pd.testing.assert_frame_equal(a,b,check_dtype=False,check_exact=False,rtol=1e-5,atol=1e-5);figure_tables.append({'table':source.name,'rows':len(a)})
+checks['figure_revision_tables']=figure_tables
 (O/'logs/reproduction_qa.json').write_text(json.dumps(checks,indent=2));print(json.dumps(checks,indent=2))

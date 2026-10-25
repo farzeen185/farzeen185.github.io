@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "file": "A01_observed_spatial.png",
+    "title": "Spatial GRACE storage trends and Mann Kendall evidence",
+    "caption": "Basin-average CSR TWSA and compartment-derived GWSA; seasonal Sen slopes and basin FDR q. q colours saturate at 0.10. Seasonal MK does not correct serial dependence; slope intervals are supplied in the numerical tables. All basins retain the CSR small-support caution.",
+    "category": "observed_spatial",
+    "pdf": "A01_observed_spatial.pdf"
+  },
+  {
+    "id": 2,
+    "file": "A02_observed_temporal_all_basins.png",
+    "title": "Observed storage time series for all 22 basins",
+    "caption": "Monthly CSR TWSA and full-compartment GWSA, in mm. Mission gaps remain missing and GWSA ends in September 2023. Basin codes identify every subplot; full names are in Appendix A.",
+    "category": "observed_temporal_all_basins",
+    "pdf": "A02_observed_temporal_all_basins.pdf"
+  },
+  {
+    "id": 3,
+    "file": "A03_climate_spatial.png",
+    "title": "Spatial naturalized storage and climate reconstruction",
+    "caption": "Calendar-month fixed-effect slopes. C is the naturalized WaterGAP baseline used in R=O−C; the statistical emulator reconstructs its parent-model target on its retained verification footprint. Emulator slopes use CSR-available dates through 2023, not a fit to GRACE. These columns are related model estimates, not independent observations.",
+    "category": "climate_spatial",
+    "pdf": "A03_climate_spatial.pdf"
+  },
+  {
+    "id": 4,
+    "file": "A04_climate_TWSA_temporal.png",
+    "title": "TWSA climate reconstruction for all 22 basins",
+    "caption": "Naturalized parent-model target and frozen meteorological ensemble reconstruction. Green shading identifies the held-out 2016–2023 period; earlier values are training or validation context. The emulator targets a hydrological model, not independently observed storage.",
+    "category": "climate_TWSA_temporal",
+    "pdf": "A04_climate_TWSA_temporal.pdf"
+  },
+  {
+    "id": 5,
+    "file": "A05_climate_GWSA_temporal.png",
+    "title": "GWSA climate reconstruction for all 22 basins",
+    "caption": "Naturalized parent-model target and frozen meteorological ensemble reconstruction. Green shading identifies the held-out 2016–2023 period; earlier values are training or validation context. The emulator targets a hydrological model, not independently observed storage.",
+    "category": "climate_GWSA_temporal",
+    "pdf": "A05_climate_GWSA_temporal.pdf"
+  },
+  {
+    "id": 6,
+    "file": "A06_residual_spatial.png",
+    "title": "Spatial residual and modeled human perturbation",
+    "caption": "Calendar-month fixed-effect slopes on the same observation-valid support. R includes the represented direct-human perturbation H and discrepancy E. Each panel has its own labelled scale to keep small H visible; compare numerical scales before comparing colours. These slopes are not additive Sen-slope fractions.",
+    "category": "residual_spatial",
+    "pdf": "A06_residual_spatial.pdf"
+  },
+  {
+    "id": 7,
+    "file": "A07_residual_TWSA_temporal.png",
+    "title": "TWSA residual histories for all 22 basins",
+    "caption": "Observed-minus-naturalized residual R and paired modeled human perturbation H. Missing observed months are retained. R−H is unresolved observation–historical-model discrepancy; a negative R is not automatically measured pumping.",
+    "category": "residual_TWSA_temporal",
+    "pdf": "A07_residual_TWSA_temporal.pdf"
+  },
+  {
+    "id": 8,
+    "file": "A08_residual_GWSA_temporal.png",
+    "title": "GWSA residual histories for all 22 basins",
+    "caption": "Observed-minus-naturalized residual R and paired modeled human perturbation H. Missing observed months are retained. R−H is unresolved observation–historical-model discrepancy; a negative R is not automatically measured pumping.",
+    "category": "residual_GWSA_temporal",
+    "pdf": "A08_residual_GWSA_temporal.pdf"
+  },
+  {
+    "id": 9,
+    "file": "A09_gldas_spatial.png",
+    "title": "Spatial GLDAS matched compartment comparison",
+    "caption": "Soil + canopy + snow only, common valid-cell support and common 2004–2009 reference. The record extends through December 2023. Each panel has a labelled scale; groundwater and surface water are excluded. This is a cross-model benchmark, not independent full-TWS or residual validation.",
+    "category": "gldas_spatial",
+    "pdf": "A09_gldas_spatial.pdf"
+  },
+  {
+    "id": 10,
+    "file": "A10_gldas_temporal_all_basins.png",
+    "title": "Matched GLDAS time series for all 22 basins",
+    "caption": "Matched soil + canopy + snow anomalies in mm. GLDAS and WaterGAP share climatic influences. Agreement evaluates land-component consistency; it cannot validate groundwater or the entire human residual.",
+    "category": "gldas_temporal_all_basins",
+    "pdf": "A10_gldas_temporal_all_basins.pdf"
+  },
+  {
+    "id": 11,
+    "file": "A11_gldas_residual_spatial.png",
+    "title": "Spatial GLDAS and residual comparisons",
+    "caption": "Top: slopes of separately standardized series on identical joint months; scale saturates at ±0.2 SD/year. Bottom: descriptive correlations, with the matched land-component correlation for context. GLDAS land storage and residual storage are different quantities. No cross-compartment NSE, RMSE or claim of human validation is made. GLDAS also contributes to GWS subtraction.",
+    "category": "gldas_residual_spatial",
+    "pdf": "A11_gldas_residual_spatial.pdf"
+  },
+  {
+    "id": 12,
+    "file": "A12_gldas_residual_temporal.png",
+    "title": "GLDAS and residual histories for all 22 basins",
+    "caption": "Each variable is standardized on the same jointly observed months within each basin. Different compartments are compared in timing and shape, not treated as equivalent water volumes. Missing months remain gaps. This is a dependence diagnostic, not independent anthropogenic validation.",
+    "category": "gldas_residual_temporal",
+    "pdf": "A12_gldas_residual_temporal.pdf"
+  },
+  {
+    "id": 13,
+    "file": "A13_climate_evaluation_spatial.png",
+    "title": "Spatial climate model evaluation",
+    "caption": "Frozen ensemble verification against naturalized parent storage during 2016–2023. Maps distinguish raw NSE, training-climatology-anomaly NSE and RMSE; NSE colours saturate below −1. High seasonal skill is not observational validation of a natural counterfactual.",
+    "category": "climate_evaluation_spatial",
+    "pdf": "A13_climate_evaluation_spatial.pdf"
+  },
+  {
+    "id": 14,
+    "file": "A14_climate_evaluation_temporal.png",
+    "title": "Climate model evaluation through time",
+    "caption": "Metrics are calculated separately for each held-out year using the training-climatology anomaly definition. Shading is spatial interquartile variation, not a confidence interval. Annual scores use 12 modeled months and may be unstable when anomaly variance is small; pooled 96-month results remain primary.",
+    "category": "climate_evaluation_temporal",
+    "pdf": "A14_climate_evaluation_temporal.pdf"
+  },
+  {
+    "id": 15,
+    "file": "A15_residual_validation_spatial.png",
+    "title": "Spatial evaluation of residual agreement with groundwater",
+    "caption": "Observed annual heads compared separately with TWS and GWS residuals. Hatching marks unavailable correlations or fewer than eight matched years. Support maps expose small samples. Heads and equivalent water depth are not commensurate volumes, so head–storage NSE and RMSE are not calculated. Raw association is indirect groundwater evidence for TWS, not total-human validation.",
+    "category": "residual_validation_spatial",
+    "pdf": "A15_residual_validation_spatial.pdf"
+  },
+  {
+    "id": 16,
+    "file": "A16_residual_validation_temporal.png",
+    "title": "Annual groundwater and residual histories for all 22 basins",
+    "caption": "Co-located wells are first grouped by station, then averaged. Displayed series are standardized on their joint annual support; they are not water-volume conversions. Annual storage requires at least eight valid months and complete year endpoints. Gaps remain missing. Numerical correlation maps use each target’s own longest eligible support, whereas this three-line display uses joint support.",
+    "category": "residual_validation_temporal",
+    "pdf": "A16_residual_validation_temporal.pdf"
+  },
+  {
+    "id": 17,
+    "file": "A17_reservoir_validation_spatial.png",
+    "title": "Spatial independent reservoir component evidence",
+    "caption": "MSEA-Res Level-1 scene estimates, fixed pre-2004 populations and matched-month season/trend-adjusted correlations. Grey hatching means unavailable evidence, not zero effect. Reservoir correlations with GWS residuals are dependence diagnostics and do not directly validate groundwater. No naturalized observed reservoir counterfactual is available.",
+    "category": "reservoir_validation_spatial",
+    "pdf": "A17_reservoir_validation_spatial.pdf"
+  },
+  {
+    "id": 18,
+    "file": "A18_residual_evaluation_temporal.png",
+    "title": "Residual validation metrics and network support through time",
+    "caption": "National rolling head–residual correlations require at least six observed annual pairs in an eight-calendar-year window. Windows overlap and are descriptive, not independent tests or a model-selection device. Bars show represented coordinate-station groups; station counts are not the temporal correlation sample size. Basin-specific rolling metrics accompany the figure.",
+    "category": "residual_evaluation_temporal",
+    "pdf": "A18_residual_evaluation_temporal.pdf"
+  }
+]

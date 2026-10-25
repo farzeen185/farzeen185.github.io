@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "figures": 18,
+  "basin_subplots_per_temporal_atlas": 22,
+  "GLDAS_matched_metrics_reproduced": true,
+  "GLDAS_max_float_precision_difference": 2.9368795395612324e-07,
+  "GLDAS_comparison_tolerance": "rtol=1e-5, atol=1e-5; explicit float64 rebasing versus retained float32 Noah baseline",
+  "annual_groundwater_correlations_reproduced": true,
+  "cross_compartment_volume_error_metrics_avoided": true,
+  "original_scientific_tables_unchanged": true,
+  "time_gaps_retained": true,
+  "missing_spatial_evidence_hatched": true,
+  "climate_test": "2016\u20132023; frozen ensemble; no test refitting",
+  "comparison_scope": "GLDAS land and residual timing/shape, not human-only ground truth"
+}

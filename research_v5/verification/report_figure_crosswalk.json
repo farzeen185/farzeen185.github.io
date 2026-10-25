@@ -1,0 +1,128 @@
+[
+  {
+    "page": 18,
+    "label": "Figure 3.1",
+    "title": "Study area and official basin framework",
+    "file": "01_study_basins.png"
+  },
+  {
+    "page": 22,
+    "label": "Figure 3.2",
+    "title": "Hydroclimatic context and seasonal structure",
+    "file": "16_hydroclimate_seasonality.png"
+  },
+  {
+    "page": 34,
+    "label": "Figure 5.1",
+    "title": "Spatial GRACE storage trends and Mann Kendall evidence",
+    "file": "A01_observed_spatial.png"
+  },
+  {
+    "page": 35,
+    "label": "Figure 5.2",
+    "title": "Observed storage time series for all 22 basins",
+    "file": "A02_observed_temporal_all_basins.png"
+  },
+  {
+    "page": 36,
+    "label": "Figure 5.3",
+    "title": "Product dependent basin trend ranking",
+    "file": "05_product_ranking_scatter.png"
+  },
+  {
+    "page": 37,
+    "label": "Figure 5.4",
+    "title": "Spatial naturalized storage and climate reconstruction",
+    "file": "A03_climate_spatial.png"
+  },
+  {
+    "page": 38,
+    "label": "Figure 5.5",
+    "title": "TWSA climate reconstruction for all 22 basins",
+    "file": "A04_climate_TWSA_temporal.png"
+  },
+  {
+    "page": 39,
+    "label": "Figure 5.6",
+    "title": "GWSA climate reconstruction for all 22 basins",
+    "file": "A05_climate_GWSA_temporal.png"
+  },
+  {
+    "page": 40,
+    "label": "Figure 5.7",
+    "title": "Spatial climate model evaluation",
+    "file": "A13_climate_evaluation_spatial.png"
+  },
+  {
+    "page": 41,
+    "label": "Figure 5.8",
+    "title": "Climate model evaluation through time",
+    "file": "A14_climate_evaluation_temporal.png"
+  },
+  {
+    "page": 42,
+    "label": "Figure 5.9",
+    "title": "Spatial residual and modeled human perturbation",
+    "file": "A06_residual_spatial.png"
+  },
+  {
+    "page": 43,
+    "label": "Figure 5.10",
+    "title": "TWSA residual histories for all 22 basins",
+    "file": "A07_residual_TWSA_temporal.png"
+  },
+  {
+    "page": 44,
+    "label": "Figure 5.11",
+    "title": "GWSA residual histories for all 22 basins",
+    "file": "A08_residual_GWSA_temporal.png"
+  },
+  {
+    "page": 45,
+    "label": "Figure 5.12",
+    "title": "Spatial GLDAS matched compartment comparison",
+    "file": "A09_gldas_spatial.png"
+  },
+  {
+    "page": 46,
+    "label": "Figure 5.13",
+    "title": "Matched GLDAS time series for all 22 basins",
+    "file": "A10_gldas_temporal_all_basins.png"
+  },
+  {
+    "page": 47,
+    "label": "Figure 5.14",
+    "title": "Spatial GLDAS and residual comparisons",
+    "file": "A11_gldas_residual_spatial.png"
+  },
+  {
+    "page": 48,
+    "label": "Figure 5.15",
+    "title": "GLDAS and residual histories for all 22 basins",
+    "file": "A12_gldas_residual_temporal.png"
+  },
+  {
+    "page": 49,
+    "label": "Figure 5.16",
+    "title": "Spatial evaluation of residual agreement with groundwater",
+    "file": "A15_residual_validation_spatial.png"
+  },
+  {
+    "page": 50,
+    "label": "Figure 5.17",
+    "title": "Annual groundwater and residual histories for all 22 basins",
+    "file": "A16_residual_validation_temporal.png"
+  },
+  {
+    "page": 51,
+    "label": "Figure 5.18",
+    "title": "Spatial independent reservoir component evidence",
+    "file": "A17_reservoir_validation_spatial.png"
+  },
+  {
+    "page": 52,
+    "label": "Figure 5.19",
+    "title": "Residual validation metrics and network support through time",
+    "file": "A18_residual_evaluation_temporal.png"
+  }
+]

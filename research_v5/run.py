@@ -4,7 +4,7 @@ import argparse,hashlib,json,os,shutil,subprocess,sys,time
 P=Path(__file__).resolve().parent
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def main():
-    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--mode',choices=['check','full','verify'],default='full');ap.add_argument('--work-dir',type=Path,default=P/'work');ap.add_argument('--reuse-base',action='store_true',help='Reuse an already successfully reproduced v4 work directory.');a=ap.parse_args();work=a.work_dir.resolve()
+    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--mode',choices=['check','full','figures','verify'],default='full');ap.add_argument('--work-dir',type=Path,default=P/'work');ap.add_argument('--reuse-base',action='store_true',help='Reuse an already successfully reproduced v4 work directory.');a=ap.parse_args();work=a.work_dir.resolve()
     if work==P or work in P.parents:raise ValueError('Use a separate work directory.')
     manifest=json.loads((P/'input_manifest.json').read_text())
     for f in manifest['files']:
@@ -21,7 +21,7 @@ def main():
             else:shutil.copy2(P/'inputs'/f['path'],dst)
     env=os.environ.copy();env.update(TWSA_RESEARCH_ROOT=str(work),TWSA_V5_PACKAGE=str(P),MPLBACKEND='Agg',PYTHONHASHSEED='0',OMP_NUM_THREADS='1',OPENBLAS_NUM_THREADS='1',MKL_NUM_THREADS='1')
     logs=work/'run_logs_v5';logs.mkdir(exist_ok=True,parents=True);started=time.time();record={'passed':False,'python':sys.version,'steps':[]}
-    steps=(['17_csr_storage_attribution_v5.py','18_attribution_robustness_v5.py','19_climate_tests_v5.py','20_groundwater_network_v5.py','21_figures_synthesis_v5.py','29_reservoir_validation_v5.py'] if a.mode=='full' else [])+['validate_extended.py']
+    steps=(['17_csr_storage_attribution_v5.py','18_attribution_robustness_v5.py','19_climate_tests_v5.py','20_groundwater_network_v5.py','21_figures_synthesis_v5.py','29_reservoir_validation_v5.py'] if a.mode=='full' else [])+(['37_spatiotemporal_figure_revision.py'] if a.mode in ['full','figures'] else [])+['validate_extended.py']
     for name in steps:
         print('Running '+name,flush=True);t=time.time()
         with (logs/(name+'.log')).open('w',encoding='utf-8') as log:
