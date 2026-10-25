@@ -1,0 +1,131 @@
+{
+  "created": "2025-02-10T14:43:34.751415+00:00",
+  "modified": "2025-02-10T14:43:34.954201+00:00",
+  "id": 14844580,
+  "conceptrecid": "12787698",
+  "doi": "10.5281/zenodo.14844580",
+  "conceptdoi": "10.5281/zenodo.12787698",
+  "doi_url": "https://doi.org/10.5281/zenodo.14844580",
+  "metadata": {
+    "title": "A comprehensive time series dataset of absolute reservoir storage in Mainland Southeast Asia (MSEA-Res) from 1985 to 2023",
+    "doi": "10.5281/zenodo.14844580",
+    "publication_date": "2025",
+    "description": "<p><strong>MSEA-Res:</strong> A comprehensive time-series dataset of absolute reservoir storage in Mainland Southeast Asia designed for regional planning and water management. We developed the MSEA-Res database using multi-satellite data from Landsat and Sentinel-2 at a 10-day temporal scale, spanning nearly four decades from 1985 to 2023. A Python package called &lsquo;<em>InfeRes</em>&rsquo; was created and used to automatically download and process hundreds of thousands of satellite images via the Google Earth Engine Python API. The water areas from the satellite data were then translated into storage values using hypsometric curves (Area-Elevation-Storage relationship) derived from the SRTM Digital Elevation Model (DEM) and bathymetry reconstructions from the GRDL database (Hao et al., 2023) where necessary. MSEA-Res is a comprehensively validated long-term, up-to-date absolute storage database, including storage records and other relevant details from 1985 to 2023 for 186 major reservoirs (storage capacity greater than 100 million cubic meters or 0.1 km&sup3;) in Mainland Southeast Asia, totaling ~175 km&sup3; in capacity.</p>\n<p>Updates:</p>\n<ul>\n<li>One new reservoir (Pasak dam) is added to the database (a total of 186 reservoirs).</li>\n<li>Vector shapefiles of the reservoir's maximum surface extent are added.</li>\n<li>Raster images of the reservoir's maximum surface extent from the Global Surface Water Database (GSWD, Pekel et al, 2016) are also added.</li>\n</ul>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Mahto, Shanti Shwarup",
+        "affiliation": "National University of Singapore",
+        "orcid": "0000-0003-3224-4969"
+      },
+      {
+        "name": "Fatichi, Simone",
+        "affiliation": "National University of Singapore",
+        "orcid": "0000-0003-1361-6659"
+      },
+      {
+        "name": "Galelli, Stefano",
+        "affiliation": "Cornell University",
+        "orcid": "0000-0003-2316-3243"
+      }
+    ],
+    "references": [
+      "Mahto, S. S., Fatichi, S., and Galelli, S.: A 1985\u20132023 time series dataset of absolute reservoir storage in Mainland Southeast Asia (MSEA-Res), Earth Syst. Sci. Data Discuss. [preprint], https://doi.org/10.5194/essd-2024-441, in review, 2024.",
+      "Pekel, JF., Cottam, A., Gorelick, N. et al. High-resolution mapping of global surface water and its long-term changes. Nature 540, 418\u2013422 (2016). https://doi.org/10.1038/nature20584"
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "12787698"
+          }
+        }
+      ]
+    }
+  },
+  "title": "A comprehensive time series dataset of absolute reservoir storage in Mainland Southeast Asia (MSEA-Res) from 1985 to 2023",
+  "links": {
+    "self": "https://zenodo.org/api/records/14844580",
+    "self_html": "https://zenodo.org/records/14844580",
+    "preview_html": "https://zenodo.org/records/14844580?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.14844580",
+    "self_doi": "https://doi.org/10.5281/zenodo.14844580",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14844580",
+    "reserve_doi": "https://zenodo.org/api/records/14844580/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/12787698",
+    "parent_html": "https://zenodo.org/records/12787698",
+    "parent_doi": "https://doi.org/10.5281/zenodo.12787698",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.12787698",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14844580/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14844580/sequence/default",
+    "files": "https://zenodo.org/api/records/14844580/files",
+    "media_files": "https://zenodo.org/api/records/14844580/media-files",
+    "latest": "https://zenodo.org/api/records/14844580/versions/latest",
+    "latest_html": "https://zenodo.org/records/14844580/latest",
+    "versions": "https://zenodo.org/api/records/14844580/versions",
+    "draft": "https://zenodo.org/api/records/14844580/draft",
+    "access_links": "https://zenodo.org/api/records/14844580/access/links",
+    "access_grants": "https://zenodo.org/api/records/14844580/access/grants",
+    "access_users": "https://zenodo.org/api/records/14844580/access/users",
+    "access_request": "https://zenodo.org/api/records/14844580/access/request",
+    "access": "https://zenodo.org/api/records/14844580/access",
+    "communities": "https://zenodo.org/api/records/14844580/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14844580/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/14844580/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/14844580/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/14844580/quota-increase",
+    "requests": "https://zenodo.org/api/records/14844580/requests"
+  },
+  "updated": "2025-02-10T14:43:34.954201+00:00",
+  "recid": "14844580",
+  "revision": 4,
+  "files": [
+    {
+      "id": "7ccdab72-95ca-49cd-b791-cdf9c99eb5db",
+      "key": "Python_codes.zip",
+      "size": 23048371,
+      "checksum": "md5:500b887bef969cdb30cf58ebdcc58650",
+      "links": {
+        "self": "https://zenodo.org/api/records/14844580/files/Python_codes.zip/content"
+      }
+    },
+    {
+      "id": "b35d896e-643f-4e15-8798-fb1cca1fb0aa",
+      "key": "MSEA-Res database v2.zip",
+      "size": 116173566,
+      "checksum": "md5:3f2a8de7eb4c45304c6525021c5d3fe9",
+      "links": {
+        "self": "https://zenodo.org/api/records/14844580/files/MSEA-Res%20database%20v2.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1158491"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 531,
+    "unique_downloads": 428,
+    "views": 978,
+    "unique_views": 866,
+    "version_downloads": 387,
+    "version_unique_downloads": 293,
+    "version_unique_views": 530,
+    "version_views": 619
+  },
+  "state": "done",
+  "submitted": true
+}

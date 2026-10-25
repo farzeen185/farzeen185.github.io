@@ -1,0 +1,5 @@
+variable,source_compared_to_CSR,basins,spearman_rho,spearman_p_descriptive,same_slope_sign_basins,median_absolute_slope_difference_mm_year,spatial_dependence_note
+GWSA,Legacy_unidentified,22,0.9988706945228685,6.059071360884933e-28,22,0.005598603040156913,Basins share native GRACE support; p is descriptive and not an independent spatial replication test
+GWSA,COSTG_G3P,22,0.026538678712591763,0.9066765277008432,20,1.8705912027005773,Basins share native GRACE support; p is descriptive and not an independent spatial replication test
+TWSA,Legacy_unidentified,22,1.0,0.0,22,0.010390104700248148,Basins share native GRACE support; p is descriptive and not an independent spatial replication test
+TWSA,COSTG_G3P,22,0.13833992094861663,0.5392421274426354,20,2.544437595802347,Basins share native GRACE support; p is descriptive and not an independent spatial replication test

@@ -1,0 +1,24 @@
+region,region_name,basin_area_km2,CSR_land_area_fraction,native_mascons_touched,native_weight_concentration_count,largest_native_weight,provider_small_basin_caution,meaning
+TH,Thailand,515229.5002643308,0.9898490310691218,68,50.09871901867533,0.025842169838739586,False,Native weight concentration is not statistical independence or actual GRACE resolution
+01,Salawin,19112.60792990816,1.0,8,4.242913312242917,0.3339676155217075,True,Native weight concentration is not statistical independence or actual GRACE resolution
+02,North Khong,17442.598900409706,1.0,6,3.1016318966563095,0.39473547497179357,True,Native weight concentration is not statistical independence or actual GRACE resolution
+03,Northeast Khong,46935.355335281,1.0,12,6.876922121129152,0.2487369733684926,True,Native weight concentration is not statistical independence or actual GRACE resolution
+04,Chi,49102.28257161673,1.0,13,6.131834516119854,0.23390566043866248,True,Native weight concentration is not statistical independence or actual GRACE resolution
+05,Mun,70565.65209985932,1.0,14,8.429267580499193,0.17078359234830534,True,Native weight concentration is not statistical independence or actual GRACE resolution
+06,Ping,34513.62467569984,1.0,11,5.9919992108165445,0.24924847346854864,True,Native weight concentration is not statistical independence or actual GRACE resolution
+07,Wang,10781.660421180526,1.0,6,3.7048347577778324,0.3539472815697375,True,Native weight concentration is not statistical independence or actual GRACE resolution
+08,Yom,24012.58617553719,1.0,8,3.785266617698117,0.33378351765523645,True,Native weight concentration is not statistical independence or actual GRACE resolution
+09,Nan,34839.40327613521,1.0,9,6.456937867129873,0.21591003167257564,True,Native weight concentration is not statistical independence or actual GRACE resolution
+10,Chao Phraya,20445.471776242754,1.0,7,4.454445471828758,0.32171412123332394,True,Native weight concentration is not statistical independence or actual GRACE resolution
+11,Sakae Krang,4915.803107940551,1.0,4,2.72955046821596,0.4954544716936327,True,Native weight concentration is not statistical independence or actual GRACE resolution
+12,Pasak,15596.151617221445,1.0,8,3.8513730259497714,0.3040975068343849,True,Native weight concentration is not statistical independence or actual GRACE resolution
+13,Tha Chin,13455.084115287225,1.0,6,2.224430780372367,0.53397700026426,True,Native weight concentration is not statistical independence or actual GRACE resolution
+14,Mae Klong,30246.335042752435,1.0,8,4.297164929259716,0.3077216151071474,True,Native weight concentration is not statistical independence or actual GRACE resolution
+15,Bang Pakong,20274.88888529377,1.0,6,3.591485329983808,0.36168395814861704,True,Native weight concentration is not statistical independence or actual GRACE resolution
+16,Tonle Sap,4134.433570347823,1.0,4,1.8814057841335494,0.6755819757742002,True,Native weight concentration is not statistical independence or actual GRACE resolution
+17,East Coast Gulf,13506.196417492883,0.9113908524365034,5,3.007261976526364,0.48237792465197904,True,Native weight concentration is not statistical independence or actual GRACE resolution
+18,Phetchaburi - Prachuap Khiri Khan,13380.577341519023,0.9781482003192917,6,2.447429087426096,0.5599596814952448,True,Native weight concentration is not statistical independence or actual GRACE resolution
+19,Peninsula - Upper East Coast,29645.047895280026,0.9417467566751159,7,4.871443233295259,0.2819724947935554,True,Native weight concentration is not statistical independence or actual GRACE resolution
+20,Thale Sap Songkhla,11995.253594962673,0.9768745021481432,6,2.84377901219518,0.42444720397615976,True,Native weight concentration is not statistical independence or actual GRACE resolution
+21,Peninsula - Lower East Coast,10594.978376810344,0.8965561758398723,3,1.710927315235779,0.7335393530259758,True,Native weight concentration is not statistical independence or actual GRACE resolution
+22,Peninsula - West Coast,19733.507137759843,0.9675366918779719,8,4.757631673881249,0.27825781484263706,True,Native weight concentration is not statistical independence or actual GRACE resolution

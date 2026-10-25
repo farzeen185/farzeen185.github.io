@@ -1,0 +1,4412 @@
+{
+  "10.1002/2016JB013007": {
+    "DOI": "10.1002/2016JB013007",
+    "status": 429,
+    "url": "https://doi.org/10.1002/2016JB013007"
+  },
+  "10.15781/cgq9-nh24": {
+    "DOI": "10.15781/cgq9-nh24",
+    "status": 429,
+    "url": "https://doi.org/10.15781/cgq9-nh24"
+  },
+  "10.5194/essd-17-611-2025": {
+    "DOI": "10.5194/essd-17-611-2025",
+    "title": [
+      "GravIS: mass anomaly products from satellite gravimetry"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4733-9242",
+        "authenticated-orcid": false,
+        "given": "Christoph",
+        "family": "Dahle",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/04z8jg394",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "GFZ Helmholtz Centre for Geosciences (Potsdam, Germany)"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "corresponding-author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6178-9402",
+        "authenticated-orcid": false,
+        "given": "Eva",
+        "family": "Boergens",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ingo",
+        "family": "Sasgen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1917-2027",
+        "authenticated-orcid": false,
+        "given": "Thorben",
+        "family": "Döhne",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sven",
+        "family": "Reißland",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1776-3314",
+        "authenticated-orcid": false,
+        "given": "Henryk",
+        "family": "Dobslaw",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8342-8947",
+        "authenticated-orcid": false,
+        "given": "Volker",
+        "family": "Klemann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4108-578X",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Murböck",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7155-6976",
+        "authenticated-orcid": false,
+        "given": "Rolf",
+        "family": "König",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9596-267X",
+        "authenticated-orcid": false,
+        "given": "Robert",
+        "family": "Dill",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mike",
+        "family": "Sips",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ulrike",
+        "family": "Sylla",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andreas",
+        "family": "Groh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5797-244X",
+        "authenticated-orcid": false,
+        "given": "Martin",
+        "family": "Horwath",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3093-5558",
+        "authenticated-orcid": false,
+        "given": "Frank",
+        "family": "Flechtner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          11
+        ]
+      ]
+    },
+    "container-title": [
+      "Earth System Science Data"
+    ],
+    "volume": "17",
+    "issue": "2",
+    "page": "611-631",
+    "article-number": null,
+    "URL": "https://doi.org/10.5194/essd-17-611-2025",
+    "publisher": "Copernicus GmbH"
+  },
+  "10.5194/hess-29-6985-2025": {
+    "DOI": "10.5194/hess-29-6985-2025",
+    "title": [
+      "Technical note: GRACE-compatible filtering of water storage data sets via spatial autocorrelation analysis"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7181-8406",
+        "authenticated-orcid": false,
+        "given": "Ehsan",
+        "family": "Sharifi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/04z8jg394",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "GFZ Helmholtz Centre for Geosciences (Potsdam, Germany)"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/04t3en479",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Karlsruhe Institute of Technology (Karlsruhe, Germany)"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "corresponding-author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0275-1903",
+        "authenticated-orcid": false,
+        "given": "Julian",
+        "family": "Haas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6178-9402",
+        "authenticated-orcid": false,
+        "given": "Eva",
+        "family": "Boergens",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1776-3314",
+        "authenticated-orcid": false,
+        "given": "Henryk",
+        "family": "Dobslaw",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6233-8478",
+        "authenticated-orcid": false,
+        "given": "Andreas",
+        "family": "Güntner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          3
+        ]
+      ]
+    },
+    "container-title": [
+      "Hydrology and Earth System Sciences"
+    ],
+    "volume": "29",
+    "issue": "23",
+    "page": "6985-6998",
+    "article-number": null,
+    "URL": "https://doi.org/10.5194/hess-29-6985-2025",
+    "publisher": "Copernicus GmbH"
+  },
+  "10.5194/gmd-17-8817-2024": {
+    "DOI": "10.5194/gmd-17-8817-2024",
+    "title": [
+      "The global water resources and use model WaterGAP v2.2e: description and evaluation of modifications and new features"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5330-9923",
+        "authenticated-orcid": false,
+        "given": "Hannes",
+        "family": "Müller Schmied",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/04cvxnb49",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Goethe University Frankfurt (Frankfurt am Main, Germany)"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/01amp2a31",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Senckenberg Biodiversity and Climate Research Centre (Frankfurt am Main, Germany)"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "corresponding-author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Tim",
+        "family": "Trautmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sebastian",
+        "family": "Ackermann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3277-0694",
+        "authenticated-orcid": false,
+        "given": "Denise",
+        "family": "Cáceres",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2943-5289",
+        "authenticated-orcid": false,
+        "given": "Martina",
+        "family": "Flörke",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1043-1923",
+        "authenticated-orcid": false,
+        "given": "Helena",
+        "family": "Gerdener",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ellen",
+        "family": "Kynast",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9071-6712",
+        "authenticated-orcid": false,
+        "given": "Thedini Asali",
+        "family": "Peiris",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leonie",
+        "family": "Schiebener",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3785-8118",
+        "authenticated-orcid": false,
+        "given": "Maike",
+        "family": "Schumacher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2238-4546",
+        "authenticated-orcid": false,
+        "given": "Petra",
+        "family": "Döll",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          12
+        ]
+      ]
+    },
+    "container-title": [
+      "Geoscientific Model Development"
+    ],
+    "volume": "17",
+    "issue": "23",
+    "page": "8817-8852",
+    "article-number": null,
+    "URL": "https://doi.org/10.5194/gmd-17-8817-2024",
+    "publisher": "Copernicus GmbH"
+  },
+  "10.5880/G3P.2024.001": {
+    "DOI": "10.5880/G3P.2024.001",
+    "status": 404,
+    "url": "https://doi.org/10.5880/G3P.2024.001"
+  },
+  "10.1175/BAMS-85-3-381": {
+    "DOI": "10.1175/bams-85-3-381",
+    "title": [
+      "The Global Land Data Assimilation System"
+    ],
+    "author": [
+      {
+        "given": "M.",
+        "family": "Rodell",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P. R.",
+        "family": "Houser",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "U.",
+        "family": "Jambor",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Gottschalck",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K.",
+        "family": "Mitchell",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C.-J.",
+        "family": "Meng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K.",
+        "family": "Arsenault",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B.",
+        "family": "Cosgrove",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Radakovich",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Bosilovich",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. K.",
+        "family": "Entin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. P.",
+        "family": "Walker",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Lohmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Toll",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2004,
+          3
+        ]
+      ]
+    },
+    "container-title": [
+      "Bulletin of the American Meteorological Society"
+    ],
+    "volume": "85",
+    "issue": "3",
+    "page": "381-394",
+    "article-number": null,
+    "URL": "https://doi.org/10.1175/bams-85-3-381",
+    "publisher": "American Meteorological Society"
+  },
+  "10.1016/j.jhydrol.2021.126868": {
+    "DOI": "10.1016/j.jhydrol.2021.126868",
+    "title": [
+      "A comprehensive assessment of water storage dynamics and hydroclimatic extremes in the Chao Phraya River Basin during 2002–2020"
+    ],
+    "author": [
+      {
+        "family": "Abhishek",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tsuyoshi",
+        "family": "Kinouchi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Takahiro",
+        "family": "Sayama",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of Hydrology"
+    ],
+    "volume": "603",
+    "issue": null,
+    "page": "126868",
+    "article-number": "126868",
+    "URL": "https://doi.org/10.1016/j.jhydrol.2021.126868",
+    "publisher": "Elsevier BV"
+  },
+  "10.3390/rs17101731": {
+    "DOI": "10.3390/rs17101731",
+    "status": 429,
+    "url": "https://doi.org/10.3390/rs17101731"
+  },
+  "10.3390/rs14010173": {
+    "DOI": "10.3390/rs14010173",
+    "title": [
+      "Water Budget Closure in the Upper Chao Phraya River Basin, Thailand Using Multisource Data"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1704-4486",
+        "authenticated-orcid": false,
+        "family": "Abhishek",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Environment and Society, Tokyo Institute of Technology, Yokohama 226-8503, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6602-5644",
+        "authenticated-orcid": false,
+        "given": "Tsuyoshi",
+        "family": "Kinouchi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Environment and Society, Tokyo Institute of Technology, Yokohama 226-8503, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6169-6430",
+        "authenticated-orcid": false,
+        "given": "Ronnie",
+        "family": "Abolafia-Rosenzweig",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Applications Laboratory, National Center for Atmospheric Research, Boulder, CO 80305, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Megumi",
+        "family": "Ito",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Environment and Society, Tokyo Institute of Technology, Yokohama 226-8503, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          31
+        ]
+      ]
+    },
+    "container-title": [
+      "Remote Sensing"
+    ],
+    "volume": "14",
+    "issue": "1",
+    "page": "173",
+    "article-number": null,
+    "URL": "https://doi.org/10.3390/rs14010173",
+    "publisher": "MDPI AG"
+  },
+  "10.1038/sdata.2015.66": {
+    "DOI": "10.1038/sdata.2015.66",
+    "title": [
+      "The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes"
+    ],
+    "author": [
+      {
+        "given": "Chris",
+        "family": "Funk",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pete",
+        "family": "Peterson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Martin",
+        "family": "Landsfeld",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Diego",
+        "family": "Pedreros",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James",
+        "family": "Verdin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shraddhanand",
+        "family": "Shukla",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gregory",
+        "family": "Husak",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James",
+        "family": "Rowland",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Laura",
+        "family": "Harrison",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew",
+        "family": "Hoell",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joel",
+        "family": "Michaelsen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          8
+        ]
+      ]
+    },
+    "container-title": [
+      "Scientific Data"
+    ],
+    "volume": "2",
+    "issue": "1",
+    "page": null,
+    "article-number": "150066",
+    "URL": "https://doi.org/10.1038/sdata.2015.66",
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  "10.5194/gmd-10-1903-2017": {
+    "DOI": "10.5194/gmd-10-1903-2017",
+    "status": 429,
+    "url": "https://doi.org/10.5194/gmd-10-1903-2017"
+  },
+  "10.5194/essd-11-717-2019": {
+    "DOI": "10.5194/essd-11-717-2019",
+    "title": [
+      "Evolution of the ESA CCI Soil Moisture climate data records and their underlying merging methodology"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3280-7023",
+        "authenticated-orcid": false,
+        "given": "Alexander",
+        "family": "Gruber",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "corresponding-author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Tracy",
+        "family": "Scanlon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robin",
+        "family": "van der Schalie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7704-6857",
+        "authenticated-orcid": false,
+        "given": "Wolfgang",
+        "family": "Wagner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8054-7572",
+        "authenticated-orcid": false,
+        "given": "Wouter",
+        "family": "Dorigo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          23
+        ]
+      ]
+    },
+    "container-title": [
+      "Earth System Science Data"
+    ],
+    "volume": "11",
+    "issue": "2",
+    "page": "717-739",
+    "article-number": null,
+    "URL": "https://doi.org/10.5194/essd-11-717-2019",
+    "publisher": "Copernicus GmbH"
+  },
+  "10.1029/WR018i001p00107": {
+    "DOI": "10.1029/wr018i001p00107",
+    "title": [
+      "Techniques of trend analysis for monthly water quality data"
+    ],
+    "author": [
+      {
+        "given": "Robert M.",
+        "family": "Hirsch",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James R.",
+        "family": "Slack",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard A.",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1982,
+          2
+        ]
+      ]
+    },
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "volume": "18",
+    "issue": "1",
+    "page": "107-121",
+    "article-number": null,
+    "URL": "https://doi.org/10.1029/wr018i001p00107",
+    "publisher": "American Geophysical Union (AGU)"
+  },
+  "10.1029/WR020i006p00727": {
+    "DOI": "10.1029/wr020i006p00727",
+    "title": [
+      "A Nonparametric Trend Test for Seasonal Data With Serial Dependence"
+    ],
+    "author": [
+      {
+        "given": "Robert M.",
+        "family": "Hirsch",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James R.",
+        "family": "Slack",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1984,
+          6
+        ]
+      ]
+    },
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "volume": "20",
+    "issue": "6",
+    "page": "727-732",
+    "article-number": null,
+    "URL": "https://doi.org/10.1029/wr020i006p00727",
+    "publisher": "American Geophysical Union (AGU)"
+  },
+  "10.1080/01621459.1968.10480934": {
+    "DOI": "10.1080/01621459.1968.10480934",
+    "title": [
+      "Estimates of the Regression Coefficient Based on Kendall's Tau"
+    ],
+    "author": [
+      {
+        "given": "Pranab Kumar",
+        "family": "Sen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1968,
+          12
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of the American Statistical Association"
+    ],
+    "volume": "63",
+    "issue": "324",
+    "page": "1379-1389",
+    "article-number": null,
+    "URL": "https://doi.org/10.1080/01621459.1968.10480934",
+    "publisher": "Informa UK Limited"
+  },
+  "10.1111/j.2517-6161.1995.tb02031.x": {
+    "DOI": "10.1111/j.2517-6161.1995.tb02031.x",
+    "title": [
+      "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing"
+    ],
+    "author": [
+      {
+        "given": "Yoav",
+        "family": "Benjamini",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Tel Aviv University , Israel"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yosef",
+        "family": "Hochberg",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tel Aviv University , Israel"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1995,
+          1,
+          1
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+    ],
+    "volume": "57",
+    "issue": "1",
+    "page": "289-300",
+    "article-number": null,
+    "URL": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x",
+    "publisher": "Oxford University Press (OUP)"
+  },
+  "10.1111/ecog.02881": {
+    "DOI": "10.1111/ecog.02881",
+    "title": [
+      "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure"
+    ],
+    "author": [
+      {
+        "given": "David R.",
+        "family": "Roberts",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Volker",
+        "family": "Bahn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biological Sciences Wright State Univ. Dayton OH USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Simone",
+        "family": "Ciuti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark S.",
+        "family": "Boyce",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biological Sciences Univ. of Alberta Edmonton AB Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jane",
+        "family": "Elith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gurutzeta",
+        "family": "Guillera‐Arroita",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Severin",
+        "family": "Hauenstein",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "José J.",
+        "family": "Lahoz‐Monfort",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Boris",
+        "family": "Schröder",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Inst. of Geoecology, Div. of Landscape Ecology and Environmental Systems Analysis, Technische Univ. Braunschweig, Braunschweig, Germany, and: Berlin‐Brandenburg Inst. of Advanced Biodiversity Research (BBIB) Berlin Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wilfried",
+        "family": "Thuiller",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lab. d’Écologie Alpine, Univ. Joseph Fourier Grenoble France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David I.",
+        "family": "Warton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Mathematics and Statistics and Evolution and Ecology Research Centre, The Univ. of New South Wales Sydney Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brendan A.",
+        "family": "Wintle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Florian",
+        "family": "Hartig",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          },
+          {
+            "name": "Theoretical Ecology, Univ. of Regensburg Regensburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carsten F.",
+        "family": "Dormann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          3
+        ]
+      ]
+    },
+    "container-title": [
+      "Ecography"
+    ],
+    "volume": "40",
+    "issue": "8",
+    "page": "913-929",
+    "article-number": null,
+    "URL": "https://doi.org/10.1111/ecog.02881",
+    "publisher": "Wiley"
+  },
+  "10.1023/A:1010933404324": {
+    "DOI": "10.1023/a:1010933404324",
+    "title": [
+      "Random Forests"
+    ],
+    "author": [
+      {
+        "given": "Leo",
+        "family": "Breiman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2001,
+          10
+        ]
+      ]
+    },
+    "container-title": [
+      "Machine Learning"
+    ],
+    "volume": "45",
+    "issue": "1",
+    "page": "5-32",
+    "article-number": null,
+    "URL": "https://doi.org/10.1023/a:1010933404324",
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  "10.1111/j.1467-9868.2005.00503.x": {
+    "DOI": "10.1111/j.1467-9868.2005.00503.x",
+    "title": [
+      "Regularization and Variable Selection Via the Elastic Net"
+    ],
+    "author": [
+      {
+        "given": "Hui",
+        "family": "Zou",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Stanford University , USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Trevor",
+        "family": "Hastie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Stanford University , USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2005,
+          3,
+          9
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+    ],
+    "volume": "67",
+    "issue": "2",
+    "page": "301-320",
+    "article-number": null,
+    "URL": "https://doi.org/10.1111/j.1467-9868.2005.00503.x",
+    "publisher": "Oxford University Press (OUP)"
+  },
+  "10.1080/00401706.1970.10488634": {
+    "DOI": "10.1080/00401706.1970.10488634",
+    "title": [
+      "Ridge Regression: Biased Estimation for Nonorthogonal Problems"
+    ],
+    "author": [
+      {
+        "given": "Arthur E.",
+        "family": "Hoerl",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Delaware and E. 1. du Pont de Nemours & Co"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert W.",
+        "family": "Kennard",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Delaware and E. 1. du Pont de Nemours & Co"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1970,
+          2
+        ]
+      ]
+    },
+    "container-title": [
+      "Technometrics"
+    ],
+    "volume": "12",
+    "issue": "1",
+    "page": "55-67",
+    "article-number": null,
+    "URL": "https://doi.org/10.1080/00401706.1970.10488634",
+    "publisher": "Informa UK Limited"
+  },
+  "10.1016/j.jhydrol.2009.08.003": {
+    "DOI": "10.1016/j.jhydrol.2009.08.003",
+    "title": [
+      "Decomposition of the mean squared error and NSE performance criteria: Implications for improving hydrological modelling"
+    ],
+    "author": [
+      {
+        "given": "Hoshin V.",
+        "family": "Gupta",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Harald",
+        "family": "Kling",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Koray K.",
+        "family": "Yilmaz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guillermo F.",
+        "family": "Martinez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2009,
+          10
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of Hydrology"
+    ],
+    "volume": "377",
+    "issue": "1-2",
+    "page": "80-91",
+    "article-number": null,
+    "URL": "https://doi.org/10.1016/j.jhydrol.2009.08.003",
+    "publisher": "Elsevier BV"
+  },
+  "10.5194/hess-23-4323-2019": {
+    "DOI": "10.5194/hess-23-4323-2019",
+    "title": [
+      "Technical note: Inherent benchmark or not? Comparing Nash–Sutcliffe and Kling–Gupta efficiency scores"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8301-3787",
+        "authenticated-orcid": false,
+        "given": "Wouter J. M.",
+        "family": "Knoben",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "corresponding-author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jim E.",
+        "family": "Freer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5732-5979",
+        "authenticated-orcid": false,
+        "given": "Ross A.",
+        "family": "Woods",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ]
+    },
+    "container-title": [
+      "Hydrology and Earth System Sciences"
+    ],
+    "volume": "23",
+    "issue": "10",
+    "page": "4323-4331",
+    "article-number": null,
+    "URL": "https://doi.org/10.5194/hess-23-4323-2019",
+    "publisher": "Copernicus GmbH"
+  },
+  "10.1162/rest.90.3.414": {
+    "DOI": "10.1162/rest.90.3.414",
+    "title": [
+      "Bootstrap-Based Improvements for Inference with Clustered Errors"
+    ],
+    "author": [
+      {
+        "given": "A. Colin",
+        "family": "Cameron",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jonah B.",
+        "family": "Gelbach",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Douglas L.",
+        "family": "Miller",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          8
+        ]
+      ]
+    },
+    "container-title": [
+      "Review of Economics and Statistics"
+    ],
+    "volume": "90",
+    "issue": "3",
+    "page": "414-427",
+    "article-number": null,
+    "URL": "https://doi.org/10.1162/rest.90.3.414",
+    "publisher": "MIT Press"
+  },
+  "10.1016/j.jeconom.2008.08.003": {
+    "DOI": "10.1016/j.jeconom.2008.08.003",
+    "title": [
+      "The wild bootstrap, tamed at last"
+    ],
+    "author": [
+      {
+        "given": "Russell",
+        "family": "Davidson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Emmanuel",
+        "family": "Flachaire",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          9
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of Econometrics"
+    ],
+    "volume": "146",
+    "issue": "1",
+    "page": "162-169",
+    "article-number": null,
+    "URL": "https://doi.org/10.1016/j.jeconom.2008.08.003",
+    "publisher": "Elsevier BV"
+  },
+  "10.1029/2009WR008564": {
+    "DOI": "10.1029/2009wr008564",
+    "title": [
+      "GRACE Hydrological estimates for small basins: Evaluating processing approaches on the High Plains Aquifer, USA"
+    ],
+    "author": [
+      {
+        "given": "Laurent",
+        "family": "Longuevergne",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Bureau of Economic Geology, Jackson School of Geosciences University of Texas at Austin  Austin Texas USA"
+          },
+          {
+            "name": "Department of Geological Sciences, Jackson School of Geosciences University of Texas at Austin  Austin Texas USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bridget R.",
+        "family": "Scanlon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bureau of Economic Geology, Jackson School of Geosciences University of Texas at Austin  Austin Texas USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Clark R.",
+        "family": "Wilson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geological Sciences, Jackson School of Geosciences University of Texas at Austin  Austin Texas USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2010,
+          11
+        ]
+      ]
+    },
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "volume": "46",
+    "issue": "11",
+    "page": null,
+    "article-number": "2009WR008564",
+    "URL": "https://doi.org/10.1029/2009wr008564",
+    "publisher": "American Geophysical Union (AGU)"
+  },
+  "10.5194/hess-26-1579-2022": {
+    "DOI": "10.5194/hess-26-1579-2022",
+    "status": 429,
+    "url": "https://doi.org/10.5194/hess-26-1579-2022"
+  },
+  "10.5194/hess-23-5089-2019": {
+    "DOI": "10.5194/hess-23-5089-2019",
+    "title": [
+      "Towards learning universal, regional, and local hydrological behaviors via machine learning applied to large-sample datasets"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8897-7689",
+        "authenticated-orcid": false,
+        "given": "Frederik",
+        "family": "Kratzert",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "corresponding-author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9843-6798",
+        "authenticated-orcid": false,
+        "given": "Daniel",
+        "family": "Klotz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guy",
+        "family": "Shalev",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Günter",
+        "family": "Klambauer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sepp",
+        "family": "Hochreiter",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7031-6770",
+        "authenticated-orcid": false,
+        "given": "Grey",
+        "family": "Nearing",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          17
+        ]
+      ]
+    },
+    "container-title": [
+      "Hydrology and Earth System Sciences"
+    ],
+    "volume": "23",
+    "issue": "12",
+    "page": "5089-5110",
+    "article-number": null,
+    "URL": "https://doi.org/10.5194/hess-23-5089-2019",
+    "publisher": "Copernicus GmbH"
+  },
+  "GROW": {
+    "title": "GROW: A Global-Scale Time Series Dataset for Groundwater Studies within the Earth System",
+    "doi": "10.5281/zenodo.15149480",
+    "publication_date": "2026-01-18",
+    "description": "<p>GROW (the global-scale integrated GROundWater package) is a global-scale, analysis-ready, quality-controlled dataset that combines groundwater depth or level time series from around the world with associated Earth system variables. The dataset contains &gt; 200,000 time series from 55 countries, 91% from North America, India, Europe, and Australia, &nbsp;in a daily, monthly, or yearly temporal resolution, accompanied by 36 time series or static attributes of meteorological, hydrological, geophysical, vegetation, and anthropogenic variables (e.g., precipitation, drainage density, rock type, NDVI, land use). 34 data flags regarding well features (e.g., coordinates and country), as well as time series characteristics (e.g., gap fraction or autocorrelation), facilitate quick data filtering.</p>\n<p><strong>The dataset is organized in two files:</strong> A table containing time series (grow_timeseries.csv/ .parquet) and one table with static attributes (grow_attributes.csv/.parquet). The columns of the attributes and time series table are described in Table 1 &amp; 2 in the Readme file. Additionally, the attributes are given as json-file (grow_attributes.json) with well locations as geometry. This file can be opened directly in GIS programs.</p>\n<p>The time series with different temporal resolutions are stored in a single table. Time-resolved variables with unit of quantity are all given in mm/year regardless of the temporal resolution of the time series. This enables the straightforward derivation of further aggregations across different time series resolutions, subsets, and statistics. When the user wants to use only daily or monthly data, GROW can be easily subset and the unit can be transferred to the target resolution. An example of use that demonstrates how the data is subset and prepared is given on GitHub (https://github.com/EarthSystemModelling/GROW/blob/main/usage_example.py) and Zenodo (python_scripts).</p>\n<p><strong>Citation</strong></p>\n<p>This dataset is licensed under Creative Commons Attribution Non-Commercial ShareAlike 4.0 International License (CC-BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/)</p>\n<p><strong>When using the data, please cite B&auml;thge et al. &ldquo;GROW: A Global-Scale Time Series Dataset for Groundwater Studies within the Earth System&rdquo; (full citation available on Zenodo)</strong></p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Bäthge, Annemarie",
+        "affiliation": "Johannes Gutenberg University Mainz"
+      },
+      {
+        "name": "Ruz Vargas, Claudia",
+        "affiliation": "IGRAC",
+        "orcid": "0000-0002-4698-3685"
+      },
+      {
+        "name": "Lischeid, Gunnar",
+        "affiliation": "Leibniz Centre for Agricultural Landscape Research",
+        "orcid": "0000-0003-3700-6062"
+      },
+      {
+        "name": "Collenteur, Raoul",
+        "affiliation": "Swiss federal office for the environment",
+        "orcid": "0000-0001-7843-1538"
+      },
+      {
+        "name": "Cuthbert, Mark",
+        "affiliation": "Cardiff University",
+        "orcid": "0000-0001-6721-022X"
+      },
+      {
+        "name": "Fleckenstein, Jan H.",
+        "affiliation": "Helmholtz Centre for Environmental Research",
+        "orcid": "0000-0001-7213-9448"
+      },
+      {
+        "name": "Floerke, Martina",
+        "affiliation": "Ruhr University Bochum",
+        "orcid": "0000-0003-2943-5289"
+      },
+      {
+        "name": "De Graaf, Inge",
+        "affiliation": "Wageningen University & Research",
+        "orcid": "0000-0001-7748-868X"
+      },
+      {
+        "name": "Gnann, Sebastian",
+        "affiliation": "University of Freiburg",
+        "orcid": "0000-0002-9797-5204"
+      },
+      {
+        "name": "Hartmann, Andreas",
+        "affiliation": "Technical University of Dresden",
+        "orcid": "0000-0003-0407-742X"
+      },
+      {
+        "name": "Huggins, Xander",
+        "affiliation": "University of British Columbia",
+        "orcid": "0000-0002-6313-8299"
+      },
+      {
+        "name": "Moosdorf, Nils",
+        "affiliation": "Leibniz Centre for Tropical Marine Research",
+        "orcid": "0000-0003-2822-8261"
+      },
+      {
+        "name": "Wada, Yoshihide",
+        "affiliation": "King Abdullah University of Science and Technology",
+        "orcid": "0000-0003-4770-2539"
+      },
+      {
+        "name": "Wagener, Thorsten",
+        "affiliation": "University of Potsdam",
+        "orcid": "0000-0003-3881-5849"
+      },
+      {
+        "name": "Reinecke, Robert",
+        "affiliation": "Johannes Gutenberg University Mainz",
+        "orcid": "0000-0001-5699-8584"
+      }
+    ],
+    "version": "1.0",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "15149479"
+          }
+        }
+      ]
+    }
+  },
+  "WaterGAP_datasets": {
+    "natural": {
+      "doi": "10.25716/GUDE.1TWP-GNQP",
+      "record_url": "https://gude.uni-frankfurt.de/handle/gude/296.2",
+      "uuid": "1975eaff-56e7-41b5-bfaa-ada459556c8b",
+      "metadata": {
+        "dc.contributor.author": [
+          {
+            "value": "Müller Schmied, Hannes",
+            "language": null,
+            "authority": "8a9b8dd0-b03b-44fd-aff2-09bc63a38978",
+            "confidence": 600,
+            "place": 0
+          },
+          {
+            "value": "Trautmann, Tim",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 1
+          },
+          {
+            "value": "Ackermann, Sebastian",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 2
+          },
+          {
+            "value": "Cáceres, Denise",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 3
+          },
+          {
+            "value": "Flörke, Martina",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 4
+          },
+          {
+            "value": "Gerdener, Helena",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 5
+          },
+          {
+            "value": "Kynast, Ellen",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 6
+          },
+          {
+            "value": "Peiris, Thedini Asali",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 7
+          },
+          {
+            "value": "Schiebener, Leonie",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 8
+          },
+          {
+            "value": "Schumacher, Maike",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 9
+          },
+          {
+            "value": "Döll, Petra",
+            "language": null,
+            "authority": "f6f777c5-2731-4326-9adf-4b18828ba72b",
+            "confidence": 600,
+            "place": 10
+          }
+        ],
+        "dc.creator.gnd": [
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          },
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 1
+          },
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 2
+          },
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 3
+          },
+          {
+            "value": "119232983",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 4,
+            "securityLevel": 0
+          },
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 5
+          },
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 6
+          },
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 7
+          },
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 8
+          },
+          {
+            "value": "1136339124",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 9,
+            "securityLevel": 0
+          },
+          {
+            "value": "132350114",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 10,
+            "securityLevel": 0
+          }
+        ],
+        "dc.creator.orcid": [
+          {
+            "value": "0000-0001-5330-9923",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          },
+          {
+            "value": "0000-0001-8652-6836",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 1
+          },
+          {
+            "value": "0009-0005-2699-9953",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 2
+          },
+          {
+            "value": "0000-0003-3277-0694",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 3
+          },
+          {
+            "value": "0000-0003-2943-5289",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 4
+          },
+          {
+            "value": "0000-0003-1043-1923",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 5
+          },
+          {
+            "value": "0000-0001-7304-3341",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 6
+          },
+          {
+            "value": "0000-0001-9071-6712",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 7
+          },
+          {
+            "value": "0009-0009-6772-4074",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 8
+          },
+          {
+            "value": "0000-0003-3785-8118",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 9
+          },
+          {
+            "value": "0000-0003-2238-4546",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 10
+          }
+        ],
+        "dc.date.accessioned": [
+          {
+            "value": "2024-04-05T08:11:23Z",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.date.available": [
+          {
+            "value": "2023-10-26T14:58:54Z",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.date.issued": [
+          {
+            "value": "2023-10-20",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.date.submitted": [
+          {
+            "value": "2024-04-04 08:35:51.591",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.description": [
+          {
+            "value": "The data is available in compressed netcdf data format. The spatial resolution is 0.5 deg x 0.5 deg, the temporal resolution varies (static, monthly or yearly).\nThe name pattern is the following:\n[modelversion]_[climateforcing]_[variable]_[socioeconomic-setting]_[temporal-resolution]_[startyear]_[endyear].nc\n\nThis dataset contains WaterGAP 2.2e model output with the climate forcing gswp3-era5. The socioeconomic-setting is \"nosoc\" (no reservoirs, no water use). The start year is 1901 and end year is 2023. Please note that this is not an official ISIMIP forcing but was generated using similar methods as the other climate forcings but prolonged by actual ERA5 reanalysis data. For further information please see the associated paper.",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0,
+            "securityLevel": 0
+          }
+        ],
+        "dc.description.abstract": [
+          {
+            "value": "Assessing global freshwater resources and human water use is of value for a number of needs but challenging. The global water use and water availability model WaterGAP has been in development since 1996 and has served a range of applications such as assessments of global water resources and water stress, also under the impact of climate change, drought hazard quantification, Life Cycle Assessments, water (over)use and consequently depletion of water resources and a better understanding of terrestrial water storage variations (jointly with satellite observations). Here, the reader can download model output for the time period 1901-2019 that was computed by driving WaterGAP v2.2e by four alternative climate datasets (climate forcings) that were generated in the ISIMIP context (https://www.isimip.org) and are described in https://data.isimip.org/10.48364/ISIMIP.982724. For two climate datasets, model runs up to 2021 or 2023 are available. For comparison, output of a version of WaterGAP v2.2d that is calibrated to the same dataset of observed streamflow as WaterGAP v2.2e is provided. Each of the climate forcing-model version combinations is run in two socio-economic settings, histsoc and nosoc. In nosoc, human water use is set to zero and man-made reservoirs are assumed to be non-existant. In the paper connected to this dataset (in review with Geoscientific Model Development), the newest model version, WaterGAP v2.2e is described by providing the modifications to the previous version v2.2d (Müller Schmied et al. 2021) and the corresponding changes in model output. The most important and requested model outputs (total water storage variations, streamflow and water use) are evaluated against observation data. Standard model output is described as well as the specifics of the WaterGAP contribution within the ISIMIP framework. \t\t\n\nMüller Schmied, H., Cáceres, D., Eisner, S., Flörke, M., Herbert, C., Niemann, C., Peiris, T. A., Popat, E., Portmann, F. T., Reinecke, R., Schumacher, M., Shadkam, S., Telteu, C.-E., Trautmann, T., Döll, P. (2021): The global water resources and use model WaterGAP v2.2d: Model description and evaluation. Geosci. Model Dev., 14, 1037–1079. https://doi.org/10.5194/gmd-14-1037-2021",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0,
+            "securityLevel": 0
+          }
+        ],
+        "dc.identifier.doi": [
+          {
+            "value": "10.25716/gude.1twp-gnqp",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.identifier.uri": [
+          {
+            "value": "https://gude.uni-frankfurt.de/handle/gude/296.2",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.language.abstract": [
+          {
+            "value": "en",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0,
+            "securityLevel": 0
+          }
+        ],
+        "dc.language.description": [
+          {
+            "value": "en",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0,
+            "securityLevel": 0
+          }
+        ],
+        "dc.language.iso": [
+          {
+            "value": "en",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.language.title": [
+          {
+            "value": "en",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.publisher": [
+          {
+            "value": "Goethe-Universität Frankfurt",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.subject": [
+          {
+            "value": "GHM",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          },
+          {
+            "value": "global hydrological modelling",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 1
+          },
+          {
+            "value": "global water use",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 2
+          },
+          {
+            "value": "hydrology",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 3
+          },
+          {
+            "value": "ISIMIP",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 4
+          }
+        ],
+        "dc.subject.ddc": [
+          {
+            "value": "624",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.subject.dfg": [
+          {
+            "value": "318-01 Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.title": [
+          {
+            "value": "The global water resources and use model WaterGAP v2.2e - model output driven by gswp3-era5 and neglecting direct human impacts",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.type.dini": [
+          {
+            "value": "ResearchData",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dspace.entity.type": [
+          {
+            "value": "ResearchData",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "local.author.affiliation_type": [
+          {
+            "value": "internal",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          },
+          {
+            "value": "internal",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 1
+          },
+          {
+            "value": "internal",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 2
+          },
+          {
+            "value": "internal",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 3
+          },
+          {
+            "value": "external",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 4
+          },
+          {
+            "value": "external",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 5
+          },
+          {
+            "value": "external",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 6
+          },
+          {
+            "value": "internal",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 7
+          },
+          {
+            "value": "internal",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 8
+          },
+          {
+            "value": "external",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 9
+          },
+          {
+            "value": "internal",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 10
+          }
+        ],
+        "local.contract.version": [
+          {
+            "value": "1.0.0",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "local.faculty": [
+          {
+            "value": "11 Geosciences and Geography",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "oaire.license.condition": [
+          {
+            "value": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "oaire.resourceType": [
+          {
+            "value": "Dataset",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "oaire.type.general": [
+          {
+            "value": "dataset",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "oairecerif.author.affiliation": [
+          {
+            "value": "Physical Geography",
+            "language": null,
+            "authority": "a92ca6f2-8587-48f5-974e-442fe5f188c3",
+            "confidence": 600,
+            "place": 0
+          },
+          {
+            "value": "Physical Geography",
+            "language": null,
+            "authority": "a92ca6f2-8587-48f5-974e-442fe5f188c3",
+            "confidence": 600,
+            "place": 1
+          },
+          {
+            "value": "Physical Geography",
+            "language": null,
+            "authority": "a92ca6f2-8587-48f5-974e-442fe5f188c3",
+            "confidence": 600,
+            "place": 2
+          },
+          {
+            "value": "Physical Geography",
+            "language": null,
+            "authority": "a92ca6f2-8587-48f5-974e-442fe5f188c3",
+            "confidence": 600,
+            "place": 3
+          },
+          {
+            "value": "Ruhr University Bochum",
+            "language": null,
+            "authority": "9ee3d47e-8e80-4ce0-b125-9b578b5bb92f",
+            "confidence": 600,
+            "place": 4
+          },
+          {
+            "value": "University of Bonn",
+            "language": null,
+            "authority": "16869e6b-c5b5-4790-b257-ff4618f0c178",
+            "confidence": 600,
+            "place": 5
+          },
+          {
+            "value": "University of Kassel",
+            "language": null,
+            "authority": "930e7cb1-9531-4fc2-91c7-a981136fea5b",
+            "confidence": 600,
+            "place": 6
+          },
+          {
+            "value": "Physical Geography",
+            "language": null,
+            "authority": "a92ca6f2-8587-48f5-974e-442fe5f188c3",
+            "confidence": 600,
+            "place": 7
+          },
+          {
+            "value": "Physical Geography",
+            "language": null,
+            "authority": "a92ca6f2-8587-48f5-974e-442fe5f188c3",
+            "confidence": 600,
+            "place": 8
+          },
+          {
+            "value": "Aalborg University",
+            "language": null,
+            "authority": "a5c7512d-3ba1-48ed-b8d2-72469a8539a9",
+            "confidence": 600,
+            "place": 9
+          },
+          {
+            "value": "Physical Geography",
+            "language": null,
+            "authority": "a92ca6f2-8587-48f5-974e-442fe5f188c3",
+            "confidence": 600,
+            "place": 10
+          }
+        ]
+      },
+      "files": [
+        {
+          "name": "watergap22e_gswp3-era5_canopystor_nosoc_monthly_1901_2023.nc",
+          "id": "72a3cd50-1d0b-4d5f-ade5-07d3f67c7fb6",
+          "bytes": 185307014,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "b2841d391b45993d02d4bc9884f01a3a"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/72a3cd50-1d0b-4d5f-ade5-07d3f67c7fb6/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_dis_nosoc_monthly_1901_2023.nc",
+          "id": "894a63d1-942c-42d2-a8db-7ec400f8a305",
+          "bytes": 388310659,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "6abd11b32ed83e7db7643a95e9607ffa"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/894a63d1-942c-42d2-a8db-7ec400f8a305/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_evap_nosoc_monthly_1901_2023.nc",
+          "id": "5600070d-3025-4051-a507-ea548dcf38dc",
+          "bytes": 349414260,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "bdaaaa63d0e570625da0de074f4d361b"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/5600070d-3025-4051-a507-ea548dcf38dc/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_glolakestor_nosoc_monthly_1901_2023.nc",
+          "id": "95751ea3-6775-4997-a4e5-e1765c86a95f",
+          "bytes": 29671499,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "68f78c320ee33b46dcd140a70e450e56"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/95751ea3-6775-4997-a4e5-e1765c86a95f/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_glowetlandstor_nosoc_monthly_1901_2023.nc",
+          "id": "b99b3147-3693-4339-9220-8d5fa2d11bee",
+          "bytes": 109135213,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "d9dbb946ce75145f4eae633e2accf67d"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/b99b3147-3693-4339-9220-8d5fa2d11bee/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_groundwstor_nosoc_monthly_1901_2023.nc",
+          "id": "f659b481-9d06-4476-a7b2-8a11e3cf9e92",
+          "bytes": 364055402,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "616c19699ab2174880dd2deb03b58bdc"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/f659b481-9d06-4476-a7b2-8a11e3cf9e92/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_loclakestor_nosoc_monthly_1901_2023.nc",
+          "id": "0dc84f12-fbd7-48f6-85f1-17ad1f37dd35",
+          "bytes": 198127483,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "4ce6b7a1d3b0b97e6a7c559b485f73c2"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/0dc84f12-fbd7-48f6-85f1-17ad1f37dd35/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_locwetlandstor_nosoc_monthly_1901_2023.nc",
+          "id": "431fea9e-da27-4b43-893a-4249af2e16c7",
+          "bytes": 126109697,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "8f43a0c1e1a42f76c0badeac4b6a2d21"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/431fea9e-da27-4b43-893a-4249af2e16c7/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_ncrun_nosoc_monthly_1901_2023.nc",
+          "id": "8f876664-ccbd-4efb-a90d-327d0b4ab8d9",
+          "bytes": 387745900,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "0ae7b87da6b64742a909a79b460b9a10"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/8f876664-ccbd-4efb-a90d-327d0b4ab8d9/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_potevap_nosoc_monthly_1901_2023.nc",
+          "id": "65485389-b17b-4843-bfb3-b00b786fece8",
+          "bytes": 347477521,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "a19deb7875c884a5a3ab1ca9a7de5fd6"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/65485389-b17b-4843-bfb3-b00b786fece8/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_precmon_nosoc_monthly_1901_2023.nc",
+          "id": "ae922068-4f2c-4ed8-92b1-8157d195ef91",
+          "bytes": 355991115,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "1e772a251b1920ec447aeaee7d931e80"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/ae922068-4f2c-4ed8-92b1-8157d195ef91/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_qg_nosoc_monthly_1901_2023.nc",
+          "id": "0c0e6665-c01c-4de9-b2ad-121ef84d8275",
+          "bytes": 363538415,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "430418089a1cf05c5bb0d0b646a93520"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/0c0e6665-c01c-4de9-b2ad-121ef84d8275/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_qr_nosoc_monthly_1901_2023.nc",
+          "id": "4ec5799d-8b6a-48dc-90fd-21836c99ad6e",
+          "bytes": 276837176,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "a14e9e0e14d01ac928acb87afd42b065"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/4ec5799d-8b6a-48dc-90fd-21836c99ad6e/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_qrdif_nosoc_monthly_1901_2023.nc",
+          "id": "881ff129-febd-4369-a2d5-36f64a436f9f",
+          "bytes": 251178086,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "784c4bbcb27edd06c94dc77492a6824c"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/881ff129-febd-4369-a2d5-36f64a436f9f/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_qrswb_nosoc_monthly_1901_2023.nc",
+          "id": "798301c5-061a-4617-ab89-0a4a7a4d6289",
+          "bytes": 73097411,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "9ebd73bc82233e684d3e45b2dd98073f"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/798301c5-061a-4617-ab89-0a4a7a4d6289/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_qs_nosoc_monthly_1901_2023.nc",
+          "id": "a416a74d-fc57-4b4a-bba6-d7f380b89327",
+          "bytes": 289647300,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "8dd55654433cd2ae3971c52ae9c97dbf"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/a416a74d-fc57-4b4a-bba6-d7f380b89327/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_qtot_nosoc_monthly_1901_2023.nc",
+          "id": "abe9a7c6-1d08-4428-b83f-2d2f34a5db80",
+          "bytes": 367503881,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "8659d30a4109ec13ff2e2d24e727543b"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/abe9a7c6-1d08-4428-b83f-2d2f34a5db80/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_riverstor_nosoc_monthly_1901_2023.nc",
+          "id": "c252d77a-6c72-4fc0-9c86-c6d1c24492a2",
+          "bytes": 388464798,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "33b41088368b5e7412a3495639b4e60c"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/c252d77a-6c72-4fc0-9c86-c6d1c24492a2/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_soilmoist_nosoc_monthly_1901_2023.nc",
+          "id": "134d8f11-e07b-4dd4-b943-f20da88b241e",
+          "bytes": 358956492,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "6bcef352537fa6fe9975b0799b6b771c"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/134d8f11-e07b-4dd4-b943-f20da88b241e/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_swe_nosoc_monthly_1901_2023.nc",
+          "id": "a806ecf1-1aba-4b3c-a3ef-4ef54968c1ef",
+          "bytes": 169851296,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "1eb3db252e294b26b7f9836d6c2213b9"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/a806ecf1-1aba-4b3c-a3ef-4ef54968c1ef/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_triver_nosoc_monthly_1901_2023.nc",
+          "id": "893531aa-3a02-4897-9940-6a0b69d1bdb6",
+          "bytes": 280419977,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "188940cead4ecfa2aa540fe6f1a28b02"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/893531aa-3a02-4897-9940-6a0b69d1bdb6/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_tws_nosoc_monthly_1901_2023.nc",
+          "id": "269c1017-2f03-4f5c-9a21-95f224f6784c",
+          "bytes": 382378878,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "ae855ad734788215a10ede9fcb740981"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/269c1017-2f03-4f5c-9a21-95f224f6784c/content"
+        }
+      ]
+    },
+    "human": {
+      "doi": "10.25716/GUDE.14B4-KQ6R",
+      "record_url": "https://gude.uni-frankfurt.de/handle/gude/302.2",
+      "uuid": "7d500a84-9a36-4cd2-9f76-a4081f9ee94e",
+      "metadata": {
+        "dc.contributor.author": [
+          {
+            "value": "Müller Schmied, Hannes",
+            "language": null,
+            "authority": "8a9b8dd0-b03b-44fd-aff2-09bc63a38978",
+            "confidence": 600,
+            "place": 0
+          },
+          {
+            "value": "Trautmann, Tim",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 1
+          },
+          {
+            "value": "Ackermann, Sebastian",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 2
+          },
+          {
+            "value": "Cáceres, Denise",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 3
+          },
+          {
+            "value": "Flörke, Martina",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 4
+          },
+          {
+            "value": "Gerdener, Helena",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 5
+          },
+          {
+            "value": "Kynast, Ellen",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 6
+          },
+          {
+            "value": "Peiris, Thedini Asali",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 7
+          },
+          {
+            "value": "Schiebener, Leonie",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 8
+          },
+          {
+            "value": "Schumacher, Maike",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 9
+          },
+          {
+            "value": "Döll, Petra",
+            "language": null,
+            "authority": "f6f777c5-2731-4326-9adf-4b18828ba72b",
+            "confidence": 600,
+            "place": 10
+          }
+        ],
+        "dc.creator.gnd": [
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          },
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 1
+          },
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 2
+          },
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 3
+          },
+          {
+            "value": "119232983",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 4,
+            "securityLevel": 0
+          },
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 5
+          },
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 6
+          },
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 7
+          },
+          {
+            "value": "#PLACEHOLDER_PARENT_METADATA_VALUE#",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 8
+          },
+          {
+            "value": "1136339124",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 9,
+            "securityLevel": 0
+          },
+          {
+            "value": "132350114",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 10,
+            "securityLevel": 0
+          }
+        ],
+        "dc.creator.orcid": [
+          {
+            "value": "0000-0001-5330-9923",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          },
+          {
+            "value": "0000-0001-8652-6836",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 1
+          },
+          {
+            "value": "0009-0005-2699-9953",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 2
+          },
+          {
+            "value": "0000-0003-3277-0694",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 3
+          },
+          {
+            "value": "0000-0003-2943-5289",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 4
+          },
+          {
+            "value": "0000-0003-1043-1923",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 5
+          },
+          {
+            "value": "0000-0001-7304-3341",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 6
+          },
+          {
+            "value": "0000-0001-9071-6712",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 7
+          },
+          {
+            "value": "0009-0009-6772-4074",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 8
+          },
+          {
+            "value": "0000-0003-3785-8118",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 9
+          },
+          {
+            "value": "0000-0003-2238-4546",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 10
+          }
+        ],
+        "dc.date.accessioned": [
+          {
+            "value": "2024-04-05T08:20:06Z",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.date.available": [
+          {
+            "value": "2023-12-01T10:43:30Z",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.date.issued": [
+          {
+            "value": "2023-10-20",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.date.submitted": [
+          {
+            "value": "2024-04-04 08:23:15.896",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.description": [
+          {
+            "value": "The data is available in compressed netcdf data format. The spatial resolution is 0.5 deg x 0.5 deg, the temporal resolution varies (static, monthly or yearly).\nThe name pattern is the following:\n[modelversion]_[climateforcing]_[variable]_[socioeconomic-setting]_[temporal-resolution]_[startyear]_[endyear].nc\n\nThis dataset contains WaterGAP 2.2e model output with the climate forcing gswp3-era5. The socioeconomic-setting is \"histsoc\" (time-varying direct human influences such as reservoir and water use). The start year is 1901 and end year is 2023. Please note that this is not an official ISIMIP forcing but was generated using similar methods as the other climate forcings but prolonged by actual ERA5 reanalysis data. For further information please see the associated paper.",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0,
+            "securityLevel": 0
+          }
+        ],
+        "dc.description.abstract": [
+          {
+            "value": "Assessing global freshwater resources and human water use is of value for a number of needs but challenging. The global water use and water availability model WaterGAP has been in development since 1996 and has served a range of applications such as assessments of global water resources and water stress, also under the impact of climate change, drought hazard quantification, Life Cycle Assessments, water (over)use and consequently depletion of water resources and a better understanding of terrestrial water storage variations (jointly with satellite observations). Here, the reader can download model output for the time period 1901-2019 that was computed by driving WaterGAP v2.2e by four alternative climate datasets (climate forcings) that were generated in the ISIMIP context (https://www.isimip.org) and are described in https://data.isimip.org/10.48364/ISIMIP.982724. For two climate datasets, model runs up to 2021 or 2023 are available. For comparison, output of a version of WaterGAP v2.2d that is calibrated to the same dataset of observed streamflow as WaterGAP v2.2e is provided. Each of the climate forcing-model version combinations is run in two socio-economic settings, histsoc and nosoc. In nosoc, human water use is set to zero and man-made reservoirs are assumed to be non-existant. In the paper connected to this dataset (in review with Geoscientific Model Development), the newest model version, WaterGAP v2.2e is described by providing the modifications to the previous version v2.2d (Müller Schmied et al. 2021) and the corresponding changes in model output. The most important and requested model outputs (total water storage variations, streamflow and water use) are evaluated against observation data. Standard model output is described as well as the specifics of the WaterGAP contribution within the ISIMIP framework. \t\t\n\nMüller Schmied, H., Cáceres, D., Eisner, S., Flörke, M., Herbert, C., Niemann, C., Peiris, T. A., Popat, E., Portmann, F. T., Reinecke, R., Schumacher, M., Shadkam, S., Telteu, C.-E., Trautmann, T., Döll, P. (2021): The global water resources and use model WaterGAP v2.2d: Model description and evaluation. Geosci. Model Dev., 14, 1037–1079. https://doi.org/10.5194/gmd-14-1037-2021",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0,
+            "securityLevel": 0
+          }
+        ],
+        "dc.identifier.doi": [
+          {
+            "value": "10.25716/gude.14b4-kq6r",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.identifier.uri": [
+          {
+            "value": "https://gude.uni-frankfurt.de/handle/gude/302.2",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.language.abstract": [
+          {
+            "value": "en",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0,
+            "securityLevel": 0
+          }
+        ],
+        "dc.language.description": [
+          {
+            "value": "en",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0,
+            "securityLevel": 0
+          }
+        ],
+        "dc.language.iso": [
+          {
+            "value": "en",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.language.title": [
+          {
+            "value": "en",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.publisher": [
+          {
+            "value": "Goethe-Universität Frankfurt",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.subject": [
+          {
+            "value": "GHM",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          },
+          {
+            "value": "global hydrological modelling",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 1
+          },
+          {
+            "value": "global water use",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 2
+          },
+          {
+            "value": "hydrology",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 3
+          },
+          {
+            "value": "ISIMIP",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 4
+          }
+        ],
+        "dc.subject.ddc": [
+          {
+            "value": "624",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.subject.dfg": [
+          {
+            "value": "318-01 Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.title": [
+          {
+            "value": "The global water resources and use model WaterGAP v2.2e - model output driven by gswp3-era5 and historical setup of direct human impacts",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.type.dini": [
+          {
+            "value": "ResearchData",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dspace.entity.type": [
+          {
+            "value": "ResearchData",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "local.author.affiliation_type": [
+          {
+            "value": "internal",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          },
+          {
+            "value": "internal",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 1
+          },
+          {
+            "value": "internal",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 2
+          },
+          {
+            "value": "internal",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 3
+          },
+          {
+            "value": "external",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 4
+          },
+          {
+            "value": "external",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 5
+          },
+          {
+            "value": "external",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 6
+          },
+          {
+            "value": "internal",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 7
+          },
+          {
+            "value": "internal",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 8
+          },
+          {
+            "value": "external",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 9
+          },
+          {
+            "value": "internal",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 10
+          }
+        ],
+        "local.contract.version": [
+          {
+            "value": "1.0.0",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "local.faculty": [
+          {
+            "value": "11 Geosciences and Geography",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "oaire.license.condition": [
+          {
+            "value": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "oaire.resourceType": [
+          {
+            "value": "Dataset",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "oaire.type.general": [
+          {
+            "value": "dataset",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "oairecerif.author.affiliation": [
+          {
+            "value": "Physical Geography",
+            "language": null,
+            "authority": "a92ca6f2-8587-48f5-974e-442fe5f188c3",
+            "confidence": 600,
+            "place": 0
+          },
+          {
+            "value": "Physical Geography",
+            "language": null,
+            "authority": "a92ca6f2-8587-48f5-974e-442fe5f188c3",
+            "confidence": 600,
+            "place": 1
+          },
+          {
+            "value": "Physical Geography",
+            "language": null,
+            "authority": "a92ca6f2-8587-48f5-974e-442fe5f188c3",
+            "confidence": 600,
+            "place": 2
+          },
+          {
+            "value": "Physical Geography",
+            "language": null,
+            "authority": "a92ca6f2-8587-48f5-974e-442fe5f188c3",
+            "confidence": 600,
+            "place": 3
+          },
+          {
+            "value": "Ruhr University Bochum",
+            "language": null,
+            "authority": "9ee3d47e-8e80-4ce0-b125-9b578b5bb92f",
+            "confidence": 600,
+            "place": 4
+          },
+          {
+            "value": "University of Bonn",
+            "language": null,
+            "authority": "16869e6b-c5b5-4790-b257-ff4618f0c178",
+            "confidence": 600,
+            "place": 5
+          },
+          {
+            "value": "University of Kassel",
+            "language": null,
+            "authority": "930e7cb1-9531-4fc2-91c7-a981136fea5b",
+            "confidence": 600,
+            "place": 6
+          },
+          {
+            "value": "Physical Geography",
+            "language": null,
+            "authority": "a92ca6f2-8587-48f5-974e-442fe5f188c3",
+            "confidence": 600,
+            "place": 7
+          },
+          {
+            "value": "Physical Geography",
+            "language": null,
+            "authority": "a92ca6f2-8587-48f5-974e-442fe5f188c3",
+            "confidence": 600,
+            "place": 8
+          },
+          {
+            "value": "Aalborg University",
+            "language": null,
+            "authority": "a5c7512d-3ba1-48ed-b8d2-72469a8539a9",
+            "confidence": 600,
+            "place": 9
+          },
+          {
+            "value": "Physical Geography",
+            "language": null,
+            "authority": "a92ca6f2-8587-48f5-974e-442fe5f188c3",
+            "confidence": 600,
+            "place": 10
+          }
+        ]
+      },
+      "files": [
+        {
+          "name": "watergap22e_flowdirection_static.nc",
+          "id": "9e9376f3-ed0d-4af6-81dd-6cc8be632cd8",
+          "bytes": 73443,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "588c2e5702a9d4ffa00dd2b8e5aa05e7"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/9e9376f3-ed0d-4af6-81dd-6cc8be632cd8/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_calstatus_static.nc",
+          "id": "2aea0871-7035-4854-8879-1ada23decf9a",
+          "bytes": 43909,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "d18b0d312de0d977504ceb9889ca2d45"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/2aea0871-7035-4854-8879-1ada23decf9a/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_cfa_static.nc",
+          "id": "6ec58463-b385-4cef-b72a-b00cf811e302",
+          "bytes": 45308,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "4a7fa1f20aa6042a4b19f28975d30544"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/6ec58463-b385-4cef-b72a-b00cf811e302/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_cfs_static.nc",
+          "id": "d6654386-316c-4009-9c69-743783c47b27",
+          "bytes": 35277,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "b374f5db6a3d005450234c7a767d7dac"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/d6654386-316c-4009-9c69-743783c47b27/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_continentalarea_histsoc_static.nc",
+          "id": "bc9b785a-f7bb-4cca-83b2-e1dff39a4271",
+          "bytes": 65860,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "b2701fb9173c42c1ffef048017869fd9"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/bc9b785a-f7bb-4cca-83b2-e1dff39a4271/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_gamma_static.nc",
+          "id": "2d8daf16-4269-4bed-a9a7-7e2c84c8edab",
+          "bytes": 91603,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "4bc79248d8b1be2a9539ed42b342e229"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/2d8daf16-4269-4bed-a9a7-7e2c84c8edab/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_smax_histsoc_static.nc",
+          "id": "6b6f104b-816e-40c8-8929-61ccaff63604",
+          "bytes": 125969,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "1a2091e865c3ea8253c17f99570bfd41"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/6b6f104b-816e-40c8-8929-61ccaff63604/content"
+        },
+        {
+          "name": "watergap22e_outflowcells_static.nc",
+          "id": "2000ee5a-a92c-49d5-bf5e-f4df8dcf922d",
+          "bytes": 40699,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "3ea97d295361ce6c50eba1bafc1560a3"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/2000ee5a-a92c-49d5-bf5e-f4df8dcf922d/content"
+        },
+        {
+          "name": "watergap22e_rootdepth_static.nc",
+          "id": "dd05bc43-fd41-47e8-aae9-d72eab0658ee",
+          "bytes": 43763,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "6001b3d73f06b3fe5334fe11d7ace664"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/dd05bc43-fd41-47e8-aae9-d72eab0658ee/content"
+        },
+        {
+          "name": "watergap22e_startyear_static.nc",
+          "id": "e51aa3a8-5cd1-42cd-bbf7-5c2a43ac686e",
+          "bytes": 37688,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "637e4a8a3f69e1105c8428d0390be573"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/e51aa3a8-5cd1-42cd-bbf7-5c2a43ac686e/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_anag_histsoc_monthly_1901_2023.nc",
+          "id": "f9dc846f-0738-44df-b76b-9178f1ffc685",
+          "bytes": 309680946,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "3dce5b7532f4d5ef8dc57b4cd8d3bdd7"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/f9dc846f-0738-44df-b76b-9178f1ffc685/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_anas_histsoc_monthly_1901_2023.nc",
+          "id": "a7e37285-2668-450e-92b0-18147a5639c7",
+          "bytes": 336290433,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "317e7693394a9ef2524051662f391921"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/a7e37285-2668-450e-92b0-18147a5639c7/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_atotuse_histsoc_monthly_1901_2023.nc",
+          "id": "ab262770-47f6-4c7c-8d31-c06c6e4be78e",
+          "bytes": 342603820,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "fe2e66ff2200f990655bd1901da8152e"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/ab262770-47f6-4c7c-8d31-c06c6e4be78e/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_canopystor_histsoc_monthly_1901_2023.nc",
+          "id": "29d16c87-f616-4b21-b5c2-e0ee67f00cc6",
+          "bytes": 185348458,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "2dd0d74e3ea76ea8a3b38a142a74d8e3"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/29d16c87-f616-4b21-b5c2-e0ee67f00cc6/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_dis_histsoc_monthly_1901_2023.nc",
+          "id": "774a2a85-d3c0-48a5-ad30-9636c30b4710",
+          "bytes": 373826393,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "e620464835c50c465beaf63cba813c89"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/774a2a85-d3c0-48a5-ad30-9636c30b4710/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_evap_histsoc_monthly_1901_2023.nc",
+          "id": "16e82034-b941-451a-b234-cd99452ceb0d",
+          "bytes": 365343299,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "190c3cec95ba786c4075dd38f3d5e4c9"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/16e82034-b941-451a-b234-cd99452ceb0d/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_glolakestor_histsoc_monthly_1901_2023.nc",
+          "id": "85b063df-6ca3-46ea-811c-c859da81a71d",
+          "bytes": 28967613,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "6131bd27395145f1417f9a3f4f2647b7"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/85b063df-6ca3-46ea-811c-c859da81a71d/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_glowetlandstor_histsoc_monthly_1901_2023.nc",
+          "id": "8f269299-f3e8-4275-842f-15d178495059",
+          "bytes": 109048040,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "cec971e60b6567f938cac2e5a0646e06"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/8f269299-f3e8-4275-842f-15d178495059/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_groundwstor_histsoc_monthly_1901_2023.nc",
+          "id": "97230124-17aa-4deb-bd63-f54ca1af2d09",
+          "bytes": 372520826,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "d21955d7af2268de83f56a61a573ff43"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/97230124-17aa-4deb-bd63-f54ca1af2d09/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_loclakestor_histsoc_monthly_1901_2023.nc",
+          "id": "c1b41807-a9eb-4411-97e6-a2d9366be4ce",
+          "bytes": 208377689,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "995be1367269b625caf75298d923990a"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/c1b41807-a9eb-4411-97e6-a2d9366be4ce/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_locwetlandstor_histsoc_monthly_1901_2023.nc",
+          "id": "1bde6249-eb96-4d0a-ac28-8d0f6e79a690",
+          "bytes": 125772811,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "254423138b5a6321c240414381bfe660"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/1bde6249-eb96-4d0a-ac28-8d0f6e79a690/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_ncrun_histsoc_monthly_1901_2023.nc",
+          "id": "279bda51-bf95-401c-b088-f6c9476ce089",
+          "bytes": 374912725,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "4699b7207f65f569f72bc6c6fc53e54a"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/279bda51-bf95-401c-b088-f6c9476ce089/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_pdomuse_histsoc_yearly_1901_2023.nc",
+          "id": "a36d8335-58eb-4dde-9244-b7c5cf463dd0",
+          "bytes": 25347264,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "56b631e919c5ba5dcb9486082a536c7b"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/a36d8335-58eb-4dde-9244-b7c5cf463dd0/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_pelecuse_histsoc_yearly_1901_2023.nc",
+          "id": "673befed-c2fc-4c15-baa2-19228c4bbe04",
+          "bytes": 3807338,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "5fb070b441bfd9c31d44a43bc92bb3de"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/673befed-c2fc-4c15-baa2-19228c4bbe04/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_pelecww_histsoc_yearly_1901_2023.nc",
+          "id": "41991474-5e61-4595-a8c4-775865c6f973",
+          "bytes": 3806887,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "90d904a8bab74f832d0449488bbd08c1"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/41991474-5e61-4595-a8c4-775865c6f973/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_pirruse_histsoc_monthly_1901_2023.nc",
+          "id": "56d8770d-3436-4b1c-94a0-eeb1a4e6fe62",
+          "bytes": 88890206,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "c43ad8d4c6677931b8bc65a6230a1db4"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/56d8770d-3436-4b1c-94a0-eeb1a4e6fe62/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_pirrusegw_histsoc_monthly_1901_2023.nc",
+          "id": "aa799e76-5b31-4a0e-8192-7dc343b1ad5f",
+          "bytes": 85512655,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "e89608f106600f33b76a8ff32b3573b5"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/aa799e76-5b31-4a0e-8192-7dc343b1ad5f/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_pirrww_histsoc_monthly_1901_2023.nc",
+          "id": "924964f8-5996-4ea0-98c4-0a8bc5b1723e",
+          "bytes": 88910476,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "a1fbe692ba58aa35c1247c7b260b952e"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/924964f8-5996-4ea0-98c4-0a8bc5b1723e/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_pirrwwgw_histsoc_monthly_1901_2023.nc",
+          "id": "489b75d0-3447-42b4-9e47-f1f50c696ee3",
+          "bytes": 85513270,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "74228bf74b03f87051559030ea78f0a0"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/489b75d0-3447-42b4-9e47-f1f50c696ee3/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_plivuse_histsoc_yearly_1901_2023.nc",
+          "id": "e109f5a4-5f61-4172-9c9c-fa7a3f45f650",
+          "bytes": 27857948,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "d20f1c33d6b8b17b51b27d09d93805e0"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/e109f5a4-5f61-4172-9c9c-fa7a3f45f650/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_pmanuse_histsoc_yearly_1901_2023.nc",
+          "id": "82b67337-1f35-48eb-a357-722dfe9538e2",
+          "bytes": 6137085,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "b24f637cf2c7561a022fe82d42e102d6"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/82b67337-1f35-48eb-a357-722dfe9538e2/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_pmanusegw_histsoc_yearly_1901_2023.nc",
+          "id": "8858be8b-9929-42f0-8a35-b53032e76459",
+          "bytes": 5998250,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "b1856ce1638b0a269c235451cd462ce9"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/8858be8b-9929-42f0-8a35-b53032e76459/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_pmanww_histsoc_yearly_1901_2023.nc",
+          "id": "ab840f32-9cf7-4bb1-b86b-69ba53ceffab",
+          "bytes": 6135338,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "18e078acdd73a5d3ad1920afbf146db9"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/ab840f32-9cf7-4bb1-b86b-69ba53ceffab/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_pmanwwgw_histsoc_yearly_1901_2023.nc",
+          "id": "46cf23f8-a433-4732-8257-27ee76b03754",
+          "bytes": 5997439,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "de2af69b50b7d6e4486daa6118d73019"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/46cf23f8-a433-4732-8257-27ee76b03754/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_pnag_histsoc_monthly_1901_2023.nc",
+          "id": "2c61ec5d-1a1b-4587-bf12-12fbde8f9b7c",
+          "bytes": 309597595,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "7ad39b16da931396aff199adb679e79c"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/2c61ec5d-1a1b-4587-bf12-12fbde8f9b7c/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_pnas_histsoc_monthly_1901_2023.nc",
+          "id": "dae59fc4-f88f-4c45-9d1d-605ab5f7fac2",
+          "bytes": 348787941,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "bc6bfcde1eabaec78640435f7f7f0659"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/dae59fc4-f88f-4c45-9d1d-605ab5f7fac2/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_potevap_histsoc_monthly_1901_2023.nc",
+          "id": "433346b7-e817-4c58-b9d2-ed22ee3cb472",
+          "bytes": 347517935,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "0666c4e083a1173a72250af387c9f1d6"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/433346b7-e817-4c58-b9d2-ed22ee3cb472/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_precmon_histsoc_monthly_1901_2023.nc",
+          "id": "5a823248-9563-4b17-bdd3-502e1b9a6dc1",
+          "bytes": 356005505,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "b98ae6f19d0f760101b20fed86cdafd1"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/5a823248-9563-4b17-bdd3-502e1b9a6dc1/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_ptotuse_histsoc_monthly_1901_2023.nc",
+          "id": "898572a9-d291-40ba-8337-9e3c7cd0768d",
+          "bytes": 344339562,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "810ebf2bb0f4da21b1c8b51f9823056c"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/898572a9-d291-40ba-8337-9e3c7cd0768d/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_ptotusegw_histsoc_monthly_1901_2023.nc",
+          "id": "42b659c5-8b1b-4f3f-93f6-399bfceec0d0",
+          "bytes": 307856832,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "4d7b01f9627058bd50919d49d44eb522"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/42b659c5-8b1b-4f3f-93f6-399bfceec0d0/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_ptotww_histsoc_monthly_1901_2023.nc",
+          "id": "bec0b635-b761-4656-98ec-a3bb81cbb6d0",
+          "bytes": 345788500,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "a801f57dd2e406def1497ad707692904"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/bec0b635-b761-4656-98ec-a3bb81cbb6d0/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_ptotwwgw_histsoc_monthly_1901_2023.nc",
+          "id": "0c6a31fd-e5de-432a-909e-6f70599e71c1",
+          "bytes": 307518809,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "54d314258d03dbc3653d829fb9dfe239"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/0c6a31fd-e5de-432a-909e-6f70599e71c1/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_qg_histsoc_monthly_1901_2023.nc",
+          "id": "1503305e-34f5-4317-848a-8f6d7e4a8dfe",
+          "bytes": 347331424,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "25cb4f5db2fc082ed34f4da22a2fa807"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/1503305e-34f5-4317-848a-8f6d7e4a8dfe/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_qr_histsoc_monthly_1901_2023.nc",
+          "id": "0235c4f6-e545-43ab-98ca-e6feadb97b2d",
+          "bytes": 276995173,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "922f1300db2034e0cdc5e3651656284a"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/0235c4f6-e545-43ab-98ca-e6feadb97b2d/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_qrdif_histsoc_monthly_1901_2023.nc",
+          "id": "8dffb241-6c31-4026-bedd-1c9c71f3c489",
+          "bytes": 251185589,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "7491563a3fd99731e6d2b9e6f3b3b5cb"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/8dffb241-6c31-4026-bedd-1c9c71f3c489/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_qrswb_histsoc_monthly_1901_2023.nc",
+          "id": "1fd3f583-d695-4f73-8ea8-c908f6e6569d",
+          "bytes": 74408357,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "89f398b8ac0efa5965b2ae0b4612b959"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/1fd3f583-d695-4f73-8ea8-c908f6e6569d/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_qs_histsoc_monthly_1901_2023.nc",
+          "id": "5c964f91-4d38-485c-b26a-bae1686b0c3a",
+          "bytes": 289648094,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "a30f3ea8a0a7319bc639cfa58ed9b371"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/5c964f91-4d38-485c-b26a-bae1686b0c3a/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_qtot_histsoc_monthly_1901_2023.nc",
+          "id": "2d5ca669-51ab-4ebc-b420-dbffd2f93abf",
+          "bytes": 361735161,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "2201b0e3594f0b01e323ef207a25aab3"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/2d5ca669-51ab-4ebc-b420-dbffd2f93abf/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_reservoirstor_histsoc_monthly_1901_2023.nc",
+          "id": "cb8eccf1-93b4-42f3-9252-55c4191215a3",
+          "bytes": 23159955,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "89a4ea80a1a206f1d5fb20c7cb58a645"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/cb8eccf1-93b4-42f3-9252-55c4191215a3/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_riverstor_histsoc_monthly_1901_2023.nc",
+          "id": "cd4a8c8f-8929-45fd-989d-22652d9b366a",
+          "bytes": 374160249,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "7acb981e80b4dccbfb45c23010c2faaf"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/cd4a8c8f-8929-45fd-989d-22652d9b366a/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_soilmoist_histsoc_monthly_1901_2023.nc",
+          "id": "8139f0da-9a67-4d21-b55f-a94a72cb6d3e",
+          "bytes": 358962592,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "d346939e4deda8f2e20497bf4ca8cb45"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/8139f0da-9a67-4d21-b55f-a94a72cb6d3e/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_swe_histsoc_monthly_1901_2023.nc",
+          "id": "8f22373f-45a9-4b29-90b7-24c92eedfc12",
+          "bytes": 169858564,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "eab2b5c6de1aadf078a696479b39cfad"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/8f22373f-45a9-4b29-90b7-24c92eedfc12/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_triver_histsoc_monthly_1901_2023.nc",
+          "id": "3a9f14d2-f320-46a1-b854-4b53dbfb82a0",
+          "bytes": 272910425,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "e5aad08ecbdb9d1fa3d59931892dd3b8"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/3a9f14d2-f320-46a1-b854-4b53dbfb82a0/content"
+        },
+        {
+          "name": "watergap22e_gswp3-era5_tws_histsoc_monthly_1901_2023.nc",
+          "id": "cbce4f9b-0daa-491c-b916-320d71dc451f",
+          "bytes": 381515697,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "c13b64e5e6b21a6403be4a51d4a8867c"
+          },
+          "url": "https://api.gude.uni-frankfurt.de/api/core/bitstreams/cbce4f9b-0daa-491c-b916-320d71dc451f/content"
+        }
+      ]
+    }
+  }
+}

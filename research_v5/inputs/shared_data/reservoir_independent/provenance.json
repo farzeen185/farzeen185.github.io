@@ -1,0 +1,11 @@
+{
+  "doi": "10.5281/zenodo.14844580",
+  "paper": "10.5194/essd-17-2693-2025",
+  "sha256": "1a18ffe03903aa13ff712f8a82ddca708999d2767ccf5b81643126eb51203cbe",
+  "bytes": 116173566,
+  "source": "https://zenodo.org/api/records/14844580/files/MSEA-Res%20database%20v2.zip/content",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "acquired": "2026-10-25"
+}

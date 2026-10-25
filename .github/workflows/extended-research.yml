@@ -1,0 +1,36 @@
+name: Extended CSR research reproduction
+on:
+  push:
+    paths: ['research_v5/**', '.github/workflows/extended-research.yml']
+  workflow_dispatch:
+    inputs:
+      full_run:
+        description: 'Recompute original and extended analyses'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: research_v5/requirements-lock.txt
+      - run: python -m pip install -r research_v5/requirements-lock.txt
+      - run: python research_v5/run.py --mode check
+      - if: github.event_name == 'workflow_dispatch' && inputs.full_run
+        run: python research_v5/run.py --mode full --work-dir research_v5/work
+      - uses: actions/upload-artifact@v4
+        if: always() && github.event_name == 'workflow_dispatch' && inputs.full_run
+        with:
+          name: extended-reproduced-results
+          path: |
+            research_v5/work/Thailand_Research_v5/tables
+            research_v5/work/Thailand_Research_v5/logs
+            research_v5/work/run_logs_v5
+            research_v5/work/run_logs

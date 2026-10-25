@@ -1,0 +1,20 @@
+region,eligible_wells,station_groups,median_station_head_slope_m_year,declining_station_fraction,fraction_lo95,fraction_hi95,interpretation
+TH,382,225,-0.016035714285714243,0.5422222222222223,0.4711111111111111,0.6,Head-direction screen; no conversion to pumping or groundwater mass
+01,4,3,0.04544047619047615,0.0,0.0,0.0,Head-direction screen; no conversion to pumping or groundwater mass
+02,23,14,-0.10286458333333329,0.7857142857142857,0.5714285714285714,1.0,Head-direction screen; no conversion to pumping or groundwater mass
+03,24,19,-0.2550000000000001,0.7894736842105263,0.5789473684210527,0.9473684210526315,Head-direction screen; no conversion to pumping or groundwater mass
+04,18,14,0.055868055555555324,0.21428571428571427,0.0,0.42857142857142855,Head-direction screen; no conversion to pumping or groundwater mass
+05,17,12,0.0839496527777778,0.16666666666666666,0.0,0.4166666666666667,Head-direction screen; no conversion to pumping or groundwater mass
+06,19,10,-0.08963847552910037,0.6,0.3,0.9,Head-direction screen; no conversion to pumping or groundwater mass
+07,4,3,0.0656944444444445,0.3333333333333333,0.0,1.0,Head-direction screen; no conversion to pumping or groundwater mass
+08,25,13,-0.3781944444444445,0.9230769230769231,0.7692307692307693,1.0,Head-direction screen; no conversion to pumping or groundwater mass
+09,13,8,-0.1795634920634926,0.75,0.375,1.0,Head-direction screen; no conversion to pumping or groundwater mass
+10,37,16,-0.18313383838383834,0.875,0.6875,1.0,Head-direction screen; no conversion to pumping or groundwater mass
+13,30,13,-0.28618750000000004,0.8461538461538461,0.6153846153846154,1.0,Head-direction screen; no conversion to pumping or groundwater mass
+14,10,7,0.024814814814814845,0.42857142857142855,0.0,0.7142857142857143,Head-direction screen; no conversion to pumping or groundwater mass
+15,11,6,0.017701388888888912,0.3333333333333333,0.0,0.6666666666666666,Head-direction screen; no conversion to pumping or groundwater mass
+17,35,23,0.03202380952380956,0.2608695652173913,0.08695652173913043,0.43478260869565216,Head-direction screen; no conversion to pumping or groundwater mass
+18,1,1,-8.333333333340178e-05,1.0,1.0,1.0,Head-direction screen; no conversion to pumping or groundwater mass
+19,5,4,-0.006020833333333342,0.5,0.0,1.0,Head-direction screen; no conversion to pumping or groundwater mass
+20,47,24,-0.08071428571428564,0.75,0.5833333333333334,0.9166666666666666,Head-direction screen; no conversion to pumping or groundwater mass
+22,59,35,0.0162291666666666,0.2571428571428571,0.11428571428571428,0.4,Head-direction screen; no conversion to pumping or groundwater mass

@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "path": "shared_data/CSR_RL0603/CSR_GRACE_GRACE-FO_RL0603_Mascons_all-corrections_Thailand.nc",
+      "bytes": 882270,
+      "sha256": "288b1d2de074cbdbd7937b8a3089f536bc6943685df998566ea2ea020e794519"
+    },
+    {
+      "path": "shared_data/CSR_RL0603/CSR_GRACE_GRACE-FO_RL0603_mascons_mapping_file_Thailand.nc",
+      "bytes": 347458,
+      "sha256": "e834822909daf8cd70e0a9ac4b2de22b5435b983044e7589c0a483e6ac933173"
+    },
+    {
+      "path": "shared_data/CSR_RL0603/CSR_GRACE_GRACE-FO_RL06_Mascons_v02_LandMask_Thailand.nc",
+      "bytes": 39518,
+      "sha256": "911f5fdfe7f3eecb1f01740d995dc2063415206029365828259da5ed7f5ab530"
+    },
+    {
+      "path": "shared_data/surface_water/G3P_v1.12_TWS_Thailand_buffer_monthly_200204_202309.nc",
+      "bytes": 7148047,
+      "sha256": "65d15564708a6e8b0c3582da5ecfd08b179f0952efff81762d3ee14f904f91f4"
+    },
+    {
+      "path": "Thailand_Objective2/outputs_advanced/Step_06_Final_Harmonized_Cube/netcdf/Climate_Inputs_2003_2024.nc",
+      "bytes": 24268020,
+      "sha256": "7352e73e45f03d59e6e7decba1fde9131bb0f38dc30bc88ce3b6cd7d4d1e96ba"
+    },
+    {
+      "path": "shared_data/reservoir_independent/MSEA_Thailand_monthly.csv",
+      "bytes": 618695,
+      "sha256": "03d0d30aac3809d1a7405b97c13f839623aa40fa26b242a6956e88493bdc8002"
+    },
+    {
+      "path": "shared_data/reservoir_independent/MSEA_Thailand_inventory.csv",
+      "bytes": 1114,
+      "sha256": "efdb6325cdcb23f14e88dc821bf4b3aade6e379fccff44c2e208f4ad75e6863b"
+    },
+    {
+      "path": "shared_data/reservoir_independent/provenance.json",
+      "bytes": 358,
+      "sha256": "b4ccf25f9bf668f68994dc5a1325230bbf7391a2cc25da4ffc77c074208e2950"
+    },
+    {
+      "path": "shared_data/reservoir_independent/zenodo_record.json",
+      "bytes": 6861,
+      "sha256": "14e52d01e9850ee328e7922f8e428f6453e19992ef9b28eaf63dda75994f82ee"
+    }
+  ],
+  "total_bytes": 33312341
+}

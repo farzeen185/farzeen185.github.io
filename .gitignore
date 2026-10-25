@@ -3,5 +3,7 @@ __pycache__/
 .venv/
 research/work/
 research/work-*/
+research_v5/work/
+research_v5/work-*/
 research/shared_data/groundwater/GROW/download_parts/
 research/shared_data/groundwater/GROW/__pycache__/
