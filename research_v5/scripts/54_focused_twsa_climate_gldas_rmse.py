@@ -10,6 +10,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.colors import Normalize,TwoSlopeNorm
 from matplotlib.ticker import MaxNLocator
+import matplotlib.dates as mdates
 from pypdf import PdfReader,PdfWriter
 R=Path(os.environ.get('TWSA_RESEARCH_ROOT',Path(__file__).resolve().parents[1])).resolve();O=R/'Thailand_Research_v5';D=O/'focused_twsa_climate_gldas_rmse';F=D/'figures';T=D/'tables'
 for p in [F,T,D/'qa']:p.mkdir(parents=True,exist_ok=True)
@@ -81,9 +82,19 @@ for a,title in zip(ax,['Total water storage','Soil + canopy + snow storage']):a.
 ax[1].set_xlabel('Year');save(fig,2,'National temporal comparison','Separate panels retain different storage definitions. Top: observed and naturalized total storage. Bottom: matching land compartments. Gaps are retained; no direct full-TWS error is assigned to partial GLDAS land storage.')
 inv=json.loads((O/'figure_revision/figure_inventory.json').read_text(encoding='utf-8'))
 for n,old in [(3,4),(4,10)]:
-    x=next(x for x in inv if x['id']==old);stem=f'{n:02d}_'+('climate_TWSA_all_basins' if n==3 else 'GLDAS_land_all_basins')
-    for ext,key in [('png','file'),('pdf','pdf')]:shutil.copy2(O/'figure_revision/figures'/x[key],F/(stem+'.'+ext))
-    inventory.append({'id':n,'title':x['title'],'file':stem+'.png','pdf':stem+'.pdf','note':x['caption']})
+    x=next(x for x in inv if x['id']==old)
+    fig,axes=plt.subplots(6,4,figsize=(13,14),sharex=True);handles=[]
+    cols=[('naturalized_target_mm','Naturalized parent','#173c50'),('emulator_mm','Climate emulator','#b66a3c')] if n==3 else [('GLDAS_land_mm','GLDAS land storage','#4d7d8c'),('naturalized_land_mm','WaterGAP matching land storage','#b66a3c')]
+    for i,code in enumerate(codes):
+        ax=axes.ravel()[i];g=(pred if n==3 else land);g=g[(g.region==code)&(g.date.dt.year>=2002)].set_index('date').sort_index();g=g.reindex(pd.date_range(g.index.min(),g.index.max(),freq='MS'))
+        for col,label,color in cols:
+            h,=ax.plot(g.index,g[col],label=label,color=color,lw=1.1,ls='--' if col=='emulator_mm' else '-')
+            if i==0:handles.append(h)
+        if n==3:ax.axvspan(pd.Timestamp('2016-01-01'),pd.Timestamp('2023-12-31'),color='#288c82',alpha=.10,zorder=-5)
+        ax.set_title(code+' '+names[code][:16],loc='left',fontsize=12,color='#173c50',pad=5);ax.yaxis.set_major_locator(MaxNLocator(3));ax.tick_params(labelsize=10,labelbottom=True);ax.xaxis.set_major_locator(mdates.YearLocator(10));ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'));ax.axhline(0,color='#b9c3c9',lw=.5)
+    for ax in axes.ravel()[22:]:ax.set_visible(False)
+    fig.legend(handles=handles,loc='lower right',bbox_to_anchor=(.98,.075),fontsize=12,frameon=False,ncol=1);fig.supylabel('Storage anomaly (mm)',fontsize=16);fig.supxlabel('Year · full basin names are retained in the supplied CSV tables',fontsize=13)
+    save(fig,n,x['title'],x['caption'])
 keys=list(comparisons);labels=[comparisons[k][0] for k in keys];colors=['#173c50','#b66a3c','#288c82']
 save(maps([pooled[pooled.comparison==k].set_index('region').RMSE_mm for k in keys],labels,['RMSE (mm)']*3,positive=True),5,'Spatial RMSE by evaluation target','Pooled 2016–2023 metrics. Climate reconstruction targets naturalized TWSA; the climate baseline is separately compared with observed GRACE TWSA; land storage is compared with matching GLDAS compartments. Pair counts differ because GRACE has gaps. Compare basins within the same panel, rather than ranking models across different targets.')
 fig,axes=plt.subplots(3,1,figsize=(12,10),sharex=True)

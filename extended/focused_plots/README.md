@@ -30,6 +30,4 @@ Years 2016–2023; at least eight paired months are required per annual score. G
 
 All three explicitly labelled evaluation targets are retained. Different targets and compartment variances prevent interpreting a smaller cross-target RMSE as a better climate model. Missing annual scores remain gaps.
 
-RMSE maps and annual plots use 2016–2023; annual scores require eight observed pairs. Spatial storage trends use 2003–2023 common available months and month-effect OLS, not the main report seasonal Sen estimates. Full-precision CSV values, sample counts and basin names are included. Rebuild after the complete scientific run by setting TWSA_RESEARCH_ROOT and running script 54. Scientific models are not refitted.
-
-Additional PDF dependency: python -m pip install pypdf==6.21.2 . Other numerical dependencies are in the main research lock file.
+RMSE maps and annual plots use 2016–2023; annual scores require eight observed pairs. Spatial storage trends use 2003–2023 common available months and month-effect OLS, not the main report seasonal Sen estimates. Full-precision CSV values, sample counts and basin names are included. Rebuild after the complete scientific run by setting TWSA_RESEARCH_ROOT and running script 54. Install the additional PDF dependency with: python -m pip install pypdf==6.21.2 . All other numerical dependencies are in the main research lock file. Scientific models are not refitted.
