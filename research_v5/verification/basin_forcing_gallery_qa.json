@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "url": "http://127.0.0.1:8765/extended/basin_forcing/",
+  "tables": 11,
+  "figures": 10,
+  "all_downloads_checked": true,
+  "mobile_overflow": false,
+  "page_errors": []
+}

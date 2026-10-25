@@ -1,0 +1,185 @@
+region,basin,variable,label,units,role,start,end,n_months,mean,sd,month_effect_OLS_slope_per_year
+01,Salawin,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,149.5489023107961,145.13751346414378,-0.18615875123326298
+01,Salawin,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,121.72338007738475,26.916799682999514,0.2134012535698755
+01,Salawin,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,111.69685762251466,101.12721283033163,-0.368688073249821
+01,Salawin,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,83.76578019023896,16.293551694743613,-0.48221665368836564
+01,Salawin,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,102.79889224892418,14.455713557591643,0.07627080072553405
+01,Salawin,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,224,0.27874993923170743,0.06860058716430195,-3.761841070080811e-05
+01,Salawin,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,224,0.27832853326589324,0.05627972492377089,-8.492176606249074e-05
+01,Salawin,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,23.35784531084463,2.412821489472913,0.03977355129572069
+02,North Khong,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,140.63682864841385,127.07881885791123,-1.0275305508847374
+02,North Khong,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,119.26046664354358,29.01990318649582,0.2786089780539345
+02,North Khong,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,138.5396440198399,129.0963903325788,-0.6271651466387294
+02,North Khong,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,86.99167887321245,20.59421075627061,-0.26462008218211297
+02,North Khong,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,93.21572926867243,19.671645698482678,0.33055512654762165
+02,North Khong,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2849622090414092,0.05046249295564287,0.0005166023003302924
+02,North Khong,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.28518565632037707,0.04075272225135198,0.00045947891810574956
+02,North Khong,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,24.530057361731387,2.5292051874991914,0.04376796671455102
+03,Northeast Khong,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,141.80392684877395,138.45615963613324,-0.16487414328267747
+03,Northeast Khong,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,124.173013727373,25.43604122261483,0.16458635614768058
+03,Northeast Khong,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,153.5176939269158,150.75348646256353,0.07117870022958606
+03,Northeast Khong,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,83.6905239311631,20.878545353172452,-0.38646375501868313
+03,Northeast Khong,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,81.07970436812924,23.894141708590073,0.5702055863980866
+03,Northeast Khong,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.24835983902926373,0.06284836208085234,0.0003327963121897296
+03,Northeast Khong,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.248507786825684,0.05156716203615995,0.0002780634486429104
+03,Northeast Khong,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,26.64855086543711,2.5583511569291684,0.01802924410795287
+04,Chi,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,114.3607054501862,105.57299191297952,0.3348558496098786
+04,Chi,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,133.44691053287818,26.29026176144789,0.14081358962027135
+04,Chi,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,116.77704310722692,108.22057656372542,-0.12288268245366929
+04,Chi,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,80.03584945745509,22.448994138480323,-0.3588586332785044
+04,Chi,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,74.64104887131896,25.104793705665006,0.364736173708176
+04,Chi,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2366045459010426,0.06598682485790718,0.0005732164840482404
+04,Chi,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2367346372452996,0.05437391516882769,0.000509706073682459
+04,Chi,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,27.524355956839766,2.729963767119511,0.017290548560123353
+05,Mun,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,116.67764949410325,103.20607057439945,0.5571176740949522
+05,Mun,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,141.06278291997666,25.581099292543538,0.03273210458144504
+05,Mun,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,125.4088719455369,114.76931305491908,0.26656931229498326
+05,Mun,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,86.67568654398207,18.852178450438853,-0.41137760015235436
+05,Mun,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,75.15516743373477,24.110786725883067,0.3173234493153312
+05,Mun,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.23914532082219686,0.06767631184171753,0.0005601538680845529
+05,Mun,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2394008010481828,0.05535976686233907,0.0004903446609220213
+05,Mun,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,28.003647922511,2.640038587374741,0.0071029549210328
+06,Ping,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,132.50969181753143,120.08821823544986,-0.22671355294888684
+06,Ping,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,120.79659376047603,26.196741171731173,0.25846380759164056
+06,Ping,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,108.64692007876398,97.85501702747015,-0.26854818208230036
+06,Ping,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,81.51968403698315,18.818280545328307,-0.5108618358761547
+06,Ping,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,97.66318299618058,21.395494900368444,0.22326961206057483
+06,Ping,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2656728330579696,0.06136746209757848,0.000724695874671482
+06,Ping,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.26557459728735716,0.050147194728381916,0.0007424876084439862
+06,Ping,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,24.809498985410126,2.5399438297200168,0.03753787634946587
+07,Wang,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,123.6431732665706,113.81350393282786,-0.3846002268613997
+07,Wang,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,113.3518149207876,26.156609103210968,0.31724685088019866
+07,Wang,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,106.18930229843244,98.67931654653025,-0.19953823932573123
+07,Wang,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,82.45123079225128,23.612948413265617,-0.3460899631960075
+07,Wang,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,100.10665973769525,28.98607529368481,0.299444299341848
+07,Wang,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2739332792697543,0.051679405787740475,0.0001158488179978049
+07,Wang,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2739584780202225,0.04191351212050995,0.00011689825800730719
+07,Wang,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,25.733527252630772,2.738692238938776,0.036802250786581
+08,Yom,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,129.16816436093475,118.7386712975684,-0.4876715247420318
+08,Yom,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,115.6258655026362,25.45743414791893,0.3039585036286776
+08,Yom,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,117.75994274968386,109.07370996580708,-0.7581106434370533
+08,Yom,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,80.47831746589341,22.737214681703353,-0.5384223346488051
+08,Yom,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,88.64219043446091,24.870409316173458,0.2275520230620942
+08,Yom,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.26427991500724834,0.061149685010097425,0.00046635216036712817
+08,Yom,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2645850723857568,0.050152812898918736,0.00040908817313613016
+08,Yom,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,26.69656999640496,2.5431079825086225,0.05156240142513774
+09,Nan,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,144.44886797819015,128.9678256803944,-0.6061678362492131
+09,Nan,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,122.1719530799513,26.41162544204383,0.31617522619928895
+09,Nan,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,121.76387886012917,110.66442355210677,-0.5804167719097642
+09,Nan,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,85.1322832130963,20.253574516051636,-0.5113549969460423
+09,Nan,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,91.88667244186611,21.800964770444796,0.2591076116395965
+09,Nan,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.25969084336176007,0.05955750181109502,0.0006936517509968064
+09,Nan,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2601234266359623,0.048783150003810366,0.0006708882917326811
+09,Nan,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,25.94911328681544,2.359246867943961,0.04696529139076999
+10,Chao Phraya,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,113.01966268491793,97.51701330475687,0.15959968092597698
+10,Chao Phraya,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,127.42812925234988,23.60636431852475,0.11558075814486601
+10,Chao Phraya,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,111.04073549767843,96.90999647140129,-0.2940056855156623
+10,Chao Phraya,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,75.13012710955199,21.784952424995097,-0.6862897075478571
+10,Chao Phraya,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,69.24533721857792,23.211364163149174,0.06321774391455337
+10,Chao Phraya,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2759539228393389,0.06756887335513267,0.00015872183840086925
+10,Chao Phraya,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2760368247072534,0.05536749336875519,0.00010253343130404904
+10,Chao Phraya,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,29.39771961072784,2.646325737124556,0.04717222555250222
+11,Sakae Krang,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,123.23338569632344,105.20927605484924,0.10095344679233342
+11,Sakae Krang,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,128.70956566871018,24.399496322176514,0.17013171181640496
+11,Sakae Krang,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,128.0857572558335,118.35193752565151,-1.0731404659905621
+11,Sakae Krang,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,85.69786512311258,19.48488654394718,-0.7469069903184378
+11,Sakae Krang,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,81.3259888302418,18.79514811791435,0.007972938988118239
+11,Sakae Krang,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.24938232281164288,0.07132624222478665,0.00028055326468421835
+11,Sakae Krang,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.24960555982510255,0.05860982560200181,0.0002405537698196682
+11,Sakae Krang,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,27.736232553905307,2.7722349413904084,0.05518890363868301
+12,Pasak,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,125.5019925051516,108.22111603509855,0.027034364235504427
+12,Pasak,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,136.00337696434065,26.173502403641237,0.17533840372307008
+12,Pasak,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,112.2968345814663,97.52873502061075,-0.1606124096942807
+12,Pasak,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,79.37265790700224,23.219494097080776,-0.33205914720959306
+12,Pasak,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,86.13161348846984,23.756105703894697,0.2108284212871685
+12,Pasak,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2616429877672218,0.06381275276875617,0.0006998216184495899
+12,Pasak,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.26182823552998596,0.05229989352756477,0.0006578806480480115
+12,Pasak,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,27.61110535047826,2.6333258756562725,0.029379046905437245
+13,Tha Chin,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,104.65853033014999,87.39748178298788,0.3313813404854766
+13,Tha Chin,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,148.62929666262062,27.14072939728958,0.1388917134495018
+13,Tha Chin,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,105.96069135824165,96.20096898254232,-0.6699082240798919
+13,Tha Chin,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,76.94645675964665,19.12133708748412,-0.7807836403541184
+13,Tha Chin,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,71.97637441541109,20.397707745035422,0.027696017766505765
+13,Tha Chin,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.24850939390625737,0.06462061135117067,0.00031307210171174424
+13,Tha Chin,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.24863976201493052,0.05284062107869511,0.0002488492013368914
+13,Tha Chin,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,29.15171348522863,2.785809258406751,0.05229862134283059
+14,Mae Klong,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,150.82708347769702,127.12903638868498,0.11787387207713707
+14,Mae Klong,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,132.13457289828335,24.790419337664932,0.15735058574069405
+14,Mae Klong,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,143.1605141884997,126.48169033321481,-1.3342222767514542
+14,Mae Klong,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,93.31338909099303,16.768058705383734,-0.23314319605367095
+14,Mae Klong,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,101.69696544140119,12.407583924413736,0.15940841674960038
+14,Mae Klong,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.26939163394637655,0.054511737431431215,0.00027851777145312777
+14,Mae Klong,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2695210769712911,0.044771452493366844,0.00025124253027467274
+14,Mae Klong,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,25.559247731165705,2.1678346274459113,0.03916922002365686
+15,Bang Pakong,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,133.7716819659625,104.66242216870104,0.12386173293424285
+15,Bang Pakong,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,133.5446641864836,20.840218173211994,0.057504296771578645
+15,Bang Pakong,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,136.2802776133533,109.15044845695188,0.02386174935468688
+15,Bang Pakong,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,82.71756701039716,20.139913984287027,-0.5117235332975463
+15,Bang Pakong,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,84.29156921608032,18.203094665253644,0.38689454816817026
+15,Bang Pakong,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.29091145712814503,0.06141437986216405,0.0005271625923865299
+15,Bang Pakong,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.29111516732116177,0.05016676215325,0.0004686343630787085
+15,Bang Pakong,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,28.01361541806542,2.1168286275079184,0.007614486283233524
+16,Tonle Sap,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,135.02355986430064,104.63843658147648,0.17572564508702726
+16,Tonle Sap,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,134.6434197233041,20.608103808603122,0.030913042786191447
+16,Tonle Sap,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,135.451235497371,105.89412054984204,0.13474289836792686
+16,Tonle Sap,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,88.8337662341071,21.709204518750077,-0.3973503649280219
+16,Tonle Sap,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,92.43709039293633,16.525295122923705,0.1880006459135659
+16,Tonle Sap,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2655389672901722,0.061783418788030606,0.0004768789752613214
+16,Tonle Sap,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2654893929206526,0.050504731722071865,0.00047629186567049557
+16,Tonle Sap,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,27.84092773649154,2.500112883233662,0.013222049535504876
+17,East Coast Gulf,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,176.67077226416822,130.76200638588287,0.021765021273512986
+17,East Coast Gulf,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,138.4607881488671,18.350336029336553,0.09814953191593978
+17,East Coast Gulf,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,190.5694717405226,151.12134335754274,0.34543938888974246
+17,East Coast Gulf,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,93.49934506566844,18.282960919572304,-0.7080326338155487
+17,East Coast Gulf,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,101.41740396826174,10.411887281936275,0.3493934399251535
+17,East Coast Gulf,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2755811786283817,0.045819062637248324,0.00031864052665003806
+17,East Coast Gulf,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2756730140134533,0.037685014856294906,0.00032143093399469337
+17,East Coast Gulf,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,27.285904811882826,1.6829235777560507,0.03562281420927699
+18,Phetchaburi - Prachuap Khiri Khan,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,134.30174032366978,95.01746629112418,0.8497456346726509
+18,Phetchaburi - Prachuap Khiri Khan,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,171.77785172485164,27.950233498684202,0.11151449957532744
+18,Phetchaburi - Prachuap Khiri Khan,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,121.74207265671527,99.81446619714104,-0.8525154077851802
+18,Phetchaburi - Prachuap Khiri Khan,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,78.54107291229815,15.038740252648198,-0.23834260948534314
+18,Phetchaburi - Prachuap Khiri Khan,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,100.61050883315835,8.988914422152266,0.18425308579478428
+18,Phetchaburi - Prachuap Khiri Khan,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.292251273822977,0.0455661605337348,0.0003389534286801039
+18,Phetchaburi - Prachuap Khiri Khan,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.292308797813055,0.03735194881749163,0.0003561556509621207
+18,Phetchaburi - Prachuap Khiri Khan,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,26.682149767902587,2.282196502327288,0.020842805478946458
+19,Peninsula - Upper East Coast,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,175.10142431182513,107.35712376457816,1.0059913893854144
+19,Peninsula - Upper East Coast,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,142.6510088805391,22.276647629241413,-0.04075379167721249
+19,Peninsula - Upper East Coast,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,222.62298930457965,127.01090934690941,-0.10899082530461257
+19,Peninsula - Upper East Coast,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,99.77870362210322,11.6730286686051,-0.4636859409234326
+19,Peninsula - Upper East Coast,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,115.39432753502916,10.014503290865962,0.28569055110022135
+19,Peninsula - Upper East Coast,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2925547049697575,0.03338116402695355,0.0006188554196351257
+19,Peninsula - Upper East Coast,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.29248093863195074,0.027022581291743997,0.0006474876040160709
+19,Peninsula - Upper East Coast,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,25.892279311322174,1.3176367965790161,0.029582079242891413
+20,Thale Sap Songkhla,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,173.93665654567425,117.67532937409713,1.130328745920858
+20,Thale Sap Songkhla,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,144.04683101095276,21.36134991287306,-0.07135373561732772
+20,Thale Sap Songkhla,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,201.13945675507495,149.26055355086706,0.8029656721978293
+20,Thale Sap Songkhla,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,102.72186320917807,11.105552899213933,-0.6545369048481133
+20,Thale Sap Songkhla,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,110.08862128882119,8.194298668737789,0.13694312649982154
+20,Thale Sap Songkhla,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.29224979412554297,0.027749448331566114,0.0005362777870494129
+20,Thale Sap Songkhla,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2922081649598282,0.022354406573812085,0.0005477601722136488
+20,Thale Sap Songkhla,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,26.515444231359627,1.3292106528225565,0.028571340075325913
+21,Peninsula - Lower East Coast,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,182.61813328821358,113.17856090997822,1.4718881083667483
+21,Peninsula - Lower East Coast,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,154.0245672698235,24.179738086937355,-0.1818021932938858
+21,Peninsula - Lower East Coast,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,259.1000915228333,165.69328717830555,0.8400617810291466
+21,Peninsula - Lower East Coast,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,112.5257312569598,13.870953349357915,-0.33312354911567854
+21,Peninsula - Lower East Coast,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,120.24202568094273,13.31312491719426,0.056520584590822875
+21,Peninsula - Lower East Coast,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.31105982340266075,0.022116132334694675,0.0003172605346798847
+21,Peninsula - Lower East Coast,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.3110252888047135,0.018007569421010002,0.00030314798212235515
+21,Peninsula - Lower East Coast,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,25.489609598920666,1.3453414610172716,0.03000838173559467
+22,Peninsula - West Coast,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,193.8774923371753,112.5450606477291,0.6594581578923275
+22,Peninsula - West Coast,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,144.6649804270657,20.197467506305784,-0.04645268345475195
+22,Peninsula - West Coast,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,240.36888833332924,137.57407427041505,0.30541393551431995
+22,Peninsula - West Coast,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,111.14605614495063,11.590454897843292,-0.5269501825600762
+22,Peninsula - West Coast,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,114.27958078879301,9.597100337353627,0.26810752720246245
+22,Peninsula - West Coast,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.3045762489049419,0.029932384647772863,0.000562854793782108
+22,Peninsula - West Coast,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.30457200926080497,0.02410356116314501,0.0005786568555099967
+22,Peninsula - West Coast,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,25.839621726606687,1.066229642279333,0.030878299181764463
+TH,Thailand,Native_P,Native precipitation,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,138.13846324632922,101.48547487322577,0.15607518140129706
+TH,Thailand,Native_PET,Native potential ET,mm/month,Primary meteorological predictor,2003-01-01,2023-12-01,252,132.73641866410986,23.758602459547085,0.1327433373073501
+TH,Thailand,CHIRPS_P,CHIRPS precipitation,mm/month,Alternative forcing in rainfall sensitivity test,2003-01-01,2023-12-01,252,139.22107983717208,102.00878160748586,-0.1966779375983343
+TH,Thailand,GLEAM_ET,GLEAM actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,85.98340462825738,17.927678915262728,-0.4454084018659741
+TH,Thailand,MODIS_ET,MODIS actual ET,mm/month,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,89.31720541014606,17.560470816713043,0.2757144454859253
+TH,Thailand,ESA_CCI_SSM,ESA CCI surface moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.2626013119804252,0.05681355884034576,0.0005189740470167205
+TH,Thailand,ESA_CCI_RZSM,ESA CCI root zone moisture,m³/m³,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,0.26275388053520443,0.04673497517394105,0.0004803919880643163
+TH,Thailand,MODIS_LST,MODIS surface temperature,°C,Supporting context; not a primary climate predictor,2003-01-01,2023-12-01,252,26.69653011297995,2.1911444348177267,0.029124008311438743

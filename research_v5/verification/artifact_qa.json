@@ -5,9 +5,9 @@
     {
       "type": "thesis_pdf",
       "file": "AIT_Extended_Thesis_Farzeen_Khan.pdf",
-      "pages": 60,
-      "bytes": 5394050,
-      "sha256": "dddc165856fa058e7017b0d1428e8d9feb1b8c2288ee69ef1bcfb7f628712aa4"
+      "pages": 83,
+      "bytes": 8194221,
+      "sha256": "ce04f819ffae7109822bac1288af4b93603f291669d006ac47e2a91c6077c2d7"
     },
     {
       "type": "manuscript_pdf",
@@ -26,9 +26,9 @@
     {
       "type": "editable_document",
       "file": "AIT_Extended_Thesis_Farzeen_Khan.docx",
-      "figures": 21,
-      "native_tables": 6,
-      "sha256": "fca9fc01de6756bdace478525ffe5c5a43498b57f4558aa19492ea83bd460655"
+      "figures": 31,
+      "native_tables": 17,
+      "sha256": "77dde4a66aa1a3bd18495981527d9e57d8c033de50943809f164b3e86194cfd2"
     },
     {
       "type": "editable_document",

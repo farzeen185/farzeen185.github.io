@@ -1,0 +1,11 @@
+{
+  "expected_pages": 83,
+  "main_report_pages": 60,
+  "new_appendix_pages": 23,
+  "figures": 31,
+  "native_tables": 17,
+  "new_basin_tables": 11,
+  "new_forcing_figures": 10,
+  "basins_per_table": 22,
+  "methodology_unchanged": true
+}

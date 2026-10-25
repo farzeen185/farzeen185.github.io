@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "title": "Observed storage trends for every basin",
+    "file": "C01_basin_values.csv",
+    "headers": [
+      "Basin",
+      "TWS slope",
+      "TWS q",
+      "n",
+      "GWS slope",
+      "GWS q",
+      "n"
+    ],
+    "columns": [
+      "region",
+      "TWS_slope",
+      "TWS_q",
+      "TWS_n",
+      "GWS_slope",
+      "GWS_q",
+      "GWS_n"
+    ],
+    "note": "Slopes are seasonal Sen estimates in mm/year. q is seasonal Mann–Kendall FDR across basins; n is observed months. Full intervals and original p-values remain in CSR_basin_trends.csv. Basin names are listed in Appendix A."
+  },
+  {
+    "id": 2,
+    "title": "TWSA climate reconstruction performance",
+    "file": "C02_basin_values.csv",
+    "headers": [
+      "Basin",
+      "n",
+      "r",
+      "NSE",
+      "Anom NSE",
+      "RMSE",
+      "MAE"
+    ],
+    "columns": [
+      "region",
+      "n",
+      "r",
+      "NSE",
+      "deseasonalized_NSE",
+      "RMSE_mm",
+      "MAE_mm"
+    ],
+    "note": "Frozen ensemble, 2016–2023 test data. Target: naturalized WaterGAP, not GRACE. Errors are mm; anomaly NSE removes the training monthly climatology. Higher NSE and lower errors are better."
+  },
+  {
+    "id": 3,
+    "title": "GWSA climate reconstruction performance",
+    "file": "C03_basin_values.csv",
+    "headers": [
+      "Basin",
+      "n",
+      "r",
+      "NSE",
+      "Anom NSE",
+      "RMSE",
+      "MAE"
+    ],
+    "columns": [
+      "region",
+      "n",
+      "r",
+      "NSE",
+      "deseasonalized_NSE",
+      "RMSE_mm",
+      "MAE_mm"
+    ],
+    "note": "Frozen ensemble, 2016–2023 test data. Target: naturalized WaterGAP, not GRACE. Errors are mm; anomaly NSE removes the training monthly climatology. Higher NSE and lower errors are better."
+  },
+  {
+    "id": 4,
+    "title": "TWSA additive trends and residual components",
+    "file": "C04_basin_values.csv",
+    "headers": [
+      "Basin",
+      "O",
+      "C",
+      "H",
+      "R",
+      "E"
+    ],
+    "columns": [
+      "region",
+      "observed_mm",
+      "climate_mm",
+      "modeled_human_mm",
+      "residual_mm",
+      "discrepancy_mm"
+    ],
+    "note": "Calendar-month fixed-effect OLS slopes, mm/year, on common available months. O observed; C naturalized; H historical minus naturalized; R observed minus naturalized; E observed minus historical. R = H + E. These are not additive Sen slopes or measured pumping rates. Conditional intervals are supplied in attribution_wild_block_intervals.csv."
+  },
+  {
+    "id": 5,
+    "title": "GWSA additive trends and residual components",
+    "file": "C05_basin_values.csv",
+    "headers": [
+      "Basin",
+      "O",
+      "C",
+      "H",
+      "R",
+      "E"
+    ],
+    "columns": [
+      "region",
+      "observed_mm",
+      "climate_mm",
+      "modeled_human_mm",
+      "residual_mm",
+      "discrepancy_mm"
+    ],
+    "note": "Calendar-month fixed-effect OLS slopes, mm/year, on common available months. O observed; C naturalized; H historical minus naturalized; R observed minus naturalized; E observed minus historical. R = H + E. These are not additive Sen slopes or measured pumping rates. Conditional intervals are supplied in attribution_wild_block_intervals.csv."
+  },
+  {
+    "id": 6,
+    "title": "GLDAS matched land storage performance",
+    "file": "C06_basin_values.csv",
+    "headers": [
+      "Basin",
+      "n",
+      "r",
+      "NSE",
+      "RMSE",
+      "MAE",
+      "Bias"
+    ],
+    "columns": [
+      "region",
+      "n",
+      "r",
+      "NSE",
+      "RMSE_mm",
+      "MAE_mm",
+      "bias_mm"
+    ],
+    "note": "Soil, canopy and snow only; naturalized WaterGAP compared with GLDAS Noah on matched months. Errors are mm; bias = WaterGAP minus GLDAS. This does not validate full TWS, GWS or human-only storage."
+  },
+  {
+    "id": 7,
+    "title": "Residual agreement with annual groundwater head",
+    "file": "C07_basin_values.csv",
+    "headers": [
+      "Basin",
+      "TWS r",
+      "TWS detr r",
+      "Years",
+      "GWS r",
+      "GWS detr r",
+      "Years"
+    ],
+    "columns": [
+      "region",
+      "TWS_r",
+      "TWS_detrended_r",
+      "TWS_n_years",
+      "GWS_r",
+      "GWS_detrended_r",
+      "GWS_n_years"
+    ],
+    "note": "Longest-overlap retained-flags panel. Positive r means lower residual tends to occur with lower head. Detr r removes a linear trend. An em dash means unavailable evidence, not zero. Head is not converted into storage; no cross-unit NSE or RMSE is reported. Other station panels and conditional intervals remain in the complete CSV."
+  },
+  {
+    "id": 8,
+    "title": "TWS residual agreement with independent reservoir storage",
+    "file": "C08_basin_values.csv",
+    "headers": [
+      "Basin",
+      "Reservoirs",
+      "Months",
+      "Raw r",
+      "Adjusted r",
+      "95% low",
+      "95% high"
+    ],
+    "columns": [
+      "region",
+      "reservoir_count",
+      "n_months",
+      "r_raw",
+      "r_month_trend_removed",
+      "adjusted_r_year_cluster_boot_ci_low",
+      "adjusted_r_year_cluster_boot_ci_high"
+    ],
+    "note": "Scene-screened Level 1 estimates; fixed pre-2004 reservoir panel. Adjusted correlation removes season and trend. Intervals resample whole calendar years. Missing or insufficient evidence is left unavailable. This checks a surface-water component, not a human-only total."
+  },
+  {
+    "id": 9,
+    "title": "Rainfall source sensitivity in the controlled Ridge model",
+    "file": "C09_basin_values.csv",
+    "headers": [
+      "Basin",
+      "TWS native",
+      "TWS CHIRPS",
+      "GWS native",
+      "GWS CHIRPS"
+    ],
+    "columns": [
+      "region",
+      "TWS_Native",
+      "TWS_CHIRPS",
+      "GWS_Native",
+      "GWS_CHIRPS"
+    ],
+    "note": "Test-period anomaly NSE for the frozen Weather_memory Ridge experiment, holding PET and the native-forced parent target fixed. CHIRPS is unadjusted here. This is forcing sensitivity, not evidence that one rainfall product is more accurate. It is a different experiment from the ensemble in Tables C.2–C.3."
+  },
+  {
+    "id": 10,
+    "title": "Basin mean forcing and supporting data 1",
+    "file": "C10_basin_values.csv",
+    "headers": [
+      "Basin",
+      "Native precipitation",
+      "Native potential ET",
+      "CHIRPS precipitation",
+      "GLEAM actual ET"
+    ],
+    "columns": [
+      "region",
+      "Native_P",
+      "Native_PET",
+      "CHIRPS_P",
+      "GLEAM_ET"
+    ],
+    "note": "Available-month means within January 2003–December 2023. Rainfall and ET are mm/month; moisture is m³/m³; temperature is °C. Means are not annual totals. Coverage and sample counts differ between products and are supplied in forcing_summary_and_trends.csv. Actual ET, moisture and temperature are supporting context, not added climate-model predictors."
+  },
+  {
+    "id": 11,
+    "title": "Basin mean forcing and supporting data 2",
+    "file": "C11_basin_values.csv",
+    "headers": [
+      "Basin",
+      "MODIS actual ET",
+      "ESA CCI surface moisture",
+      "ESA CCI root zone moisture",
+      "MODIS surface temperature"
+    ],
+    "columns": [
+      "region",
+      "MODIS_ET",
+      "ESA_CCI_SSM",
+      "ESA_CCI_RZSM",
+      "MODIS_LST"
+    ],
+    "note": "Available-month means within January 2003–December 2023. Rainfall and ET are mm/month; moisture is m³/m³; temperature is °C. Means are not annual totals. Coverage and sample counts differ between products and are supplied in forcing_summary_and_trends.csv. Actual ET, moisture and temperature are supporting context, not added climate-model predictors."
+  }
+]

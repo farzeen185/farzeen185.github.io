@@ -1,10 +1,10 @@
 {
-  "pages": 60,
-  "figures": 21,
-  "native_tables": 6,
-  "rendered_pages": 60,
-  "sha256": "dddc165856fa058e7017b0d1428e8d9feb1b8c2288ee69ef1bcfb7f628712aa4",
-  "words": 12235,
+  "pages": 83,
+  "figures": 31,
+  "native_tables": 17,
+  "rendered_pages": 83,
+  "sha256": "ce04f819ffae7109822bac1288af4b93603f291669d006ac47e2a91c6077c2d7",
+  "words": 15477,
   "methodology_pages": [
     24,
     33

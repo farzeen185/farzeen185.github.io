@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "basins": 22,
+  "tables": 11,
+  "figures": 10,
+  "period": "2003\u20132023",
+  "no_refitting": true,
+  "native_forcing_duplicate_targets_equal": true,
+  "monthly_rows": 5796,
+  "sources": [
+    "naturalized_attribution_timeseries.csv",
+    "multisource_hydroclimate_series.csv",
+    "verified basin metrics CSVs"
+  ],
+  "tables_sha256": {
+    "C01_basin_values.csv": "2bb6f908b2d58adf085f89ca2869192215c1a8e1671fcb85429712cfecf733c2",
+    "C02_basin_values.csv": "24b42ff11b5c51b08883c5bd678cb8fdfd5660025b2ca928d217ab377577f455",
+    "C03_basin_values.csv": "605dc53c63646485bcaef0b73c399aa591d205e2e763c88ad2034b249b2dc1ee",
+    "C04_basin_values.csv": "cb48d559cf7ca6702a9ac4270edbb7bff98a562266284efdd0d70992d08fcc83",
+    "C05_basin_values.csv": "f7d9383d18078dfb81291cfd2cd14d011fb0f178b9708907ad168f4b1731b2f3",
+    "C06_basin_values.csv": "d6be27a0575fa6382c928af379718d23463461505e528776c94517cd6fd20b63",
+    "C07_basin_values.csv": "fae4bcf09ed14499c401ade5ee2cd8afdd6c4f9e87ce95a3381e4f013258a8fe",
+    "C08_basin_values.csv": "e94d4a709fcc0c07f3982c2647d0fd96ccbc22fb2d0f214b3a34c02cbd895c46",
+    "C09_basin_values.csv": "b2d0023b314fd757b500796871c45ddf2391915ee394efd9519e94ae63ac132b",
+    "C10_basin_values.csv": "c38d5f330ae27b2bcc7725cd6ba99b784248a85bcae517ac21da4c61be742f9f",
+    "C11_basin_values.csv": "057d2620da02b83bbb012d5008274307d69e50154c77aed7fc87eb48d5f85f33",
+    "forcing_monthly_series_2003_2023.csv": "c6ae7060a955ab35cc1f8a3bc456359f9caeadfb69faea2c60e1f967663ba9c6",
+    "forcing_summary_and_trends.csv": "e7c3e00007a576007c610a3aa49a7f8f2b87d5cd599ed3c28a97aadddd5eaf43"
+  }
+}

@@ -11,3 +11,6 @@ For the revised documents requested with spatial and temporal figures, run **`38
 `build_powerpoint_artifact_tool.mjs` records the editable PowerPoint authoring source. It uses OpenAI's artifact-tool runtime and the original local presentation path; change ROOT for another workspace with that runtime. Public scientific reproduction and Beamer compilation do not depend on this authoring library. The released PPTX remains editable in PowerPoint.
 
 The latest report uses simpler prose and a step-by-step methodology. After the complete scientific run, run 43_simplify_report.py to rebuild this report directly; it reuses the figure layout from script 38 without rewriting the manuscript. Export the DOCX with the Word script above. This changes the report explanation only; it retains 60 pages, 21 figures and six tables. The previous manuscript and presentations remain the reviewed figure-rich versions.
+
+
+For the final report with basin tables and forcing figures, run 46_append_basin_forcing_report.py after the full numerical run (which now includes script 45). It rebuilds the 60-page main report with script 43, then adds 23 appendix pages. The released final report has 83 pages, 31 figures and 17 tables. Script 43 alone remains the simpler main report source.

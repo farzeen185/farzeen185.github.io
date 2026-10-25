@@ -24,4 +24,10 @@ for source in sorted((P/'figure_revision_reference').glob('*.csv')):
     a=pd.read_csv(O/'figure_revision/tables'/source.name,dtype={'region':str});b=pd.read_csv(source,dtype={'region':str})
     pd.testing.assert_frame_equal(a,b,check_dtype=False,check_exact=False,rtol=1e-5,atol=1e-5);figure_tables.append({'table':source.name,'rows':len(a)})
 checks['figure_revision_tables']=figure_tables
+appendix_tables=[]
+for source in sorted((P/'basin_forcing_reference').glob('*.csv')):
+    a=pd.read_csv(O/'basin_forcing_appendix/tables'/source.name,dtype={'region':str});b=pd.read_csv(source,dtype={'region':str})
+    pd.testing.assert_frame_equal(a,b,check_dtype=False,check_exact=False,rtol=1e-5,atol=1e-5)
+    appendix_tables.append({'table':source.name,'rows':len(a)})
+checks['basin_forcing_appendix_tables']=appendix_tables
 (O/'logs/reproduction_qa.json').write_text(json.dumps(checks,indent=2));print(json.dumps(checks,indent=2))
