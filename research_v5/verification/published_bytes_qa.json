@@ -1,0 +1,32 @@
+{
+  "git_inputs_verified": 9,
+  "git_commit": "0a1f4c9cdb5b34f206abadf29e981e5c8c9ab7bc",
+  "published": [
+    {
+      "file": "AIT_Extended_Thesis_Farzeen_Khan.pdf",
+      "bytes": 2794703,
+      "sha256": "a358c4f13b8f1200fe0d17ca60d25ba924dd9855807acc8e4febe17298ff9681"
+    },
+    {
+      "file": "Manuscript_Attribution_Credibility_Farzeen_Khan.pdf",
+      "bytes": 1061817,
+      "sha256": "dcdfb5cb0fde4df6027d1732cb829716755b28a455a0970c7308bbb79dfa811d"
+    },
+    {
+      "file": "Thailand_Attribution_Credibility_Farzeen_Khan.pptx",
+      "bytes": 1851305,
+      "sha256": "d903372f258838f9e9c15560e80534a4b15ef3833f0216e87820d71e73ff98ed"
+    },
+    {
+      "file": "Thailand_Attribution_Credibility_Beamer.pdf",
+      "bytes": 16614722,
+      "sha256": "d0897e07c0531d81366fe3db72e92b00b88bec17684bfae6d9cd6e41c395b707"
+    },
+    {
+      "file": "Thailand_Attribution_Credibility_LaTeX_Source.zip",
+      "bytes": 16507785,
+      "sha256": "86b94713d0e4d3a0d6b7ff7292b2ddc5a596d448ee49bcfa8aa54948a5b8c5ba"
+    }
+  ],
+  "passed": true
+}
