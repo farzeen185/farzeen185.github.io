@@ -1,0 +1,13 @@
+{
+  "pages": 60,
+  "figures": 21,
+  "native_tables": 6,
+  "rendered_pages": 60,
+  "sha256": "dddc165856fa058e7017b0d1428e8d9feb1b8c2288ee69ef1bcfb7f628712aa4",
+  "words": 12235,
+  "methodology_pages": [
+    24,
+    33
+  ],
+  "numerical_analysis_changed": false
+}
