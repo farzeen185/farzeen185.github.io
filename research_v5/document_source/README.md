@@ -14,3 +14,6 @@ The latest report uses simpler prose and a step-by-step methodology. After the c
 
 
 For the final report with basin tables and forcing figures, run 46_append_basin_forcing_report.py after the full numerical run (which now includes script 45). It rebuilds the 60-page main report with script 43, then adds 23 appendix pages. The released final report has 83 pages, 31 figures and 17 tables. Script 43 alone remains the simpler main report source.
+
+
+The latest academic presentation uses Metropolis: 35 main slides and 15 backups. Run 50_academic_metropolis.py after the complete scientific run to regenerate its figures, shared content and Beamer source. The self-contained source ZIP is under extended/academic/. Compile it twice with XeLaTeX. Script 51 builds the editable matching PowerPoint in the Codex artifact-tool authoring runtime. The earlier scripts 25/40 retain the previous deck version.

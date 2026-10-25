@@ -1,0 +1,449 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+\usepackage{fontspec}
+\usetheme[progressbar=frametitle,numbering=fraction,sectionpage=none]{metropolis}
+\IfFontExistsTF{Arial}{\setsansfont{Arial}\setmainfont{Arial}}{\setsansfont{TeX Gyre Heros}\setmainfont{TeX Gyre Heros}}
+\usepackage{graphicx,booktabs,array,amsmath}
+\definecolor{researchnavy}{HTML}{203A49}
+\definecolor{researchteal}{HTML}{368C83}
+\definecolor{researchpaper}{HTML}{FAFAF8}
+\setbeamercolor{normal text}{fg=researchnavy,bg=researchpaper}
+\setbeamercolor{frametitle}{bg=researchnavy,fg=white}
+\setbeamercolor{alerted text}{fg=researchteal}
+\setbeamercolor{progress bar}{fg=researchteal,bg=researchnavy!12}
+\setbeamersize{text margin left=8mm,text margin right=8mm}
+\setbeamerfont{frametitle}{size=\large,series=\bfseries}
+\setbeamerfont{footnote}{size=\scriptsize}
+\setbeamertemplate{navigation symbols}{}
+\title{Water storage change across Thailand}
+\subtitle{Climate reconstruction and the limits of human attribution}
+\author{Farzeen Khan}
+\institute{MS in Water Engineering and Management\\Asian Institute of Technology\\[2mm]Advisor: Dr. Natthachet Tangdamrongsub}
+\date{October 2026}
+\newcommand{\sourcenote}[1]{\vfill\par{\fontsize{7.1}{8.4}\selectfont\color{researchnavy!75}#1}}
+\begin{document}
+
+\begin{frame}[plain]\vspace{3mm}{\LARGE\bfseries Water storage change across Thailand}\par\vspace{3mm}{\large\color{researchteal}Climate reconstruction and the limits of human attribution}\par\vspace{7mm}{\large Farzeen Khan}\par\vspace{2mm}{\small MS in Water Engineering and Management\\Asian Institute of Technology}\par\vspace{5mm}{\small Advisor: Dr. Natthachet Tangdamrongsub}\par\vspace{2mm}{\small October 2026}\end{frame}
+\begin{frame}{Research focus}
+\begin{itemize}\setlength{\itemsep}{3mm}
+\item How are total and groundwater storage changing across Thailand’s 22 principal basins?
+\item How much of the observed change can the climate baseline explain?
+\item How strongly do independent observations support the remaining residual?
+\end{itemize}
+\end{frame}
+\begin{frame}{Research objectives}
+\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.35}\begin{tabular}{>{\raggedright\arraybackslash}p{0.46\textwidth}>{\raggedright\arraybackslash}p{0.46\textwidth}}\toprule
+\textbf{Objective} & \textbf{Output}\\\midrule
+1  Storage change & Monthly TWSA/GWSA, Sen slopes and Mann–Kendall tests\\
+2  Climate and residual & Climate reconstruction, GLDAS benchmark and observation checks\\
+3  Decision support & Interactive basin app, input data and reproducible code\\
+\bottomrule\end{tabular}
+\end{frame}
+\begin{frame}{Thailand’s 22 principal basins}
+\begin{columns}[c]\begin{column}{.43\textwidth}\centering\includegraphics[height=.65\textheight]{figures/01_study_basins.pdf}\end{column}\begin{column}{.54\textwidth}\begin{itemize}
+\item Official ONWR reporting framework
+\item GRACE information extends across basin boundaries
+\item All basin tables retain coverage and uncertainty
+\end{itemize}\end{column}\end{columns}
+\sourcenote{ONWR principal-basin geometry. Reporting units do not imply independent GRACE observations.}
+\end{frame}
+\begin{frame}{Data and scientific roles}
+\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.35}\begin{tabular}{>{\raggedright\arraybackslash}p{0.46\textwidth}>{\raggedright\arraybackslash}p{0.46\textwidth}}\toprule
+\textbf{Record} & \textbf{Role}\\\midrule
+CSR RL06.3 GRACE/GRACE-FO & Observed total storage\\
+GLDAS Noah and G3P & Non-groundwater storage compartments\\
+Paired WaterGAP simulations & Naturalized and historical-human baselines\\
+Native P/PET and CHIRPS & Weather reconstruction and rainfall sensitivity\\
+Thai wells and MSEA-Res & Groundwater and reservoir consistency evidence\\
+\bottomrule\end{tabular}
+\sourcenote{Primary TWSA: April 2002–September 2024. Derived GWSA: April 2002–September 2023.}
+\end{frame}
+\begin{frame}{Analysis workflow}
+\begin{itemize}\setlength{\itemsep}{3mm}
+\item Harmonize monthly units, dates, area weights and the 2004–2009 reference
+\item Calculate GWSA and estimate storage trends
+\item Reconstruct naturalized storage using weather and climate memory
+\item Calculate the residual, examine uncertainty and compare independent observations
+\end{itemize}
+\end{frame}
+\begin{frame}{Groundwater storage balance}
+\[ \mathrm{GWSA}=\mathrm{TWSA}-\mathrm{SMSA}-\mathrm{SWSA}-\mathrm{CWSA}-\mathrm{SWEA} \]
+\begin{itemize}\setlength{\itemsep}{3mm}
+\item Subtract soil, surface, canopy and snow storage anomalies
+\item Use common valid cells and a common reference period
+\item Groundwater uncertainty includes every subtracted compartment
+\end{itemize}
+\sourcenote{Storage anomalies use mm of equivalent water depth. Snow is small in Thailand but retained consistently.}
+\end{frame}
+\begin{frame}{Naturalized and historical simulations}
+\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.35}\begin{tabular}{>{\raggedright\arraybackslash}p{0.46\textwidth}>{\raggedright\arraybackslash}p{0.46\textwidth}}\toprule
+\textbf{Symbol} & \textbf{Meaning}\\\midrule
+O & Observed or compartment-derived storage\\
+C & Naturalized WaterGAP baseline\\
+A & Historical WaterGAP with represented human activities\\
+\bottomrule\end{tabular}
+\sourcenote{Paired simulations share model structure and forcing. The naturalized baseline remains a model experiment.}
+\end{frame}
+\begin{frame}{Residual accounting}
+\[ R=O-C=\underbrace{(A-C)}_{H}+\underbrace{(O-A)}_{E} \]
+\begin{itemize}\setlength{\itemsep}{3mm}
+\item H describes the human effect represented by the paired model
+\item E retains the observation–historical-model discrepancy
+\item The primary residual uses the published naturalized baseline
+\end{itemize}
+\sourcenote{The statistical emulator reconstructs C from weather. Its prediction does not replace C in the primary residual.}
+\end{frame}
+\begin{frame}{Chronological model evaluation}
+\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.35}\begin{tabular}{>{\raggedright\arraybackslash}p{0.307\textwidth}>{\raggedright\arraybackslash}p{0.307\textwidth}>{\raggedright\arraybackslash}p{0.307\textwidth}}\toprule
+\textbf{Period} & \textbf{Years} & \textbf{Use}\\\midrule
+Warm-up & 1981–1990 & Initialize climate memory\\
+Training & 1991–2009 & Fit transformations and tune models\\
+Validation & 2010–2015 & Freeze model selection\\
+Test & 2016–2023 & Evaluate unseen years\\
+\bottomrule\end{tabular}
+\sourcenote{Ridge, Elastic Net, splines and Random Forest. Predictors exclude GRACE and groundwater observations.}
+\end{frame}
+\begin{frame}{Precipitation and potential ET}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/forcing_national.pdf}
+\sourcenote{National monthly values, 2003–2023. Native P/PET drive reconstruction. CHIRPS supplies the rainfall replacement test.}
+\end{frame}
+\begin{frame}{Spatial distribution of the meteorological inputs}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/forcing_spatial.pdf}
+\sourcenote{Available-month basin means, 2003–2023. Values are mm/month, not annual totals. Each map uses its labelled scale.}
+\end{frame}
+\begin{frame}{Observed storage through time}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/storage_national.pdf}
+\sourcenote{National CSR TWSA and compartment-derived GWSA. Missing months remain gaps. Groundwater ends earlier because of compartment availability.}
+\end{frame}
+\begin{frame}{National storage decline}
+\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.35}\begin{tabular}{>{\raggedright\arraybackslash}p{0.307\textwidth}>{\raggedright\arraybackslash}p{0.307\textwidth}>{\raggedright\arraybackslash}p{0.307\textwidth}}\toprule
+\textbf{Storage} & \textbf{Sen slope (mm/year)} & \textbf{Conditional 95\% interval}\\\midrule
+Total storage & $-$7.51 & $-$9.79 to $-$5.68\\
+Groundwater storage & $-$6.84 & $-$8.77 to $-$5.11\\
+\bottomrule\end{tabular}
+\sourcenote{237 TWSA months through September 2024; 225 GWSA months through September 2023. Full-record seasonal Sen slopes.}
+\end{frame}
+\begin{frame}{Storage trend patterns across basins}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/storage_slopes.pdf}
+\sourcenote{Seasonal Sen slopes. Negative values indicate decline. All basins retain the CSR small-area caution.}
+\end{frame}
+\begin{frame}{Statistical evidence for basin trends}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/trend_evidence.pdf}
+\sourcenote{Seasonal Mann–Kendall with basin FDR. Colours saturate at q = 0.10. This test does not remove serial dependence or product uncertainty.}
+\end{frame}
+\begin{frame}{Basin ranking depends on the processing chain}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/05_product_ranking_scatter.pdf}
+\sourcenote{Common-date rank correlations: TWSA 0.138 and GWSA 0.027. Groundwater chains also differ in compartment processing.}
+\end{frame}
+\begin{frame}{Climate reconstruction performance}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/climate_scores.pdf}
+\sourcenote{Ensemble test anomaly NSE against naturalized WaterGAP, 2016–2023. High scores verify reconstruction of the parent model.}
+\end{frame}
+\begin{frame}{Naturalized storage and weather reconstruction}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/climate_national.pdf}
+\sourcenote{National series. Training: 1991–2009; validation: 2010–2015; test: 2016–2023. Parent-model agreement is distinct from observational validation.}
+\end{frame}
+\begin{frame}{Climate memory improves reconstruction}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/13_climate_memory_ablation.pdf}
+\sourcenote{Controlled Ridge experiment. National test anomaly NSE: current weather / memory = 0.283 / 0.890 for TWSA and 0.039 / 0.723 for GWSA.}
+\end{frame}
+\begin{frame}{Performance varies between test years}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/annual_skill.pdf}
+\sourcenote{2022 national anomaly NSE: TWSA 0.234; GWSA $-$1.067. Negative NSE indicates performance below the mean benchmark.}
+\end{frame}
+\begin{frame}{Residual and modeled human effects differ}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/residual_national.pdf}
+\sourcenote{R = H + E on common observed months. The remaining discrepancy includes unresolved model and observation errors.}
+\end{frame}
+\begin{frame}{Spatial residual trends}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/residual_spatial.pdf}
+\sourcenote{Calendar-month fixed-effect OLS slopes on matched support. These slopes describe residual change and do not measure pumping.}
+\end{frame}
+\begin{frame}{Additive national trend partition}
+\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.35}\begin{tabular}{>{\raggedright\arraybackslash}p{0.307\textwidth}>{\raggedright\arraybackslash}p{0.307\textwidth}>{\raggedright\arraybackslash}p{0.307\textwidth}}\toprule
+\textbf{Component} & \textbf{TWSA} & \textbf{GWSA}\\\midrule
+Observed O & -8.36 & -7.28\\
+Naturalized C & -0.54 & -0.21\\
+Modeled human H & -0.49 & 0.06\\
+Residual R & -7.81 & -7.07\\
+Discrepancy E & -7.32 & -7.13\\
+\bottomrule\end{tabular}
+\sourcenote{OLS slopes, mm/year, using the same months. R = H + E. Seasonal Sen slopes are reported separately because their medians are not additive.}
+\end{frame}
+\begin{frame}{GLDAS comparison on matching compartments}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/gldas_national.pdf}
+\sourcenote{Soil + canopy + snow only. National r = 0.969, NSE = 0.738, RMSE = 52.49 mm across 261 months. Groundwater and surface water are excluded.}
+\end{frame}
+\begin{frame}{GLDAS agreement varies among basins}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/gldas_scores.pdf}
+\sourcenote{Matched land-storage benchmark. NSE colours saturate below $-$1 and RMSE above 100 mm. GLDAS also contributes to the groundwater subtraction.}
+\end{frame}
+\begin{frame}{Groundwater level and storage use different units}
+\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.35}\begin{tabular}{>{\raggedright\arraybackslash}p{0.46\textwidth}>{\raggedright\arraybackslash}p{0.46\textwidth}}\toprule
+\textbf{Observation} & \textbf{What the comparison establishes}\\\midrule
+Groundwater head or depth (m) & Local aquifer response and direction\\
+Regional storage anomaly (mm) & Water-mass change over a basin\\
+Paired annual correlation & Agreement in timing on observed years\\
+\bottomrule\end{tabular}
+\sourcenote{A head-to-storage conversion requires aquifer storage coefficients and representative areas. Those inputs are unavailable here.}
+\end{frame}
+\begin{frame}{Well selection changes residual agreement}
+\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.35}\begin{tabular}{>{\raggedright\arraybackslash}p{0.23\textwidth}>{\raggedright\arraybackslash}p{0.23\textwidth}>{\raggedright\arraybackslash}p{0.23\textwidth}>{\raggedright\arraybackslash}p{0.23\textwidth}}\toprule
+\textbf{Station panel} & \textbf{TWS r} & \textbf{GWS r} & \textbf{GWS years}\\\midrule
+Longest overlap & 0.127 & 0.037 & 17\\
+Fixed eligibility / wider history & 0.657 & 0.511 & 17\\
+Common period & 0.325 & 0.029 & 8\\
+Strictly balanced & 0.305 & $\approx$0.000 & 8\\
+\bottomrule\end{tabular}
+\sourcenote{511 wells provide 5,484 aggregates. Co-located wells are grouped. The common-period panels cover eight usable storage years within 2013–2022.}
+\end{frame}
+\begin{frame}{Spatial groundwater consistency}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/head_spatial.pdf}
+\sourcenote{Residual–head correlations on available annual pairs. Grey hatching marks insufficient evidence. These comparisons cannot validate a human-only total.}
+\end{frame}
+\begin{frame}{Independent reservoir evidence}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/reservoir_national.pdf}
+\sourcenote{26-reservoir fixed panel, 73 scene-supported months. Adjusted r = 0.439, year-cluster 95\% interval 0.188–0.665. Both curves remove season and linear trend.}
+\end{frame}
+\begin{frame}{Reservoir agreement and observation support}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/reservoir_spatial.pdf}
+\sourcenote{Scene-screened MSEA-Res Level 1. Reservoir storage checks a surface-water component. Climate and operating decisions both affect reservoirs.}
+\end{frame}
+\begin{frame}{Sensitivity to the rainfall source}
+Test anomaly NSE in the frozen Ridge memory experiment\par\vspace{2mm}
+\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.35}\begin{tabular}{>{\raggedright\arraybackslash}p{0.307\textwidth}>{\raggedright\arraybackslash}p{0.307\textwidth}>{\raggedright\arraybackslash}p{0.307\textwidth}}\toprule
+\textbf{Storage} & \textbf{Native rainfall} & \textbf{CHIRPS replacement}\\\midrule
+TWSA & 0.890 & 0.688\\
+GWSA & 0.723 & 0.562\\
+\bottomrule\end{tabular}
+\sourcenote{PET and the native-forced parent target stay fixed. This tests forcing dependence, rather than which rainfall product is more accurate.}
+\end{frame}
+\begin{frame}{Decision support and reproducibility}
+\begin{itemize}\setlength{\itemsep}{3mm}
+\item Interactive storage histories, trend maps and observation support for all 22 basins
+\item Downloadable basin performance tables and spatial/temporal forcing figures
+\item Input subsets, pinned dependencies and executable scientific workflows
+\end{itemize}
+\sourcenote{https://pratikkhanal16.github.io/thailand-water-storage-dss/extended/  •  Source repository: pratikkhanal16/thailand-water-storage-dss}
+\end{frame}
+\begin{frame}{Conclusions}
+\begin{itemize}\setlength{\itemsep}{3mm}
+\item The primary records show national TWSA and GWSA decline
+\item Basin rankings and residual interpretation depend on products and observation support
+\item Climate memory reconstructs the naturalized parent well, with weaker performance in some years
+\item Wells and reservoirs provide complementary, limited evidence for residual interpretation
+\end{itemize}
+\sourcenote{Contribution: a reproducible joint assessment of product sensitivity, climate memory, paired-model discrepancy and monitoring-network uncertainty.}
+\end{frame}
+\begin{frame}{Selected references}
+\begin{itemize}\setlength{\itemsep}{3mm}
+\item Save et al. (2016), CSR mascons. doi:10.1002/2016JB013007
+\item Müller Schmied et al. (2024), WaterGAP. doi:10.5194/gmd-17-8817-2024
+\item Sharifi et al. (2025), groundwater storage. doi:10.5194/hess-29-6985-2025
+\item MSEA-Res (2025), reservoir storage. doi:10.5194/essd-17-2693-2025
+\item GROW groundwater observations. doi:10.5281/zenodo.15149480
+\end{itemize}
+\sourcenote{Full bibliography, source terms and basin results accompany the report. Theme: Metropolis by Matthias Vogelgesang and contributors, https://github.com/matze/mtheme.}
+\end{frame}
+\appendix
+\begin{frame}{Supporting results}
+\begin{itemize}\setlength{\itemsep}{3mm}
+\item Additional hydroclimatic context
+\item Basin performance tables for questions
+\item Observation support and interpretation
+\end{itemize}
+\end{frame}
+\begin{frame}{Supporting hydroclimatic histories}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/supporting_temporal.pdf}
+\sourcenote{National monthly observations, 2003–2023. Actual ET, soil moisture and surface temperature provide context; they are not added primary predictors.}
+\end{frame}
+\begin{frame}{Spatial hydroclimatic context}
+\centering\includegraphics[width=\textwidth,height=.64\textheight,keepaspectratio]{figures/supporting_spatial.pdf}
+\sourcenote{Basin available-month means, 2003–2023. Product coverage differs. Volumetric moisture is distinct from storage in mm.}
+\end{frame}
+\begin{frame}{Spatial support and uncertainty}
+\begin{itemize}\setlength{\itemsep}{3mm}
+\item National aggregation touches 68 native CSR mascons
+\item Inverse weight concentration is about 50.1 and does not count independent observations
+\item Every principal basin is below the provider’s approximate 200,000 km² small-area caution
+\item Conditional intervals do not include all gravity, compartment and hydrological-model errors
+\end{itemize}
+\end{frame}
+\begin{frame}{Observed storage trends for every basin (01–11)}
+\fontsize{8.5}{10}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.0}\begin{tabular}{>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}}\toprule
+\textbf{Basin} & \textbf{TWS slope} & \textbf{TWS q} & \textbf{n} & \textbf{GWS slope} & \textbf{GWS q} & \textbf{n}\\\midrule
+01 & -3.59 & <.001 & 237 & -2.88 & <.001 & 225\\
+02 & -1.90 & 0.010 & 237 & -1.83 & 0.014 & 225\\
+03 & -1.32 & 0.007 & 237 & -1.59 & <.001 & 225\\
+04 & -3.65 & <.001 & 237 & -3.32 & <.001 & 225\\
+05 & -4.42 & <.001 & 237 & -3.47 & <.001 & 225\\
+06 & -3.71 & <.001 & 237 & -3.10 & <.001 & 225\\
+07 & -3.21 & <.001 & 237 & -3.32 & <.001 & 225\\
+08 & -3.79 & <.001 & 237 & -3.97 & <.001 & 225\\
+09 & -3.74 & <.001 & 237 & -3.94 & <.001 & 225\\
+10 & -7.36 & <.001 & 237 & -7.47 & <.001 & 225\\
+11 & -5.50 & <.001 & 237 & -5.20 & <.001 & 225\\
+\bottomrule\end{tabular}
+\sourcenote{Slopes are seasonal Sen estimates in mm/year. q is seasonal Mann–Kendall FDR across basins; n is observed months. Full intervals and original p-values remain in CSR\_basin\_trends.csv. Basin names are listed in Appendix A.}
+\end{frame}
+\begin{frame}{Observed storage trends for every basin (12–22)}
+\fontsize{8.5}{10}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.0}\begin{tabular}{>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}}\toprule
+\textbf{Basin} & \textbf{TWS slope} & \textbf{TWS q} & \textbf{n} & \textbf{GWS slope} & \textbf{GWS q} & \textbf{n}\\\midrule
+12 & -7.06 & <.001 & 237 & -7.35 & <.001 & 225\\
+13 & -6.89 & <.001 & 237 & -6.36 & <.001 & 225\\
+14 & -5.25 & <.001 & 237 & -5.48 & <.001 & 225\\
+15 & -8.64 & <.001 & 237 & -8.12 & <.001 & 225\\
+16 & -7.68 & <.001 & 237 & -7.30 & <.001 & 225\\
+17 & -7.51 & <.001 & 237 & -7.92 & <.001 & 225\\
+18 & -5.85 & <.001 & 237 & -4.75 & <.001 & 225\\
+19 & -34.37 & <.001 & 237 & -36.08 & <.001 & 225\\
+20 & -6.25 & <.001 & 237 & -7.45 & <.001 & 225\\
+21 & -1.62 & <.001 & 237 & -3.16 & <.001 & 225\\
+22 & -21.48 & <.001 & 237 & -20.95 & <.001 & 225\\
+\bottomrule\end{tabular}
+\sourcenote{Slopes are seasonal Sen estimates in mm/year. q is seasonal Mann–Kendall FDR across basins; n is observed months. Full intervals and original p-values remain in CSR\_basin\_trends.csv. Basin names are listed in Appendix A.}
+\end{frame}
+\begin{frame}{TWSA climate reconstruction performance (01–11)}
+\fontsize{8.5}{10}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.0}\begin{tabular}{>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}}\toprule
+\textbf{Basin} & \textbf{n} & \textbf{r} & \textbf{NSE} & \textbf{Anom NSE} & \textbf{RMSE} & \textbf{MAE}\\\midrule
+01 & 96 & 0.991 & 0.981 & 0.807 & 22.08 & 16.90\\
+02 & 96 & 0.990 & 0.979 & 0.904 & 17.32 & 13.88\\
+03 & 96 & 0.990 & 0.973 & 0.812 & 27.37 & 19.39\\
+04 & 96 & 0.981 & 0.961 & 0.821 & 15.61 & 11.58\\
+05 & 96 & 0.974 & 0.946 & 0.732 & 21.43 & 15.40\\
+06 & 96 & 0.991 & 0.981 & 0.876 & 15.90 & 12.00\\
+07 & 96 & 0.987 & 0.974 & 0.868 & 15.24 & 11.08\\
+08 & 96 & 0.987 & 0.972 & 0.873 & 15.38 & 11.43\\
+09 & 96 & 0.992 & 0.983 & 0.901 & 14.14 & 10.83\\
+10 & 96 & 0.967 & 0.928 & 0.792 & 42.23 & 30.13\\
+11 & 96 & 0.990 & 0.980 & 0.875 & 15.34 & 12.27\\
+\bottomrule\end{tabular}
+\sourcenote{Frozen ensemble, 2016–2023 test data. Target: naturalized WaterGAP, not GRACE. Errors are mm; anomaly NSE removes the training monthly climatology. Higher NSE and lower errors are better.}
+\end{frame}
+\begin{frame}{TWSA climate reconstruction performance (12–22)}
+\fontsize{8.5}{10}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.0}\begin{tabular}{>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}}\toprule
+\textbf{Basin} & \textbf{n} & \textbf{r} & \textbf{NSE} & \textbf{Anom NSE} & \textbf{RMSE} & \textbf{MAE}\\\midrule
+12 & 96 & 0.987 & 0.974 & 0.864 & 11.22 & 8.35\\
+13 & 96 & 0.974 & 0.942 & 0.778 & 32.00 & 23.99\\
+14 & 96 & 0.991 & 0.981 & 0.856 & 18.49 & 14.13\\
+15 & 96 & 0.975 & 0.942 & 0.764 & 28.65 & 22.72\\
+16 & 96 & 0.979 & 0.957 & 0.705 & 14.60 & 11.45\\
+17 & 96 & 0.987 & 0.972 & 0.742 & 16.75 & 13.62\\
+18 & 96 & 0.979 & 0.957 & 0.827 & 14.38 & 10.97\\
+19 & 96 & 0.982 & 0.965 & 0.911 & 17.38 & 13.55\\
+20 & 96 & 0.982 & 0.963 & 0.903 & 22.54 & 18.01\\
+21 & 96 & 0.977 & 0.951 & 0.887 & 25.44 & 18.76\\
+22 & 96 & 0.985 & 0.970 & 0.903 & 17.36 & 13.16\\
+\bottomrule\end{tabular}
+\sourcenote{Frozen ensemble, 2016–2023 test data. Target: naturalized WaterGAP, not GRACE. Errors are mm; anomaly NSE removes the training monthly climatology. Higher NSE and lower errors are better.}
+\end{frame}
+\begin{frame}{GWSA climate reconstruction performance (01–11)}
+\fontsize{8.5}{10}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.0}\begin{tabular}{>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}}\toprule
+\textbf{Basin} & \textbf{n} & \textbf{r} & \textbf{NSE} & \textbf{Anom NSE} & \textbf{RMSE} & \textbf{MAE}\\\midrule
+01 & 96 & 0.982 & 0.963 & 0.830 & 5.74 & 4.47\\
+02 & 96 & 0.986 & 0.956 & 0.901 & 4.98 & 4.08\\
+03 & 96 & 0.982 & 0.953 & 0.781 & 10.59 & 7.70\\
+04 & 96 & 0.969 & 0.933 & 0.755 & 7.04 & 5.33\\
+05 & 96 & 0.963 & 0.927 & 0.678 & 8.87 & 6.32\\
+06 & 96 & 0.980 & 0.958 & 0.842 & 3.94 & 2.92\\
+07 & 96 & 0.977 & 0.948 & 0.824 & 4.83 & 3.96\\
+08 & 96 & 0.984 & 0.963 & 0.865 & 5.52 & 4.22\\
+09 & 96 & 0.982 & 0.958 & 0.832 & 6.04 & 4.78\\
+10 & 96 & 0.968 & 0.935 & 0.661 & 4.90 & 4.09\\
+11 & 96 & 0.958 & 0.914 & 0.627 & 7.09 & 5.40\\
+\bottomrule\end{tabular}
+\sourcenote{Frozen ensemble, 2016–2023 test data. Target: naturalized WaterGAP, not GRACE. Errors are mm; anomaly NSE removes the training monthly climatology. Higher NSE and lower errors are better.}
+\end{frame}
+\begin{frame}{GWSA climate reconstruction performance (12–22)}
+\fontsize{8.5}{10}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.0}\begin{tabular}{>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}}\toprule
+\textbf{Basin} & \textbf{n} & \textbf{r} & \textbf{NSE} & \textbf{Anom NSE} & \textbf{RMSE} & \textbf{MAE}\\\midrule
+12 & 96 & 0.981 & 0.962 & 0.812 & 4.62 & 3.61\\
+13 & 96 & 0.959 & 0.920 & 0.703 & 5.50 & 4.45\\
+14 & 96 & 0.985 & 0.970 & 0.812 & 4.39 & 3.12\\
+15 & 96 & 0.963 & 0.902 & 0.360 & 10.51 & 8.46\\
+16 & 96 & 0.970 & 0.933 & 0.564 & 10.88 & 8.87\\
+17 & 96 & 0.980 & 0.952 & 0.589 & 11.67 & 9.60\\
+18 & 96 & 0.958 & 0.907 & 0.711 & 6.84 & 5.11\\
+19 & 96 & 0.968 & 0.926 & 0.823 & 10.40 & 8.46\\
+20 & 96 & 0.946 & 0.892 & 0.668 & 11.69 & 9.70\\
+21 & 96 & 0.953 & 0.904 & 0.808 & 9.19 & 7.33\\
+22 & 96 & 0.967 & 0.922 & 0.780 & 11.32 & 8.94\\
+\bottomrule\end{tabular}
+\sourcenote{Frozen ensemble, 2016–2023 test data. Target: naturalized WaterGAP, not GRACE. Errors are mm; anomaly NSE removes the training monthly climatology. Higher NSE and lower errors are better.}
+\end{frame}
+\begin{frame}{GLDAS matched land storage performance (01–11)}
+\fontsize{8.5}{10}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.0}\begin{tabular}{>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}}\toprule
+\textbf{Basin} & \textbf{n} & \textbf{r} & \textbf{NSE} & \textbf{RMSE} & \textbf{MAE} & \textbf{Bias}\\\midrule
+01 & 261 & 0.949 & 0.850 & 55.42 & 46.06 & 4.24\\
+02 & 261 & 0.955 & 0.877 & 38.82 & 31.16 & -3.20\\
+03 & 261 & 0.957 & 0.670 & 62.72 & 55.91 & 3.44\\
+04 & 261 & 0.940 & 0.702 & 56.19 & 48.08 & 11.12\\
+05 & 261 & 0.931 & 0.620 & 65.72 & 57.34 & 12.09\\
+06 & 261 & 0.961 & 0.901 & 37.15 & 30.56 & 3.75\\
+07 & 261 & 0.962 & 0.874 & 36.09 & 29.37 & -2.62\\
+08 & 261 & 0.926 & 0.712 & 59.38 & 51.34 & -2.20\\
+09 & 261 & 0.956 & 0.825 & 48.01 & 41.12 & 1.04\\
+10 & 261 & 0.871 & 0.390 & 77.84 & 69.70 & 7.74\\
+11 & 261 & 0.900 & 0.756 & 59.88 & 49.64 & 3.91\\
+\bottomrule\end{tabular}
+\sourcenote{Soil, canopy and snow only; naturalized WaterGAP compared with GLDAS Noah on matched months. Errors are mm; bias = WaterGAP minus GLDAS. This does not validate full TWS, GWS or human-only storage.}
+\end{frame}
+\begin{frame}{GLDAS matched land storage performance (12–22)}
+\fontsize{8.5}{10}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.0}\begin{tabular}{>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}}\toprule
+\textbf{Basin} & \textbf{n} & \textbf{r} & \textbf{NSE} & \textbf{RMSE} & \textbf{MAE} & \textbf{Bias}\\\midrule
+12 & 261 & 0.848 & 0.465 & 75.38 & 66.62 & 7.09\\
+13 & 261 & 0.814 & 0.317 & 95.06 & 85.91 & 13.97\\
+14 & 261 & 0.955 & 0.788 & 62.51 & 53.84 & 4.43\\
+15 & 261 & 0.934 & 0.621 & 60.08 & 51.92 & 5.74\\
+16 & 261 & 0.860 & 0.453 & 78.69 & 68.66 & 9.02\\
+17 & 261 & 0.891 & 0.559 & 71.30 & 62.24 & 3.90\\
+18 & 261 & 0.858 & 0.514 & 80.68 & 71.40 & 13.50\\
+19 & 261 & 0.866 & 0.690 & 49.28 & 39.89 & 0.01\\
+20 & 261 & 0.844 & 0.544 & 53.29 & 41.99 & 10.73\\
+21 & 261 & 0.678 & 0.403 & 62.21 & 51.62 & 9.14\\
+22 & 261 & 0.887 & 0.686 & 49.60 & 40.29 & -6.04\\
+\bottomrule\end{tabular}
+\sourcenote{Soil, canopy and snow only; naturalized WaterGAP compared with GLDAS Noah on matched months. Errors are mm; bias = WaterGAP minus GLDAS. This does not validate full TWS, GWS or human-only storage.}
+\end{frame}
+\begin{frame}{Residual agreement with annual groundwater head (01–11)}
+\fontsize{8.5}{10}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.0}\begin{tabular}{>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}}\toprule
+\textbf{Basin} & \textbf{TWS r} & \textbf{TWS detr r} & \textbf{Years} & \textbf{GWS r} & \textbf{GWS detr r} & \textbf{Years}\\\midrule
+01 & 0.449 & 0.582 & 9 & -0.215 & 0.167 & 8\\
+02 & 0.330 & 0.345 & 17 & 0.279 & 0.399 & 16\\
+03 & -0.121 & -0.084 & 9 & 0.063 & -0.109 & 8\\
+04 & -0.009 & -0.030 & 9 & -0.168 & -0.023 & 8\\
+05 & 0.113 & 0.103 & 9 & -0.007 & 0.070 & 8\\
+06 & 0.385 & 0.432 & 15 & 0.229 & 0.293 & 14\\
+07 & -0.089 & -0.043 & 9 & -0.244 & 0.047 & 8\\
+08 & 0.236 & 0.157 & 9 & 0.277 & -0.124 & 8\\
+09 & 0.208 & 0.176 & 9 & 0.026 & -0.198 & 8\\
+10 & 0.152 & 0.050 & 9 & 0.519 & 0.200 & 8\\
+11 & — & — & 5 & — & — & 4\\
+\bottomrule\end{tabular}
+\sourcenote{Longest-overlap retained-flags panel. Positive r means lower residual tends to occur with lower head. Detr r removes a linear trend. An em dash means unavailable evidence, not zero. Head is not converted into storage; no cross-unit NSE or RMSE is reported. Other station panels and conditional intervals remain in the complete CSV.}
+\end{frame}
+\begin{frame}{Residual agreement with annual groundwater head (12–22)}
+\fontsize{8.5}{10}\selectfont\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.0}\begin{tabular}{>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}>{\raggedright\arraybackslash}p{0.126\textwidth}}\toprule
+\textbf{Basin} & \textbf{TWS r} & \textbf{TWS detr r} & \textbf{Years} & \textbf{GWS r} & \textbf{GWS detr r} & \textbf{Years}\\\midrule
+12 & — & — & 5 & — & — & 4\\
+13 & -0.044 & -0.212 & 17 & 0.027 & -0.147 & 16\\
+14 & 0.094 & 0.074 & 17 & 0.093 & 0.116 & 16\\
+15 & 0.001 & -0.041 & 9 & -0.082 & -0.187 & 8\\
+16 & — & — & 3 & — & — & 2\\
+17 & 0.041 & 0.136 & 9 & -0.420 & -0.215 & 8\\
+18 & -0.335 & -0.394 & 9 & -0.289 & -0.115 & 8\\
+19 & 0.227 & 0.096 & 9 & 0.033 & -0.147 & 8\\
+20 & -0.197 & -0.656 & 18 & -0.375 & -0.722 & 17\\
+21 & — & — & 0 & — & — & 0\\
+22 & -0.080 & -0.143 & 15 & -0.389 & -0.450 & 14\\
+\bottomrule\end{tabular}
+\sourcenote{Longest-overlap retained-flags panel. Positive r means lower residual tends to occur with lower head. Detr r removes a linear trend. An em dash means unavailable evidence, not zero. Head is not converted into storage; no cross-unit NSE or RMSE is reported. Other station panels and conditional intervals remain in the complete CSV.}
+\end{frame}
+\begin{frame}{Complete basin results and source data}
+\begin{itemize}\setlength{\itemsep}{3mm}
+\item Report Appendix C: 11 tables for every basin
+\item Report Appendix D: 10 spatial and temporal forcing figures
+\item The website supplies full-precision CSVs, vector figures and runnable code
+\end{itemize}
+\sourcenote{https://pratikkhanal16.github.io/thailand-water-storage-dss/extended/basin\_forcing/}
+\end{frame}
+\end{document}
