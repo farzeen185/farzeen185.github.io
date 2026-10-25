@@ -3,3 +3,4 @@
 research/**/*.csv -text
 research/**/*.nc -text
 research/Thailand_Objective2/data/BASINS/* -text
+research_v5/inputs/** -text
