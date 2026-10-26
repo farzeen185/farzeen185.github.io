@@ -1,0 +1,8 @@
+{
+  "year": 2020,
+  "url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_daily/netcdf/p05/chirps-v2.0.2020.days_p05.nc",
+  "subset": "97.1\u2013105.8E,5.4\u201320.7N; native 0.05-degree pixel centres",
+  "bytes_transferred": 73584542,
+  "daily_csv_sha256": "f07989b895b678ae8b1a23a36431359049314876d61770a15772f057ac5f8401",
+  "seconds": 60.5
+}

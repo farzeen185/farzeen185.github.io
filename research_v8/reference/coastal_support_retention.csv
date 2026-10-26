@@ -1,0 +1,57 @@
+region,basin,support,retained_land_fraction
+TH,Thailand,provider_land,1.0
+TH,Thailand,interior_025deg_erosion,0.9139010732890729
+01,Salawin,provider_land,1.0
+01,Salawin,interior_025deg_erosion,1.0
+02,North Khong,provider_land,1.0
+02,North Khong,interior_025deg_erosion,1.0
+03,Northeast Khong,provider_land,1.0
+03,Northeast Khong,interior_025deg_erosion,1.0
+04,Chi,provider_land,1.0
+04,Chi,interior_025deg_erosion,1.0
+05,Mun,provider_land,1.0
+05,Mun,interior_025deg_erosion,1.0
+06,Ping,provider_land,1.0
+06,Ping,interior_025deg_erosion,1.0
+07,Wang,provider_land,1.0
+07,Wang,interior_025deg_erosion,1.0
+08,Yom,provider_land,1.0
+08,Yom,interior_025deg_erosion,1.0
+09,Nan,provider_land,1.0
+09,Nan,interior_025deg_erosion,1.0
+10,Chao Phraya,provider_land,1.0
+10,Chao Phraya,interior_025deg_erosion,1.0
+11,Sakae Krang,provider_land,1.0
+11,Sakae Krang,interior_025deg_erosion,1.0
+12,Pasak,provider_land,1.0
+12,Pasak,interior_025deg_erosion,1.0
+13,Tha Chin,provider_land,1.0
+13,Tha Chin,interior_025deg_erosion,1.0
+14,Mae Klong,provider_land,1.0
+14,Mae Klong,interior_025deg_erosion,1.0
+15,Bang Pakong,provider_land,1.0
+15,Bang Pakong,interior_025deg_erosion,1.0
+16,Tonle Sap,provider_land,1.0
+16,Tonle Sap,interior_025deg_erosion,0.9838364736614712
+17,East Coast Gulf,provider_land,1.0
+17,East Coast Gulf,interior_025deg_erosion,0.4792336623382894
+18,Phetchaburi - Prachuap Khiri Khan,provider_land,1.0
+18,Phetchaburi - Prachuap Khiri Khan,interior_025deg_erosion,0.660100741484636
+19,Peninsula - Upper East Coast,provider_land,1.0
+19,Peninsula - Upper East Coast,interior_025deg_erosion,0.5612282952446339
+20,Thale Sap Songkhla,provider_land,1.0
+20,Thale Sap Songkhla,interior_025deg_erosion,0.47543923129807736
+21,Peninsula - Lower East Coast,provider_land,1.0
+21,Peninsula - Lower East Coast,interior_025deg_erosion,0.528806585837427
+22,Peninsula - West Coast,provider_land,1.0
+22,Peninsula - West Coast,interior_025deg_erosion,0.470363055742232
+M_CP,Chao Phraya reporting group,provider_land,1.0
+M_CP,Chao Phraya reporting group,interior_025deg_erosion,1.0
+M_MK,Thai Mekong reporting group,provider_land,1.0
+M_MK,Thai Mekong reporting group,interior_025deg_erosion,1.0
+M_S,Southern peninsula,provider_land,1.0
+M_S,Southern peninsula,interior_025deg_erosion,0.5165527423694133
+M_W,Western reporting group,provider_land,1.0
+M_W,Western reporting group,interior_025deg_erosion,0.999094095197695
+M_E,Eastern reporting group,provider_land,1.0
+M_E,Eastern reporting group,interior_025deg_erosion,0.5724401542049836

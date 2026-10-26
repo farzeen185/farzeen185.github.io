@@ -1,0 +1,425 @@
+{
+  "scope": "Processed scientific inputs; acquisition separately documented",
+  "files": [
+    {
+      "path": "Thailand_Research_v5/netcdf/CSR_storage_components.nc",
+      "bytes": 38597822,
+      "sha256": "710c0e5643db21ed1fe1b8084e17ebd14b42c547c39f33428920c34a9a774391"
+    },
+    {
+      "path": "shared_data/CSR_RL0603/CSR_GRACE_GRACE-FO_RL06_Mascons_v02_LandMask_Thailand.nc",
+      "bytes": 39518,
+      "sha256": "911f5fdfe7f3eecb1f01740d995dc2063415206029365828259da5ed7f5ab530"
+    },
+    {
+      "path": "shared_data/surface_water/G3P_v1.12_TWS_Thailand_buffer_monthly_200204_202309.nc",
+      "bytes": 7148047,
+      "sha256": "65d15564708a6e8b0c3582da5ecfd08b179f0952efff81762d3ee14f904f91f4"
+    },
+    {
+      "path": "shared_data/surface_water/G3P_v1.12_RZSM_Thailand_buffer_monthly_200204_202309.nc",
+      "bytes": 3010734,
+      "sha256": "4ea202441269f6ceb011ad0083bd595e13f091281a889df9be51cdd2d03d69f4"
+    },
+    {
+      "path": "shared_data/WaterGAP/WaterGAP22e_ERA5_natural_tws_Thailand_1981_2023.nc",
+      "bytes": 1652070,
+      "sha256": "497d42e6ce29951efbec968b92f319190362a3d6d5f0f77c23e5c5f1103f939e"
+    },
+    {
+      "path": "shared_data/WaterGAP/WaterGAP22e_ERA5_natural_groundwstor_Thailand_1981_2023.nc",
+      "bytes": 1651343,
+      "sha256": "e4eb7e02057e9379c5fcecfbe4e50256ea9c509f1177070e7f663ab227fec852"
+    },
+    {
+      "path": "Thailand_Objective1/outputs/tables/Thailand_National_GRACE_Fractional_Weights.csv",
+      "bytes": 60678,
+      "sha256": "8a2d25acadae2ae22c3c3e98072da91cec9d39b6423ab021d9b0b127b5557035"
+    },
+    {
+      "path": "Thailand_Objective1/outputs/tables/Thailand_22_Basins_GRACE_Fractional_Weights.csv",
+      "bytes": 99663,
+      "sha256": "62406701672bbd0d97375469a4421e49d9aa8537f8c1372154eed5385bc35e89"
+    },
+    {
+      "path": "Thailand_Objective2/analysis_v3/tables/groundwater_signed_anomalies.csv",
+      "bytes": 1592342,
+      "sha256": "f270dd8c424ef21abad7dbee87847335a9a1decbdcadef4b280586a12b1dc7b5"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/inputs/basins.geojson",
+      "bytes": 499714,
+      "sha256": "0a34a6618a0daf41f4231d4cbc0b04cc22b4218d3a8ddf737775db058cff899d"
+    },
+    {
+      "path": "Thailand_Publication_v6/tables/CSR_naturalized_attribution.csv",
+      "bytes": 1607431,
+      "sha256": "b49be6f103b3e518b88b2a2c79bdc4c63a203b122db6699a5c1cefc1fcf53eb3"
+    },
+    {
+      "path": "Thailand_Publication_v6/tables/forcing_monthly_series_2003_2023.csv",
+      "bytes": 1525810,
+      "sha256": "c6ae7060a955ab35cc1f8a3bc456359f9caeadfb69faea2c60e1f967663ba9c6"
+    },
+    {
+      "path": "Thailand_Publication_v6/tables/independent_reservoir_timeseries.csv",
+      "bytes": 378520,
+      "sha256": "17dbe68540f1ddc0a85d7e4ee21547b3837dd2fd95ff2a48d0c913450c96f4d1"
+    },
+    {
+      "path": "Thailand_Publication_v6/tables/basin_shared_support.csv",
+      "bytes": 8913,
+      "sha256": "4a9bdc5740157fe2969238eb94ad72ed27aab5ada5a358685514818954408501"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2003_provenance.json",
+      "bytes": 359,
+      "sha256": "111b1bddd8d2fab5d0b12590fb9125fc21cffb93458b1c55ffa5806d78da5e44"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2004_provenance.json",
+      "bytes": 359,
+      "sha256": "7d697dd7713fb4da9aea47f954d1453418ca8d4e967d33b0cecd1fee4b4f1bd4"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2005_provenance.json",
+      "bytes": 359,
+      "sha256": "86af6700b2d406ba505256c038b8d1cddc462c38d288f8095855f37da79bf836"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2006_provenance.json",
+      "bytes": 359,
+      "sha256": "b1c5257f6f62267c444f5ea53b3fd2dfa24efe5a56739d6cceb58553f163e7f6"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2007_provenance.json",
+      "bytes": 359,
+      "sha256": "7a94920891d78cfbfc992a8fb2a6d8786b9e25404b8b1f92137a642c11225032"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2008_provenance.json",
+      "bytes": 359,
+      "sha256": "6050e6022c5d571aff9f40758ceb831da22a0487612fb76546949ecfa17c5a8f"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2009_provenance.json",
+      "bytes": 359,
+      "sha256": "0ed6bcf6ece24e104456d482946611769484d747df9bbc0c236e4c31e76fd113"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2010_provenance.json",
+      "bytes": 359,
+      "sha256": "f3e53784a07b22ec07e9310c63e2bb25db49b99fbc06a7da6e60ce7e370274b2"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2011_provenance.json",
+      "bytes": 359,
+      "sha256": "9685bf5a5b2a8b37ff05af78ba14f7cb7ddb854d1646cfb6caa56654bb6287b7"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2012_provenance.json",
+      "bytes": 359,
+      "sha256": "cac7cc63a3c204699997256066ebc7cd693fe8345b2d71432002176813ff853d"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2013_provenance.json",
+      "bytes": 359,
+      "sha256": "9ed6aa3b2c4f3b9f62485d4f5a1f5b0f476644d88a0b8703ab22b82aabf6b5b6"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2014_provenance.json",
+      "bytes": 359,
+      "sha256": "61ba27d2eb81f5eeb04907e0dc8c65d0daa829a6336d2f5bb0f58b24e9c78e89"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2015_provenance.json",
+      "bytes": 359,
+      "sha256": "888b42046ff6593a806fdd27497eae2ce3982ed28ff43ec9b4e8850f09ce6cbf"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2016_provenance.json",
+      "bytes": 359,
+      "sha256": "5d9b2ed76af7b9216f5e830143a88102a066ab4443e26a2bcc1bbba00fe87743"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2017_provenance.json",
+      "bytes": 359,
+      "sha256": "e652ebcecd2c44bc855824761e2f26827b60390ad6492bbd1b40c31f2440b3dd"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2018_provenance.json",
+      "bytes": 359,
+      "sha256": "c91d3dee88624dea917e7905f98ef4779cb5a719df61d1633dbb819341dcf997"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2019_provenance.json",
+      "bytes": 359,
+      "sha256": "fd371daedf99ba3b82cf50f09868a6b283a7874474a25d9b0ae104bb249a91c0"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2020_provenance.json",
+      "bytes": 359,
+      "sha256": "a6e76880c6e06bccf27121a190f50c174dd313e82a0ce41663e9cce3e71c07fb"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2021_provenance.json",
+      "bytes": 359,
+      "sha256": "c197407f6a6ec1b85a164f7ceae22fb4e69c00917346e27299b3f04a3c482c7b"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2022_provenance.json",
+      "bytes": 359,
+      "sha256": "4ef138bcf663bb9601540f2f87294d3be676154d7bcae911349123ff44c76d54"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_2023_provenance.json",
+      "bytes": 359,
+      "sha256": "973545f085d4f0c804ac6c2f382f44e40362537e60478008886b0d808f26f251"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2003.csv",
+      "bytes": 2433,
+      "sha256": "05449c0f625d9dfeb9d57779926e779ce9b7efb5e3122780585e68afcaf36db1"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2004.csv",
+      "bytes": 2438,
+      "sha256": "42c0000956ab8fc058597f29280ab5458468e48ac8c81368e00eecd1f9d61b72"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2005.csv",
+      "bytes": 2432,
+      "sha256": "a05167842a1f61054f24afc08a2ad05c82fe1ed080d6e63a38e51fe331a636ba"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2006.csv",
+      "bytes": 2424,
+      "sha256": "1efb04fb0935b32171ddcbf73cc983e15d268601a521a044500764d8167c89c1"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2007.csv",
+      "bytes": 2433,
+      "sha256": "76642abf76ccfaa19798a28ba64953bb102dd994c47024faaf82df983c3e7537"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2008.csv",
+      "bytes": 2438,
+      "sha256": "2af4e8810744d0f2e0ac0bbd09867d1ee66c232c863f12d0dfa002051eb38110"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2009.csv",
+      "bytes": 2433,
+      "sha256": "073ef2f3852ce82fc97a1419ff929c19f030c29a271e571f0b6e89b7ab42356e"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2010.csv",
+      "bytes": 2428,
+      "sha256": "4f0bed948f234c29c951d295ef17c05048867ddec7c1db7bbac3da7992d7aa67"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2011.csv",
+      "bytes": 2434,
+      "sha256": "4155e37d24a03651a15fd492d352e678443733bf142e586ddfb7fa8c4f07e32c"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2012.csv",
+      "bytes": 2430,
+      "sha256": "c4ac97cfa8cbc4f823c0fcbb5f9e975712e64363d1ea83fe48976e0fbc46cef4"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2013.csv",
+      "bytes": 2433,
+      "sha256": "118a550a4aed011063aab382a632c0aaa72a7010e3bc8b3831cf1ce33433837e"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2014.csv",
+      "bytes": 2427,
+      "sha256": "bc77a1ff915b31754d1bf8c7f325bce1cdb715ecab78cb2e6ecb74be60815013"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2015.csv",
+      "bytes": 2421,
+      "sha256": "11db83b88072595c1010304af9f942bb86db517b6c847c038cbae3deb3330114"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2016.csv",
+      "bytes": 2435,
+      "sha256": "8e944bbf88f153447bad24b14afffd9b5a8bc3ded69cfc732fcf2058d7b3ba55"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2017.csv",
+      "bytes": 2431,
+      "sha256": "0ab19a673489f27ff04a8fd752d81b903316c5c797737a2cb64400e6bdeb6c4e"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2018.csv",
+      "bytes": 2432,
+      "sha256": "363cfc1f9e0bc0b06019cad422f7dca064bc8e50892ffa7a62737b82e137cdb3"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2019.csv",
+      "bytes": 2432,
+      "sha256": "230eea27fb791c62b83580d0ce88593834def86011ad43c5709d174e7ba568e8"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2020.csv",
+      "bytes": 2437,
+      "sha256": "481c88804c33be3696c33eb79c090fefcf72b1fcf3bc2c3769b9a26c49355ad1"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2021.csv",
+      "bytes": 2426,
+      "sha256": "e3c1592651a41068a6f4397de8ec280d0b8c2cf2c99c8fc2d8711e8279dfb943"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2022.csv",
+      "bytes": 2430,
+      "sha256": "1143679ba6033f127c0b1b5f649cc435e650d8ee30ca62b4bdccac83ddec3e63"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_annual_indices_2023.csv",
+      "bytes": 2423,
+      "sha256": "05d62bea70648389632673e49add3ebd6ccfda1d44f7549a0559c317a3e84ae1"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2003.csv",
+      "bytes": 319650,
+      "sha256": "8326444e95c42f37027dc95d7337f0d112cec996dc0619675220e42d45988ab7"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2004.csv",
+      "bytes": 316202,
+      "sha256": "5d24ac44df3f05ab9b00f6a44ccfddce316c75706f84c0425182c8ca107e58e7"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2005.csv",
+      "bytes": 325020,
+      "sha256": "cac93637024061951cd71020098b43ec13ada1da8ef6a59eaa9c57219d87c5fb"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2006.csv",
+      "bytes": 322313,
+      "sha256": "1d7fe8a4f3f772feb6416d65f91328bc3e59880477b310e5e961a4ef81efda67"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2007.csv",
+      "bytes": 321925,
+      "sha256": "13c5a7e9763a0e793eea54e2b716d25b3bbba9c05b531dfd7054f1ca88a819bc"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2008.csv",
+      "bytes": 325907,
+      "sha256": "33e78835adf243369bd46b1be20c3a7e23aca81450bf40f18dc2723c56c2d848"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2009.csv",
+      "bytes": 322535,
+      "sha256": "e6fb73bbe87b799c4055b3675a8c76d14ea216603dceaec4c3168c0bbaf6a002"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2010.csv",
+      "bytes": 323638,
+      "sha256": "68e86387553d0021a17b92a05619a94c30184ee52b55479d7c68ba7c478e2a18"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2011.csv",
+      "bytes": 324450,
+      "sha256": "3717e0a8bc27eab9e732109b489521c007c55b7480e8195a14a1ca9f06f18b77"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2012.csv",
+      "bytes": 327211,
+      "sha256": "a47a1c68ac8eaf118eb6a473d3288e48e7ec5a43ef9382badbc9b2a8091477e0"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2013.csv",
+      "bytes": 328061,
+      "sha256": "efcd56dc32c62fc1bf8fda5ecd213f4d8c6c64fbfeb11abf0573246928ed4b1d"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2014.csv",
+      "bytes": 325135,
+      "sha256": "722c3121d9af6bdc1b91e400a84883da3d03c7f92f34cd603996ef89398d3992"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2015.csv",
+      "bytes": 324731,
+      "sha256": "4535377468e54cf4c9d153dc60ce007ee726fb380f9180e8c227036b275e5cca"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2016.csv",
+      "bytes": 326727,
+      "sha256": "a9667083e8bafa14b45fd8571a229468c49f5fdaa254a34caeda817ba523f34b"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2017.csv",
+      "bytes": 330256,
+      "sha256": "01cc5dd1137630d4cdbd16531c0ca35512663f4675e76f75303c88bc6e5f1f97"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2018.csv",
+      "bytes": 330887,
+      "sha256": "8e1960a514f803c8020eeb9a3496407c292bdcc51efd36199f15615fa2852107"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2019.csv",
+      "bytes": 324544,
+      "sha256": "1f17ff1379c148a571c4d275b8da05f7ef1a24c57bec7a9d6433759601d112f1"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2020.csv",
+      "bytes": 326249,
+      "sha256": "f07989b895b678ae8b1a23a36431359049314876d61770a15772f057ac5f8401"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2021.csv",
+      "bytes": 330771,
+      "sha256": "6690891d26f960576508892f89f716257e318d41f69fb1c769fc2dff075cc49d"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2022.csv",
+      "bytes": 329492,
+      "sha256": "4c2b0210f5f296ec90d8fa1122fb294ee088ebe48be5e728e9a7827e7c6b14ad"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/CHIRPS_daily_basins_2023.csv",
+      "bytes": 327886,
+      "sha256": "7f320446393a27039335cc940da0145ed106b36e0a578a925a0964b11b58fc63"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/lpjml5-7-10-fire_no_water_management_Thailand.nc",
+      "bytes": 519143,
+      "sha256": "e9d58d58bc42aa901616c0a0edad253aa940b7803a72c1d60fe88488186157e3"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/lpjml5-7-10-fire_provenance.json",
+      "bytes": 4666,
+      "sha256": "e522c11ebef557fafc2948862b6520e54e2ec24fba6d6c3b15e74184af100a6a"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/miroc-integ-land_no_water_management_Thailand.nc",
+      "bytes": 434706,
+      "sha256": "08555af83b125c9497d0fb1a1aa060762ef81bf538a2eff1d63b8bc3721cd920"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/miroc-integ-land_provenance.json",
+      "bytes": 4666,
+      "sha256": "86f00ec0a05a3875d30cda9aaad843b2530a448384a6d05e0a99440c6fe02648"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/watergap2-2e_no_water_management_Thailand.nc",
+      "bytes": 514934,
+      "sha256": "5f743f2d8d0953212dc56461456241ab9aa9294fd26b891c8e6706f4ab7c2b27"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/inputs/watergap2-2e_provenance.json",
+      "bytes": 4600,
+      "sha256": "15d04cd5b25863aec996c5b35ce900f1990460683f15989b910a2dff42318826"
+    },
+    {
+      "path": "Thailand_Direct_WaterGAP_Analysis/robustness_extension/ISIMIP_tws_inventory.json",
+      "bytes": 918021,
+      "sha256": "bb9e1cb6f69752dc0e18b3133137b941b85fc4a10156eccabb72808c3fe073ed"
+    }
+  ]
+}

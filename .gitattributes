@@ -6,3 +6,6 @@ research/Thailand_Objective2/data/BASINS/* -text
 research_v5/inputs/** -text
 
 research_v6/inputs/** -text
+
+research_v8/inputs/** -text
+research_v8/reference/** -text

@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "python": "3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]",
+  "tables": [
+    {
+      "table": "alternative_baseline_monthly.csv",
+      "rows": 22848,
+      "passed": true
+    },
+    {
+      "table": "alternative_baseline_trends.csv",
+      "rows": 224,
+      "passed": true
+    },
+    {
+      "table": "basin_evidence_matrix.csv",
+      "rows": 56,
+      "passed": true
+    },
+    {
+      "table": "coastal_support_retention.csv",
+      "rows": 56,
+      "passed": true
+    },
+    {
+      "table": "daily_monthly_CHIRPS_crosscheck.csv",
+      "rows": 23,
+      "passed": true
+    },
+    {
+      "table": "factorial_monthly_series.csv",
+      "rows": 71550,
+      "passed": true
+    },
+    {
+      "table": "factorial_product_component_support_trends.csv",
+      "rows": 636,
+      "passed": true
+    },
+    {
+      "table": "fixed_network_comparison.csv",
+      "rows": 164,
+      "passed": true
+    },
+    {
+      "table": "fixed_network_monthly_annual_support.csv",
+      "rows": 820,
+      "passed": true
+    },
+    {
+      "table": "model_reference_eligibility.csv",
+      "rows": 4,
+      "passed": true
+    },
+    {
+      "table": "rainfall_concentration_annual_indices.csv",
+      "rows": 483,
+      "passed": true
+    },
+    {
+      "table": "rainfall_concentration_LOYO.csv",
+      "rows": 2622,
+      "passed": true
+    },
+    {
+      "table": "rainfall_concentration_mechanism.csv",
+      "rows": 414,
+      "passed": true
+    },
+    {
+      "table": "rainfall_storage_annual_paired.csv",
+      "rows": 874,
+      "passed": true
+    },
+    {
+      "table": "reservoir_cluster_and_influence.csv",
+      "rows": 14,
+      "passed": true
+    }
+  ],
+  "input_files": 84,
+  "scope": "Scientific-input reproduction; raw CHIRPS/ISIMIP retrieval is an optional separate script"
+}

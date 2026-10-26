@@ -1,0 +1,153 @@
+{
+  "publisher_file": {
+    "id": "750f4755-f219-476c-a19c-dbaedb7519d0",
+    "name": "miroc-integ-land_20crv3-era5_obsclim_histsoc_nowatermgt_tws_global_monthly_1901_2021.nc",
+    "path": "ISIMIP3a/OutputData/water_global/MIROC-INTEG-LAND/20crv3-era5/historical/miroc-integ-land_20crv3-era5_obsclim_histsoc_nowatermgt_tws_global_monthly_1901_2021.nc",
+    "paths": [
+      "ISIMIP3a/OutputData/water_global/MIROC-INTEG-LAND/20crv3-era5/historical/miroc-integ-land_20crv3-era5_obsclim_histsoc_nowatermgt_tws_global_monthly_1901_2021.nc"
+    ],
+    "version": "20240202",
+    "size": 287545505,
+    "checksum": "6b0c2f086ebbd4369a9c8e94b31f93ba1bcf3f67fba75d997867be8c72c423791b2d1e0951f9fa496b11b926c6080c43ca752ca0f7d16e6bfe7e26d5659fdfba",
+    "checksum_type": "sha512",
+    "specifiers": {
+      "model": "miroc-integ-land",
+      "period": "historical",
+      "region": "global",
+      "sector": "water_global",
+      "product": "OutputData",
+      "end_year": 2021,
+      "variable": "tws",
+      "time_step": "monthly",
+      "start_year": 1901,
+      "soc_scenario": "histsoc",
+      "sens_scenario": "nowatermgt",
+      "climate_forcing": "20crv3-era5",
+      "climate_scenario": "obsclim",
+      "simulation_round": "ISIMIP3a"
+    },
+    "identifiers": [
+      "simulation_round",
+      "product",
+      "sector",
+      "model",
+      "climate_forcing",
+      "period",
+      "climate_scenario",
+      "soc_scenario",
+      "sens_scenario",
+      "variable",
+      "region",
+      "time_step",
+      "start_year",
+      "end_year"
+    ],
+    "merged_specifiers": {
+      "model": [
+        "miroc-integ-land"
+      ],
+      "period": [
+        "historical"
+      ],
+      "region": [
+        "global"
+      ],
+      "sector": [
+        "water_global"
+      ],
+      "product": [
+        "OutputData"
+      ],
+      "end_year": [
+        2021
+      ],
+      "variable": [
+        "tws"
+      ],
+      "time_step": [
+        "monthly"
+      ],
+      "start_year": [
+        1901
+      ],
+      "soc_scenario": [
+        "histsoc"
+      ],
+      "sens_scenario": [
+        "nowatermgt"
+      ],
+      "climate_forcing": [
+        "20crv3-era5"
+      ],
+      "climate_scenario": [
+        "obsclim"
+      ],
+      "simulation_round": [
+        "ISIMIP3a"
+      ]
+    },
+    "pretty_specifiers": {
+      "Simulation round": [
+        "ISIMIP3a"
+      ],
+      "Data product": [
+        "Output Data"
+      ],
+      "Sector": [
+        "Water (global)"
+      ],
+      "Impact model": [
+        "MIROC-INTEG-LAND"
+      ],
+      "Climate forcing": [
+        "20CRv3-ERA5"
+      ],
+      "Period": [
+        "Historical"
+      ],
+      "Climate experiment": [
+        "obsclim"
+      ],
+      "Direct human forcing experiment": [
+        "histsoc"
+      ],
+      "Sensitivity experiment": [
+        "nowatermgt"
+      ],
+      "Variable": [
+        "tws"
+      ],
+      "Region": [
+        "Global"
+      ],
+      "Time step": [
+        "monthly"
+      ],
+      "Start year": [
+        1901
+      ],
+      "End year": [
+        2021
+      ]
+    },
+    "links": [],
+    "search_rank": 0.0,
+    "url": "https://data.isimip.org/api/v1/files/750f4755-f219-476c-a19c-dbaedb7519d0/",
+    "metadata_url": "https://data.isimip.org/files/750f4755-f219-476c-a19c-dbaedb7519d0/",
+    "file_url": "https://files.isimip.org/ISIMIP3a/OutputData/water_global/MIROC-INTEG-LAND/20crv3-era5/historical/miroc-integ-land_20crv3-era5_obsclim_histsoc_nowatermgt_tws_global_monthly_1901_2021.nc",
+    "json_url": "https://files.isimip.org/ISIMIP3a/OutputData/water_global/MIROC-INTEG-LAND/20crv3-era5/historical/miroc-integ-land_20crv3-era5_obsclim_histsoc_nowatermgt_tws_global_monthly_1901_2021.json",
+    "rights": {
+      "rights": "CC0 1.0 Universal Public Domain Dedication",
+      "rights_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "short": "CC0 1.0",
+      "image": "images/cc/cc0.png",
+      "color": "primary"
+    },
+    "terms_of_use": {
+      "terms_of_use": "When using ISIMIP data for your research, please appropriately credit the data providers, e.g. either by citing the DOI for the dataset, or by appropriate acknowledgment. We strongly encourage to offer co-authorship to at least a representative of the data providers.",
+      "terms_of_use_url": "https://www.isimip.org/gettingstarted/terms-of-use/#general-terms-of-use-for-all-isimip-data-on-the-esg-server"
+    }
+  },
+  "bytes_transferred": 49373657,
+  "subset_sha256": "08555af83b125c9497d0fb1a1aa060762ef81bf538a2eff1d63b8bc3721cd920"
+}

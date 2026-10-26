@@ -1,0 +1,5 @@
+reference,full_TWS_evidence_flag,role,limitation,source
+WaterGAP_GSWP3_ERA5,True,Primary naturalized baseline,"nosoc; publisher-provided complete water-storage components; a simulation, not observed climate-only storage",https://doi.org/10.25716/GUDE.1TWP-GNQP
+watergap2-2e_20CRV3_ERA5,True,WaterGAP forcing/experiment sensitivity,nowatermgt retains other historical forcings; not an independent hydrological model,https://doi.org/10.48364/ISIMIP.398165.3
+lpjml5-7-10-fire_20CRV3_ERA5,False,Structural diagnostic only,Equivalent explicit groundwater-storage accounting not established for this exact v5 TWS file; excluded from full-TWS flags,https://doi.org/10.48364/ISIMIP.398165.3
+miroc-integ-land_20CRV3_ERA5,False,Structural diagnostic only,"Model includes groundwater processes, but the file lists soil/canopy/snow/river/reservoir storage without a separate groundwater term; equivalent accounting unverified",https://doi.org/10.5194/gmd-13-4713-2020

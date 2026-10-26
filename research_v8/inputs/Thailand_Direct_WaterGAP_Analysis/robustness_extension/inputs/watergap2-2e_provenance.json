@@ -1,0 +1,153 @@
+{
+  "publisher_file": {
+    "id": "b8d7ade9-b47d-4146-ae48-a8d7c516f29e",
+    "name": "watergap2-2e_20crv3-era5_obsclim_histsoc_nowatermgt_tws_global_monthly_1901_2021.nc",
+    "path": "ISIMIP3a/OutputData/water_global/WaterGAP2-2e/20crv3-era5/historical/watergap2-2e_20crv3-era5_obsclim_histsoc_nowatermgt_tws_global_monthly_1901_2021.nc",
+    "paths": [
+      "ISIMIP3a/OutputData/water_global/WaterGAP2-2e/20crv3-era5/historical/watergap2-2e_20crv3-era5_obsclim_histsoc_nowatermgt_tws_global_monthly_1901_2021.nc"
+    ],
+    "version": "20231122",
+    "size": 376023809,
+    "checksum": "6c84afb246f5a138c1d035bf1eff03caab450f5c75ef1774adf57d93f3ca1020c3066a894034f4228a91948192cd5d9d2616f237fe4465142a320f44ef764106",
+    "checksum_type": "sha512",
+    "specifiers": {
+      "model": "watergap2-2e",
+      "period": "historical",
+      "region": "global",
+      "sector": "water_global",
+      "product": "OutputData",
+      "end_year": 2021,
+      "variable": "tws",
+      "time_step": "monthly",
+      "start_year": 1901,
+      "soc_scenario": "histsoc",
+      "sens_scenario": "nowatermgt",
+      "climate_forcing": "20crv3-era5",
+      "climate_scenario": "obsclim",
+      "simulation_round": "ISIMIP3a"
+    },
+    "identifiers": [
+      "simulation_round",
+      "product",
+      "sector",
+      "model",
+      "climate_forcing",
+      "period",
+      "climate_scenario",
+      "soc_scenario",
+      "sens_scenario",
+      "variable",
+      "region",
+      "time_step",
+      "start_year",
+      "end_year"
+    ],
+    "merged_specifiers": {
+      "model": [
+        "watergap2-2e"
+      ],
+      "period": [
+        "historical"
+      ],
+      "region": [
+        "global"
+      ],
+      "sector": [
+        "water_global"
+      ],
+      "product": [
+        "OutputData"
+      ],
+      "end_year": [
+        2021
+      ],
+      "variable": [
+        "tws"
+      ],
+      "time_step": [
+        "monthly"
+      ],
+      "start_year": [
+        1901
+      ],
+      "soc_scenario": [
+        "histsoc"
+      ],
+      "sens_scenario": [
+        "nowatermgt"
+      ],
+      "climate_forcing": [
+        "20crv3-era5"
+      ],
+      "climate_scenario": [
+        "obsclim"
+      ],
+      "simulation_round": [
+        "ISIMIP3a"
+      ]
+    },
+    "pretty_specifiers": {
+      "Simulation round": [
+        "ISIMIP3a"
+      ],
+      "Data product": [
+        "Output Data"
+      ],
+      "Sector": [
+        "Water (global)"
+      ],
+      "Impact model": [
+        "WaterGAP2-2e"
+      ],
+      "Climate forcing": [
+        "20CRv3-ERA5"
+      ],
+      "Period": [
+        "Historical"
+      ],
+      "Climate experiment": [
+        "obsclim"
+      ],
+      "Direct human forcing experiment": [
+        "histsoc"
+      ],
+      "Sensitivity experiment": [
+        "nowatermgt"
+      ],
+      "Variable": [
+        "tws"
+      ],
+      "Region": [
+        "Global"
+      ],
+      "Time step": [
+        "monthly"
+      ],
+      "Start year": [
+        1901
+      ],
+      "End year": [
+        2021
+      ]
+    },
+    "links": [],
+    "search_rank": 0.0,
+    "url": "https://data.isimip.org/api/v1/files/b8d7ade9-b47d-4146-ae48-a8d7c516f29e/",
+    "metadata_url": "https://data.isimip.org/files/b8d7ade9-b47d-4146-ae48-a8d7c516f29e/",
+    "file_url": "https://files.isimip.org/ISIMIP3a/OutputData/water_global/WaterGAP2-2e/20crv3-era5/historical/watergap2-2e_20crv3-era5_obsclim_histsoc_nowatermgt_tws_global_monthly_1901_2021.nc",
+    "json_url": "https://files.isimip.org/ISIMIP3a/OutputData/water_global/WaterGAP2-2e/20crv3-era5/historical/watergap2-2e_20crv3-era5_obsclim_histsoc_nowatermgt_tws_global_monthly_1901_2021.json",
+    "rights": {
+      "rights": "Attribution 4.0 International",
+      "rights_uri": "https://creativecommons.org/licenses/by/4.0/",
+      "short": "CC BY 4.0",
+      "image": "images/cc/by.png",
+      "color": "success"
+    },
+    "terms_of_use": {
+      "terms_of_use": "When using ISIMIP data for your research, please appropriately credit the data providers, e.g. either by citing the DOI for the dataset, or by appropriate acknowledgment. We strongly encourage to offer co-authorship to at least a representative of the data providers.",
+      "terms_of_use_url": "https://www.isimip.org/gettingstarted/terms-of-use/#general-terms-of-use-for-all-isimip-data-on-the-esg-server"
+    }
+  },
+  "bytes_transferred": 64031612,
+  "subset_sha256": "5f743f2d8d0953212dc56461456241ab9aa9294fd26b891c8e6706f4ab7c2b27"
+}

@@ -1,0 +1,8 @@
+{
+  "year": 2007,
+  "url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_daily/netcdf/p05/chirps-v2.0.2007.days_p05.nc",
+  "subset": "97.1\u2013105.8E,5.4\u201320.7N; native 0.05-degree pixel centres",
+  "bytes_transferred": 69880725,
+  "daily_csv_sha256": "13c5a7e9763a0e793eea54e2b716d25b3bbba9c05b531dfd7054f1ca88a819bc",
+  "seconds": 61.0
+}
