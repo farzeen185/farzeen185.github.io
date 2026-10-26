@@ -4,7 +4,7 @@ Author: **Farzeen Khan**, MS Water Engineering and Management, Asian Institute o
 
 **Website:** https://pratikkhanal16.github.io/thailand-water-storage-dss/
 
-The current release provides a 50-page report, separate manuscript, academic Beamer/PowerPoint deck, 42 original figures, full basin tables and portable analysis. Download the final documents from [`publication/downloads`](publication/downloads). Superseded public documents and galleries were archived locally before removal; scientific input packages are retained.
+The current release provides a 50-page report, separate manuscript, 32-slide academic Beamer/PowerPoint deck, 29 readable chart files, full basin tables and portable analysis. Download the final documents from [`publication/downloads`](publication/downloads). Superseded public documents and galleries were archived locally before removal; scientific input packages are retained.
 
 ## Run the science
 
