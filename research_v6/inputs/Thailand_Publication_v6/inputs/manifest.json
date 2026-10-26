@@ -1,0 +1,23 @@
+{
+  "frozen_utc": "2026-10-25T14:28:49.595185+00:00",
+  "sources": [
+    {
+      "file": "oni.txt",
+      "url": "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt",
+      "sha256": "5d6fa3a2f857d916550d39c2c686e94cb942430195c82518e6a5d0f5ffbd0665",
+      "bytes": 23025
+    },
+    {
+      "file": "roni_v5.html",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/v5/",
+      "sha256": "8dc0c8891768b1600fe401763c7d529dc18c92b5335402e0335d3ed68a856521",
+      "bytes": 97943
+    },
+    {
+      "file": "dmi.txt",
+      "url": "https://psl.noaa.gov/data/timeseries/month/data/dmi.had.long.data",
+      "sha256": "e9f408cce79cddb9f2226860e7e9049e2936e3707e79371efe49fc77f4f69eff",
+      "bytes": 19861
+    }
+  ]
+}

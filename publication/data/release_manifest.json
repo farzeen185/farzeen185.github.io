@@ -1,0 +1,42 @@
+[
+  {
+    "file": "AIT_Report_Farzeen_Khan.docx",
+    "bytes": 19093939,
+    "sha256": "e6207115e24d122bde83fcc91c63d94616facb5b3db5d64741bd7a3c906f386e"
+  },
+  {
+    "file": "AIT_Report_Farzeen_Khan.pdf",
+    "bytes": 7496711,
+    "sha256": "41fc03a3af186791886c8cf4638c808793f62a78d8307446b48ccf1af42fc075"
+  },
+  {
+    "file": "Manuscript_Farzeen_Khan.docx",
+    "bytes": 3505289,
+    "sha256": "82ce60b6ff4a213855ae2d3308b1aad9bfdac6cb19296d676ef387635681eb32"
+  },
+  {
+    "file": "Manuscript_Farzeen_Khan.pdf",
+    "bytes": 2057841,
+    "sha256": "4e2d751af6f5836196cc681b26540fa0a391e79988cb8c8508be8277ae347758"
+  },
+  {
+    "file": "Thailand_Water_Storage_Seminar.pdf",
+    "bytes": 7190789,
+    "sha256": "67954432a8877cdad38b2d4f48c8b62d6fbfb691b741edd6eea725326c0efa14"
+  },
+  {
+    "file": "Thailand_Water_Storage_Seminar.pptx",
+    "bytes": 3601767,
+    "sha256": "e4202a2595ee242a6993a114c6339d3d26b753248630558cf9abb7c32372ceb2"
+  },
+  {
+    "file": "Thailand_Beamer_Source.zip",
+    "bytes": 7055451,
+    "sha256": "0457fdd660d2e5d580f2d15998df4c5889b4c4ac8fd3d0ae950c33eb91775920"
+  },
+  {
+    "file": "Thailand_Publication_Figures_Tables.zip",
+    "bytes": 41828282,
+    "sha256": "ca2e3b049d2ce3906f90287ff4b9ae3836fc5507d4a8f1edc0d778adbf997dd1"
+  }
+]

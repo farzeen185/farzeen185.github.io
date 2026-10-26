@@ -1,3 +1,5 @@
+> Current report, manuscript and slides: [`../publication/downloads/`](../publication/downloads/). This folder retains the scientific workflow; older public documents were consolidated in the current release.
+
 # Extended CSR storage and attribution study
 
 Author: Farzeen Khan, MS Water Engineering and Management, AIT. Advisor: Dr. Natthachet Tangdamrongsub.

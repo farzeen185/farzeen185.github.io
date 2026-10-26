@@ -1,0 +1,75 @@
+{
+  "files": [
+    {
+      "path": "Thailand_Research_v5/tables/CSR_naturalized_attribution.csv",
+      "sha256": "b49be6f103b3e518b88b2a2c79bdc4c63a203b122db6699a5c1cefc1fcf53eb3",
+      "bytes": 1607431
+    },
+    {
+      "path": "Thailand_Objective2/analysis_v4/tables/climate_emulator_timeseries.csv",
+      "sha256": "ab40543ff2e6d1db2617a88ce7608bc4c5aa28e899f3e9c35bd1fd3a2012f752",
+      "bytes": 1723770
+    },
+    {
+      "path": "Thailand_Research_v5/basin_forcing_appendix/tables/forcing_monthly_series_2003_2023.csv",
+      "sha256": "c6ae7060a955ab35cc1f8a3bc456359f9caeadfb69faea2c60e1f967663ba9c6",
+      "bytes": 1525810
+    },
+    {
+      "path": "Thailand_Research_v5/figure_revision/tables/GLDAS_matched_land_timeseries.csv",
+      "sha256": "a8f903d103daa5f2bd4abd02d399257ca679589caaad248e0673af59578bc6df",
+      "bytes": 320418
+    },
+    {
+      "path": "Thailand_Objective2/data/BASINS/MainBasin_ONWR_Law_WGS84.CPG",
+      "sha256": "d86bc3a2f4cbc7035ee5df06735014162016c3f31f48742569c68a58d19bf811",
+      "bytes": 8
+    },
+    {
+      "path": "Thailand_Objective2/data/BASINS/MainBasin_ONWR_Law_WGS84.dbf",
+      "sha256": "7c15e4a823be7ebb05a0b46b639875abd36d018967bd088f546c445868ead6b1",
+      "bytes": 3074
+    },
+    {
+      "path": "Thailand_Objective2/data/BASINS/MainBasin_ONWR_Law_WGS84.prj",
+      "sha256": "c77be1866509aabe2a1252f1985cf6edf712ac78fb01f3cc0a0c6a5a82e2f250",
+      "bytes": 401
+    },
+    {
+      "path": "Thailand_Objective2/data/BASINS/MainBasin_ONWR_Law_WGS84.sbn",
+      "sha256": "3234cae58779ad8f56621652199f75cdac80b31fe19234893e811c5da3006b0b",
+      "bytes": 428
+    },
+    {
+      "path": "Thailand_Objective2/data/BASINS/MainBasin_ONWR_Law_WGS84.shp",
+      "sha256": "ec053280e367a1f7a87be97531275d8762c6fe4ffc1a7a8197d65db182b4433b",
+      "bytes": 10718604
+    },
+    {
+      "path": "Thailand_Objective2/data/BASINS/MainBasin_ONWR_Law_WGS84.shx",
+      "sha256": "1bef4020f693ed62eb734f5c9100efcfa119f40aaba11117c31891f087d29916",
+      "bytes": 324
+    },
+    {
+      "path": "Thailand_Publication_v6/inputs/oni.txt",
+      "sha256": "5d6fa3a2f857d916550d39c2c686e94cb942430195c82518e6a5d0f5ffbd0665",
+      "bytes": 23025
+    },
+    {
+      "path": "Thailand_Publication_v6/inputs/roni_v5.html",
+      "sha256": "8dc0c8891768b1600fe401763c7d529dc18c92b5335402e0335d3ed68a856521",
+      "bytes": 97943
+    },
+    {
+      "path": "Thailand_Publication_v6/inputs/dmi.txt",
+      "sha256": "e9f408cce79cddb9f2226860e7e9049e2936e3707e79371efe49fc77f4f69eff",
+      "bytes": 19861
+    },
+    {
+      "path": "Thailand_Publication_v6/inputs/manifest.json",
+      "sha256": "9a6c7aa0bede17c3f26f78f55862ad9b0649f9229a8b1ab3a0dcac79f77903e2",
+      "bytes": 773
+    }
+  ],
+  "scope": "Frozen derived scientific inputs and provider climate indices. For raw-input rebuilding use research_v5 first."
+}

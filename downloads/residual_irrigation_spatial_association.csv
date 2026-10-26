@@ -1,5 +1,0 @@
-variable,pressure_proxy,n_basins,spearman_r,nominal_p,interpretation
-TWSA,irrigation_equipped_pct,22,-0.06041784302653869,0.7894023352862748,exploratory spatial association; basins not independent GRACE samples; static/inferred irrigation is not pumping attribution
-TWSA,groundwater_equipped_pct_total_area,22,0.16657255787690575,0.45876088704673346,exploratory spatial association; basins not independent GRACE samples; static/inferred irrigation is not pumping attribution
-GWSA,irrigation_equipped_pct,22,0.005081874647092039,0.9820931607488158,exploratory spatial association; basins not independent GRACE samples; static/inferred irrigation is not pumping attribution
-GWSA,groundwater_equipped_pct_total_area,22,0.08413325804630155,0.7097094861597423,exploratory spatial association; basins not independent GRACE samples; static/inferred irrigation is not pumping attribution

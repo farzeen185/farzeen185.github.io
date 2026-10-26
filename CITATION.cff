@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite this research software and the underlying datasets listed in research/DATA_SOURCES.md."
 title: "Thailand basin water-storage trends and climate attribution: reproducible research and decision support"
 type: software
-version: "2026.10.25"
-date-released: "2026-10-25"
+version: "2026.10.26"
+date-released: "2026-10-26"
 authors:
   - family-names: Khan
     given-names: Farzeen

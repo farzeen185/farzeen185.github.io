@@ -1,3 +1,5 @@
+> Current report, manuscript and slides: [`../publication/downloads/`](../publication/downloads/). This folder retains the scientific workflow; older public documents were consolidated in the current release.
+
 # Reproduce the Thailand water-storage research
 
 Author: **Farzeen Khan**, MS in Water Engineering and Management, Asian Institute of Technology. Advisor: **Dr. Natthachet Tangdamrongsub**.
@@ -68,7 +70,7 @@ work/
   run_logs/full_receipt.json
 ```
 
-The original report and manuscript are in the repository's `downloads/` directory. The run regenerates numerical results and figures; it does not reformat the Word documents or regenerate the PowerPoint. Those document-layout operations used Microsoft Office and are separate from scientific reproducibility. Earlier GRACE-trained M0–M4 sensitivity experiments are retained as source snapshots in `../research_source/`; they are not the current climate baseline and are not part of this runner.
+The original report and manuscript are in the repository's `downloads/` directory. The run regenerates numerical results and figures; it does not reformat the Word documents or regenerate the PowerPoint. Those document-layout operations used Microsoft Office and are separate from scientific reproducibility. Earlier GRACE-trained sensitivity snapshots are archived locally; they are not the current climate baseline and are not part of this runner.
 
 ## Open the decision-support system locally
 
