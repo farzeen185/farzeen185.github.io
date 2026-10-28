@@ -2,7 +2,7 @@
 
 Author: **Farzeen Khan**, MS Water Engineering and Management, Asian Institute of Technology. Advisor: Dr. Natthachet Tangdamrongsub.
 
-**Website:** https://pratikkhanal16.github.io/thailand-water-storage-dss/
+**Website:** https://farzeen185.github.io/
 
 The latest direct-method revision uses naturalized WaterGAP directly, without a residence-time reconstruction or emulator in the residual. It adds processing/support sensitivity, baseline/structural comparisons, fixed groundwater panels, reservoir uncertainty/influence checks, daily rainfall concentration and a basin evidence matrix. Read the [interactive research revision](publication/direct/index.html), [14-page manuscript draft](publication/direct/Direct_WaterGAP_Manuscript.pdf), [19-page research addendum](publication/direct/Direct_WaterGAP_Research_Addendum.pdf), and [12-figure atlas](publication/direct/Robustness_and_Process_Figures.pdf). The main figure library contains 39 direct-method figures and one retained ENSO lag diagnostic.
 
